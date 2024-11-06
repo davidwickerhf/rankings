@@ -99,6 +99,28 @@ The `compare_networks()` function allows for the comparison of results across di
 - Correlation comparisons between centrality measures and ground truth metrics across networks.
 - Ranking comparisons to see how centrality measures rank relative to each other in different networks.
 
+### 8. To Do
+
+- [ ] Reach to vishal about the echr-extractor package
+  - [ ] Run get_echr() function (this might include Communicated cases) (Should return around 27.000 cases, with some differences)
+    - [ ] Extracted appnos column -> identifies the citations in the text, but not every case
+  - [ ] Run get_nodes_edges() function
+  - [ ] Compare with what I find on the HUDOC website (https://hudoc.echr.coe.int)
+- [ ] Create networks for the different articles (check legal_network_analysis.ipynb file?) (Check where we create the subnetworks for the individual articles, a case can be assigned to multiple articles) (check: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/FDGGDZ) (might require some pre-processing, as the article info in the get_echr() function is raw text)
+
+  - [ ] Select for the articles that have at least 50 cases
+  - [ ] Also consider splitting by year (if not included in metadata, ask Vishal to include in extraction process)
+
+- [ ] Data to find
+
+  - [ ] What centrality scores end up high across the rankings of all the networks that we compare
+  - [ ] Which ones end up low
+  - [ ] Also in combination with the composite rankings
+  - [ ] DataFrames with the results of rankings and correlations per subnetwork
+
+- [ ] Ideas
+  - Focus on higher ground truth scores, correlate the error bars for the highest ground truth score to the centrality measures (Find the centralities that best correlate to the highest ground truth scores)
+
 ## Conclusion
 
 By following the steps outlined above, you can effectively utilize the `rankings.ipynb` notebook to analyze and visualize centrality metrics in citation networks. Feel free to modify the notebook to suit your specific analysis needs.
