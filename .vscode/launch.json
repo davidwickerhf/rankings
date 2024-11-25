@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Python: Load ECHR Metadata",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${workspaceFolder}/load/load.py", // Adjust the path if necessary
+			"args": [
+				"--input_path",
+				"ECHR_metadata.csv",
+				"--save_path",
+				"EHCR",
+				"--metadata"
+			],
+			"console": "integratedTerminal",
+			"justMyCode": true
+		}
+	]
+}

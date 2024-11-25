@@ -338,13 +338,14 @@ args = create_argument_parser().parse_args()
 os.makedirs(args.save_path, exist_ok=True)
 
 if args.metadata == True:
-    data = echr.get_echr(start_id=0,end_id=100000,save_file='n',verbose=True)
+    data = echr.get_echr(start_id=0, save_file='y', verbose=False)
     complete_data = data.copy()
-
+    print(f"Retrieved {len(data)} rows from ECHR metadata.")
 else:
     print('\n--- PREPARING DATAFRAME ---\n')
     data = open_metadata(filename_metadata=args.input_path)       
     complete_data = open_metadata(filename_metadata=args.input_path)  
+    print(f"Loaded {len(data)} rows from {args.input_path}.")
 
 print('\n--- CREATING NODES LIST ---\n')
 nodes = retrieve_nodes_list(data, args.articles)
