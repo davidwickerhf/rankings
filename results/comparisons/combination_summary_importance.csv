@@ -1,0 +1,12 @@
+combination,times_selected
+degree_centrality+core_number,23
+out_degree_centrality+degree_centrality,11
+degree_centrality+in_degree_centrality,4
+hits_authority+core_number,1
+core_number+degree_centrality,7
+eigenvector_centrality+degree_centrality,1
+out_degree_centrality+hits_hub,2
+degree_centrality+out_degree_centrality,4
+in_degree_centrality+relative_in_degree_centrality,3
+out_degree_centrality+core_number,2
+pagerank+eigenvector_centrality,1

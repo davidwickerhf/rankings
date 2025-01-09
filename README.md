@@ -52,6 +52,17 @@ To set up the project, follow these steps:
 ### 1. Data Loading
 
 The notebook begins by loading node and edge data from JSON files. Ensure that your data files are in the correct format and located in the specified directory.
+You can run the `load.py` script to load the data into the `data/ECHR` directory.
+
+```bash
+python load/load.py --input_path ECHR_metadata.csv --save_path EHCR --metadata
+```
+
+You can also run the `split.py` script to split the data into smaller networks.
+
+```bash
+python load/split.py --input_path data/ECHR --output_path networks  --min_cases 50
+```
 
 ### 2. Data Preprocessing
 
@@ -59,6 +70,7 @@ Preprocessing steps are applied to clean and prepare the data for analysis. This
 
 - Converting document types to numeric values.
 - Filtering out rows with uncomputed metric values.
+- Filtering out rows with Nan doctypebranch
 
 ### 3. Centrality Calculation
 
@@ -98,28 +110,6 @@ The `compare_networks()` function allows for the comparison of results across di
 
 - Correlation comparisons between centrality measures and ground truth metrics across networks.
 - Ranking comparisons to see how centrality measures rank relative to each other in different networks.
-
-### 8. To Do
-
-- [ ] Reach to vishal about the echr-extractor package
-  - [ ] Run get_echr() function (this might include Communicated cases) (Should return around 27.000 cases, with some differences)
-    - [ ] Extracted appnos column -> identifies the citations in the text, but not every case
-  - [ ] Run get_nodes_edges() function
-  - [ ] Compare with what I find on the HUDOC website (https://hudoc.echr.coe.int)
-- [ ] Create networks for the different articles (check legal_network_analysis.ipynb file?) (Check where we create the subnetworks for the individual articles, a case can be assigned to multiple articles) (check: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/FDGGDZ) (might require some pre-processing, as the article info in the get_echr() function is raw text)
-
-  - [ ] Select for the articles that have at least 50 cases
-  - [ ] Also consider splitting by year (if not included in metadata, ask Vishal to include in extraction process)
-
-- [ ] Data to find
-
-  - [ ] What centrality scores end up high across the rankings of all the networks that we compare
-  - [ ] Which ones end up low
-  - [ ] Also in combination with the composite rankings
-  - [ ] DataFrames with the results of rankings and correlations per subnetwork
-
-- [ ] Ideas
-  - Focus on higher ground truth scores, correlate the error bars for the highest ground truth score to the centrality measures (Find the centralities that best correlate to the highest ground truth scores)
 
 ## Conclusion
 
