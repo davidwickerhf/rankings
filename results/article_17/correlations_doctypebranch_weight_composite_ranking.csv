@@ -20,7 +20,7 @@ Correlation,Centrality,Ground Truth
 ,hits_hub,importance
 ,hits_hub,doctypebranch
 0.0,hits_authority,importance
--0.2581988897471611,hits_authority,doctypebranch
+0.7745966692414834,hits_authority,doctypebranch
 ,harmonic_centrality,importance
 ,harmonic_centrality,doctypebranch
 ,disruption,importance

@@ -1,11 +1,11 @@
 centrality,times_best_high,times_best_low,times_best_overall
-hits_authority,1,0,5
+hits_authority,4,0,6
 betweenness_centrality,0,0,6
 pagerank,1,0,1
-eigenvector_centrality,1,1,0
+eigenvector_centrality,0,2,0
 in_degree_centrality,3,4,1
-out_degree_centrality,15,4,1
+out_degree_centrality,15,4,2
 relative_in_degree_centrality,0,3,0
-core_number,7,26,7
-hits_hub,0,2,4
-degree_centrality,31,19,34
+core_number,7,24,7
+hits_hub,0,2,3
+degree_centrality,29,20,33

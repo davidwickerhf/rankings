@@ -17,10 +17,10 @@ Correlation,Centrality,Ground Truth
 0.18108056974525705,eigenvector_centrality,doctypebranch
 0.19692836106931405,pagerank,importance
 0.17516905479225156,pagerank,doctypebranch
-0.08826145134728827,hits_hub,importance
-0.11097143501088048,hits_hub,doctypebranch
-0.15993811184011247,hits_authority,importance
-0.12074535196647569,hits_authority,doctypebranch
+-0.0040745948620732565,hits_hub,importance
+-0.02554738072192932,hits_hub,doctypebranch
+0.1514211865117868,hits_authority,importance
+0.18012427867507647,hits_authority,doctypebranch
 0.20402543665148107,harmonic_centrality,importance
 0.19101965200965243,harmonic_centrality,doctypebranch
 ,disruption,importance

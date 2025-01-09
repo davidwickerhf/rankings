@@ -1,44 +1,44 @@
 {
     "centrality_counts": {
         "high": {
-            "degree_centrality": 31,
+            "degree_centrality": 29,
             "out_degree_centrality": 15,
-            "hits_authority": 1,
+            "hits_authority": 4,
             "core_number": 7,
-            "eigenvector_centrality": 1,
             "in_degree_centrality": 3,
             "pagerank": 1
         },
         "low": {
-            "core_number": 26,
-            "degree_centrality": 19,
+            "core_number": 24,
+            "degree_centrality": 20,
             "in_degree_centrality": 4,
-            "hits_hub": 2,
+            "eigenvector_centrality": 2,
             "out_degree_centrality": 4,
             "relative_in_degree_centrality": 3,
-            "eigenvector_centrality": 1
+            "hits_hub": 2
         },
         "best_overall": {
-            "degree_centrality": 34,
-            "hits_hub": 4,
+            "degree_centrality": 33,
+            "hits_hub": 3,
             "pagerank": 1,
             "betweenness_centrality": 6,
-            "core_number": 7,
-            "out_degree_centrality": 1,
+            "hits_authority": 6,
+            "out_degree_centrality": 2,
             "in_degree_centrality": 1,
-            "hits_authority": 5
+            "core_number": 7
         }
     },
     "combination_counts": {
-        "degree_centrality+core_number": 23,
+        "degree_centrality+core_number": 21,
         "out_degree_centrality+degree_centrality": 11,
         "degree_centrality+in_degree_centrality": 4,
         "hits_authority+core_number": 1,
         "core_number+degree_centrality": 7,
-        "eigenvector_centrality+degree_centrality": 1,
-        "out_degree_centrality+hits_hub": 2,
+        "hits_authority+degree_centrality": 2,
+        "hits_authority+eigenvector_centrality": 1,
         "degree_centrality+out_degree_centrality": 4,
         "in_degree_centrality+relative_in_degree_centrality": 3,
+        "out_degree_centrality+hits_hub": 2,
         "out_degree_centrality+core_number": 2,
         "pagerank+eigenvector_centrality": 1
     },
@@ -71,19 +71,14 @@
                 "correlation": 0.41030388274838214
             },
             {
-                "network": "article_11-2",
-                "combination": "hits_authority+core_number",
-                "correlation": 0.2579016529081538
-            },
-            {
-                "network": "article_11",
-                "combination": "core_number+degree_centrality",
-                "correlation": 0.21203809121555686
-            },
-            {
                 "network": "article_5-1-c",
                 "combination": "core_number+degree_centrality",
                 "correlation": 0.6921601788853923
+            },
+            {
+                "network": "article_46-2",
+                "combination": "hits_authority+degree_centrality",
+                "correlation": 0.47123485882219224
             },
             {
                 "network": "article_5-1",
@@ -102,7 +97,7 @@
             },
             {
                 "network": "article_3",
-                "combination": "out_degree_centrality+hits_hub",
+                "combination": "out_degree_centrality+degree_centrality",
                 "correlation": 0.636717312585678
             },
             {
@@ -207,13 +202,18 @@
             },
             {
                 "network": "article_7-1",
-                "combination": "out_degree_centrality+degree_centrality",
-                "correlation": 0.2953854480757242
+                "combination": "out_degree_centrality+hits_hub",
+                "correlation": 0.29748648394996546
             },
             {
                 "network": "article_5-5",
                 "combination": "degree_centrality+core_number",
                 "correlation": 0.5943771650507869
+            },
+            {
+                "network": "article_5-2",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.19224096457846304
             },
             {
                 "network": "article_P1-1",
