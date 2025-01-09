@@ -1,8 +1,0 @@
-centrality,times_best_high,times_best_low,times_best_overall
-degree_centrality,0,0,1
-hits_authority,2,0,0
-pagerank,0,0,1
-out_degree_centrality,1,0,0
-core_number,0,1,0
-hits_hub,0,1,1
-closeness_centrality,0,1,0

@@ -1,4 +1,0 @@
-combination,times_selected
-hits_authority+out_degree_centrality,1
-pagerank+eigenvector_centrality,1
-out_degree_centrality+hits_hub,1
