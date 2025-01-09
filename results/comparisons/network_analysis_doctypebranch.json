@@ -1,0 +1,28 @@
+{
+    "centrality_counts": {
+        "high": {
+            "hits_authority": 1,
+            "pagerank": 1,
+            "out_degree_centrality": 1
+        },
+        "low": {
+            "out_degree_centrality": 1,
+            "eigenvector_centrality": 1,
+            "hits_hub": 1
+        },
+        "best_overall": {
+            "degree_centrality": 1,
+            "hits_hub": 1,
+            "pagerank": 1
+        }
+    },
+    "combination_counts": {
+        "hits_authority+out_degree_centrality": 1,
+        "pagerank+eigenvector_centrality": 1,
+        "out_degree_centrality+hits_hub": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 0,
+        "best_combinations": []
+    }
+}

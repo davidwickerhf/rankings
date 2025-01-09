@@ -1,0 +1,87 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:2010:1007JUD006918001",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2010:1202JUD002706505",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0210JUD003094304",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0222JUD002432902",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0324JUD002345802",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0329JUD004735708",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0614JUD003081207",
+    "references": [
+      "ECLI:CE:ECHR:2011:0324JUD002345802"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0927JUD003225008",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:1220JUD001829903",
+    "references": [
+      "ECLI:CE:ECHR:2011:0324JUD002345802"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:0510JUD003349804",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:1023JUD002460404",
+    "references": [
+      "ECLI:CE:ECHR:2010:1202JUD002706505"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:1106JUD003008605",
+    "references": [
+      "ECLI:CE:ECHR:2010:1007JUD006918001",
+      "ECLI:CE:ECHR:2010:1202JUD002706505",
+      "ECLI:CE:ECHR:2011:1220JUD001829903",
+      "ECLI:CE:ECHR:2011:0324JUD002345802"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:1127JUD002971305",
+    "references": [
+      "ECLI:CE:ECHR:2011:0120JUD003603604",
+      "ECLI:CE:ECHR:2011:0217JUD002473304",
+      "ECLI:CE:ECHR:2011:0927JUD003225008",
+      "ECLI:CE:ECHR:2011:0210JUD003094304"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2013:0312JUD001628110",
+    "references": [
+      "ECLI:CE:ECHR:2011:0329JUD004735708",
+      "ECLI:CE:ECHR:2011:0324JUD002345802"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2013:0711JUD002897505",
+    "references": [
+      "ECLI:CE:ECHR:2011:0120JUD003603604",
+      "ECLI:CE:ECHR:2011:0217JUD002473304",
+      "ECLI:CE:ECHR:2012:1127JUD002971305",
+      "ECLI:CE:ECHR:2011:0927JUD003225008",
+      "ECLI:CE:ECHR:2011:0210JUD000466305"
+    ]
+  }
+]

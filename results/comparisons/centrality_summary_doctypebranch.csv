@@ -1,0 +1,7 @@
+centrality,times_best_high,times_best_low,times_best_overall
+hits_authority,1,0,0
+pagerank,1,0,1
+eigenvector_centrality,0,1,0
+out_degree_centrality,1,1,0
+hits_hub,0,1,1
+degree_centrality,0,0,1

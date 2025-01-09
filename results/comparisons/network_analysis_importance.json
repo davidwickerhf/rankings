@@ -1,0 +1,38 @@
+{
+    "centrality_counts": {
+        "high": {
+            "hits_authority": 2,
+            "out_degree_centrality": 1
+        },
+        "low": {
+            "core_number": 1,
+            "hits_hub": 1,
+            "closeness_centrality": 1
+        },
+        "best_overall": {
+            "degree_centrality": 1,
+            "hits_hub": 1,
+            "pagerank": 1
+        }
+    },
+    "combination_counts": {
+        "hits_authority+core_number": 1,
+        "out_degree_centrality+hits_hub": 1,
+        "hits_authority+closeness_centrality": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 2,
+        "best_combinations": [
+            {
+                "network": "article_2-1",
+                "combination": "hits_authority+core_number",
+                "correlation": 0.38693642676249834
+            },
+            {
+                "network": "article_8-1",
+                "combination": "out_degree_centrality+hits_hub",
+                "correlation": 0.3229458365161061
+            }
+        ]
+    }
+}
