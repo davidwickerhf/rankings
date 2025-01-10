@@ -1,0 +1,66 @@
+{
+  "resultcount": 2,
+  "results": [
+    {
+      "columns": {
+        "appno": "2614/65",
+        "respondent": "AUT",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF RINGEISEN v. AUSTRIA (ARTICLE 50)",
+        "separateopinion": "TRUE",
+        "judgementdate": "22/06/1972 00:00:00",
+        "scl": "De Wilde, Ooms and Versyp judgment of 10 March 1972, Series A no. 14",
+        "publishedby": "A15",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "Pecuniary damage - financial award;Non-pecuniary damage - financial award",
+        "importance": "2",
+        "externalsources": "Section 2 of the Austrian Act of 18 August 1918;Federal Act of 8 July 1969, Section 4",
+        "rulesofcourt": "",
+        "referencedate": "24/07/1970 00:00:00",
+        "extractedappno": "2614/65",
+        "itemid": "001-57566",
+        "article": "34;41",
+        "ecli": "ECLI:CE:ECHR:1972:0622JUD000261465",
+        "issue": "",
+        "nonviolation": "",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.76048"
+      }
+    },
+    {
+      "columns": {
+        "appno": "2832/66;2835/66;2899/66",
+        "respondent": "BEL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF DE WILDE, OOMS AND VERSYP v. BELGIUM (ARTICLE 50)",
+        "separateopinion": "TRUE",
+        "judgementdate": "10/03/1972 00:00:00",
+        "scl": "De Becker judgment of 27 March 1962, Series A no. 4, p. 260",
+        "publishedby": "A14",
+        "doctypebranch": "CHAMBER",
+        "applicability": "25",
+        "conclusion": "Preliminary objection rejected (non-exhaustion of domestic remedies);Pecuniary damage - claim dismissed;Non-pecuniary damage - finding of violation sufficient",
+        "importance": "2",
+        "externalsources": "Article 10 of the German Swiss Treaty on Arbitration and Conciliation, 1921;Article 32 of the Geneva General Act for the Pacific Settlement of International Disputes, 1928",
+        "rulesofcourt": "",
+        "referencedate": "24/10/1969 00:00:00",
+        "extractedappno": "2832/66;2835/66;2899/66",
+        "itemid": "001-57607",
+        "article": "35;35-1;41",
+        "ecli": "ECLI:CE:ECHR:1972:0310JUD000283266",
+        "issue": "",
+        "nonviolation": "",
+        "originatingbody": "15",
+        "doctype": "HEJUD",
+        "rank": "134.75851"
+      }
+    }
+  ],
+  "message": null
+}

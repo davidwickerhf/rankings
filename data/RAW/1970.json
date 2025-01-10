@@ -1,0 +1,66 @@
+{
+  "resultcount": 2,
+  "results": [
+    {
+      "columns": {
+        "appno": "2832/66;2835/66;2899/66",
+        "respondent": "BEL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF DE WILDE, OOMS AND VERSYP v. BELGIUM",
+        "separateopinion": "TRUE",
+        "judgementdate": "18/11/1970 00:00:00",
+        "scl": "Lawless judgment of 7 April 1961, Series A no. 2, p. 24;Lawless judgment of 14 November 1960, Series A no. 1, p. 12",
+        "publishedby": "A12",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "Questions of procedure accepted",
+        "importance": "2",
+        "externalsources": "",
+        "rulesofcourt": "",
+        "referencedate": "24/10/1969 00:00:00",
+        "extractedappno": "2832/66;2835/66;2899/66",
+        "itemid": "001-57605",
+        "article": "",
+        "ecli": "ECLI:CE:ECHR:1970:1118JUD000283266",
+        "issue": "",
+        "nonviolation": "",
+        "originatingbody": "15",
+        "doctype": "HEJUD",
+        "rank": "134.74976"
+      }
+    },
+    {
+      "columns": {
+        "appno": "2689/65",
+        "respondent": "BEL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF DELCOURT v. BELGIUM",
+        "separateopinion": "FALSE",
+        "judgementdate": "17/01/1970 00:00:00",
+        "scl": "Neumeister judgment of 27 June 1968, Series A no. 8, paras. 19, 22, 23;Matznetter judgment of 10 November 1969, Series A no. 10, para. 13;Wemhoff judgment of 27 June 1968, Series A no. 7, paras. 8, 18, 20;Belgian linguistic case judgment of 23 July 1968, Series A no. 6, p. 33",
+        "publishedby": "A11",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "No violation of Art. 6-1",
+        "importance": "2",
+        "externalsources": "Prince Sovereign's Decree of 15 March 1815, Article 39;1967 Judicial Code, Article 1109",
+        "rulesofcourt": "",
+        "referencedate": "05/02/1969 00:00:00",
+        "extractedappno": "2689/65;524/59;617/59;596/59;789/60",
+        "itemid": "001-57467",
+        "article": "6;6-1",
+        "ecli": "ECLI:CE:ECHR:1970:0117JUD000268965",
+        "issue": "",
+        "nonviolation": "6;6-1",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.74438"
+      }
+    }
+  ],
+  "message": null
+}

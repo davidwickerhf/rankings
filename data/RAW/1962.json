@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "rulesofcourt": "32",
+        "applicability": "",
+        "judgementdate": "27/03/1962 00:00:00",
+        "article": "10;10-1;10-2",
+        "respondent": "BEL",
+        "violation": "",
+        "separateopinion": "TRUE",
+        "externalsources": "Belgian Penal Code, Article 123 sexies;Belgian Act on Civic Screening, 30 June 1961",
+        "referencedate": "28/04/1960 00:00:00",
+        "appno": "214/56",
+        "docname": "CASE OF DE BECKER v. BELGIUM",
+        "extractedappno": "",
+        "ecli": "ECLI:CE:ECHR:1962:0327JUD000021456",
+        "conclusion": "Struck out of the list",
+        "doctypebranch": "CHAMBER",
+        "issue": "<div class=\"ExternalClassDB0C1403A5904ADFBB0F46703D838A92\">Belgian Penal Code, Article 123 sexies ; Belgian Act on Civic Screening, 30 June 1961</div>",
+        "representedby": "N/A",
+        "doctype": "HEJUD",
+        "importance": "2",
+        "nonviolation": "",
+        "languageisocode": "ENG",
+        "publishedby": "A4",
+        "scl": "",
+        "originatingbody": "9",
+        "itemid": "001-57433",
+        "rank": "134.56784"
+      }
+    }
+  ],
+  "message": null
+}

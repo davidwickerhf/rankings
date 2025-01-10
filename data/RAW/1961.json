@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "appno": "332/57",
+        "respondent": "IRL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF LAWLESS v. IRELAND (No. 3)",
+        "separateopinion": "TRUE",
+        "judgementdate": "01/07/1961 00:00:00",
+        "scl": "No. 250/57, Communist Party of Germany v. Federal Republic of Germany, Dec. 20.07.57, Yearbook 1, p. 222",
+        "publishedby": "A3",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "Questions of procedure rejected;No violation of Art. 7",
+        "importance": "2",
+        "externalsources": "Offences against the State Act (1939) No. 13, Sections 21, 30;Offences against the State (Amendment) Act 1940, Section 4, Part II;Proclamation of 5 July 1957 (Official Gazette, 8 July 1957);Senior Officials' Report to the Committee of Ministers, (Doc. CM/WP IV (50) 19, p. 14)",
+        "rulesofcourt": "",
+        "referencedate": "13/04/1960 00:00:00",
+        "extractedappno": "332/57;250/57",
+        "itemid": "001-57518",
+        "article": "17;5;5-1-b;5-1-c;5-3;6;7;7-1;15",
+        "ecli": "ECLI:CE:ECHR:1961:0701JUD000033257",
+        "issue": "<div class=\"ExternalClassB8FD690280004CBF845C8A13141FCBCA\">Offences against the State (Amendment) Act 1940, Section 4</div>",
+        "nonviolation": "7",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.69751"
+      }
+    }
+  ],
+  "message": null
+}

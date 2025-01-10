@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "appno": "2614/65",
+        "respondent": "AUT",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF RINGEISEN v. AUSTRIA (INTERPRETATION)",
+        "separateopinion": "TRUE",
+        "judgementdate": "23/06/1973 00:00:00",
+        "scl": "Neumeister judgment of 27 June 1968, Series A no. 8;Stögmüller case, Series B no. 7;Ringeisen case, Eur. Court H.R., Series B no. 13, p. 67",
+        "publishedby": "A16",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "Interpretation",
+        "importance": "2",
+        "externalsources": "Section 2 of the Austrian Act of 18 August 1918;Federal Act of 8 July 1969, Section 4",
+        "rulesofcourt": "",
+        "referencedate": "24/07/1970 00:00:00",
+        "extractedappno": "2614/65",
+        "itemid": "001-57567",
+        "article": "41",
+        "ecli": "ECLI:CE:ECHR:1973:0623JUD000261465",
+        "issue": "",
+        "nonviolation": "",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.63435"
+      }
+    }
+  ],
+  "message": null
+}

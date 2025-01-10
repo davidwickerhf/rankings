@@ -1,0 +1,66 @@
+{
+  "resultcount": 2,
+  "results": [
+    {
+      "columns": {
+        "appno": "2614/65",
+        "respondent": "AUT",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "5;5-3",
+        "docname": "CASE OF RINGEISEN v. AUSTRIA",
+        "separateopinion": "TRUE",
+        "judgementdate": "16/07/1971 00:00:00",
+        "scl": "Neumeister judgment of 27 June 1968, Series A no. 8, pp. 37, 44, paras. 5, 6, 24;De Wilde, Ooms and Versyp judgment of 18 June 1971, Series A no. 12, para. 78;Wemhoff judgment of 27 June 1968, Series A no. 7, pp. 23-24, para. 9;No. 332/57, Lawless v. Ireland, Dec. 30.08.58, Yearbook 2, pp. 324-326",
+        "publishedby": "A13",
+        "doctypebranch": "CHAMBER",
+        "applicability": "41",
+        "conclusion": "Preliminary objection rejected (non-exhaustion);Violation of Art. 5-3;No violation of Art. 6-1;Just satisfaction reserved",
+        "importance": "2",
+        "externalsources": "Austrian Constitution, Articles 7 no. 1, 83 no. 2, 133 no. 4;Austrian Code of Criminal Procedure, Articles 34-2, 112, 175-1, 180-1, 190-2, 191, 197, 265a;1929 version of the Austrian Federal Constitution Law, Article 90;Austrian Criminal Code, Articles 55a, 197, 200, 201d, 203, 205a, 205c;Austrian General Administrative Procedure Act (1950), Article 7;Bankruptcy Act (Konkursordnung), Sections 1 sub-sections 1 and 2, 75-77;Upper Austrian Real Property Transactions Act, Sections 1, 4, 6, 7, 18, 20, 21;Vienna Convention on the Law of Treaties, Article 33",
+        "rulesofcourt": "",
+        "referencedate": "24/07/1970 00:00:00",
+        "extractedappno": "2614/65;394/63;1566/64;332/57",
+        "itemid": "001-57565",
+        "article": "35;35-1;6;6-1;5;5-3",
+        "ecli": "ECLI:CE:ECHR:1971:0716JUD000261465",
+        "issue": "<div class=\"ExternalClassF7AA37BF4DBF4CB78B3733D2B9571714\">1929 version of the Austrian Federal Constitution Law, Article 90</div>",
+        "nonviolation": "6;6-1",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.75409"
+      }
+    },
+    {
+      "columns": {
+        "appno": "2832/66;2835/66;2899/66",
+        "respondent": "BEL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "5;5-4",
+        "docname": "CASE OF DE WILDE, OOMS AND VERSYP v. BELGIUM",
+        "separateopinion": "TRUE",
+        "judgementdate": "18/06/1971 00:00:00",
+        "scl": "Belgian linguistic case judgment of 9 February 1967, Series A no. 5, p. 18;Lawless judgment of 14 November 1960, Series A no. 1, p. 11;Stögmüller judgment of 10 November 1969, Series A no. 9, pp. 41, 42, paras. 8, 11;Matznetter judgment of 10 November 1969, Series A no. 10, p. 32, para. 6;De Becker judgment of 27 March 1962, Series A no. 4, p. 26;Neumeister judgment of 27 June 1968, Series A no. 8, p. 44, para. 24;Lawless judgment of 1 July 1961, Series A no. 3, p. 54, para. 19",
+        "publishedby": "A12",
+        "doctypebranch": "CHAMBER",
+        "applicability": "32;53",
+        "conclusion": "Preliminary objection partially allowed (non-exhaustion of domestic remedies);Violation of Art. 5-4;No violation of Art. 5-1;No violation of Art. 4;No violation of Art. 3;No violation of Art. 8;No violation of Art. 13;Just satisfaction reserved",
+        "importance": "2",
+        "externalsources": "Regent's Decree of 23 August 1948, Article 4;Belgian Act of 1891, Sections 6, 8, 12, 13, 15, 16, 17, 18;Belgian Criminal Code, Articles 342-344, 47;Royal Decree of 20 December 1963, Article 118 et seq;Act of 1 May 1849, Section 3;Royal Decree of 21 May 1965, Article 24;Vleminckx case, 21 December 1951",
+        "rulesofcourt": "",
+        "referencedate": "24/10/1969 00:00:00",
+        "extractedappno": "2832/66;2835/66;2899/66",
+        "itemid": "001-57606",
+        "article": "35;35-1;32;5;5-1;5-1-e;5-3;5-4;6;7;7-1;4;4-2;4-3-a;8;8-1;8-2;3;13",
+        "ecli": "ECLI:CE:ECHR:1971:0618JUD000283266",
+        "issue": "<div class=\"ExternalClass78BDE05665ED4F71A8CACEC9817022C9\">Belgian Act of 1891</div>",
+        "nonviolation": "5;5-1;4;3;8;13",
+        "originatingbody": "15",
+        "doctype": "HEJUD",
+        "rank": "134.75359"
+      }
+    }
+  ],
+  "message": null
+}

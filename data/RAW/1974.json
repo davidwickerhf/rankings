@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "appno": "1936/63",
+        "respondent": "AUT",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF NEUMEISTER v. AUSTRIA (ARTICLE 50)",
+        "separateopinion": "FALSE",
+        "judgementdate": "07/05/1974 00:00:00",
+        "scl": "Ringeisen judgment of 22 June 1972, Series A no. 15, pp. 7, 8, 9, paras. 14-19, 20, 21, 22, 24;De Wilde, Ooms and Versyp judgment of 10 March 1972 (Article 50), Series A no. 14, pp. 8, 9, 10, paras. 15, 16, 21;Neumeister judgment of 27 June 1968, Series A no. 8, pp. 10-16, 18, 19, 37, 38-39, 40, paras. 6, 9, 10, 11, 12, 13;Ringeisen case, Eur. Court H.R., Series B no. 13, pp. 24-26, 26-28, 50, 53, 80;Neumeister case, Eur. Court H.R., Series B no. 6, pp. 13, 34, 35, 60, 86, 90, 112-113, 115, 241",
+        "publishedby": "A17",
+        "doctypebranch": "CHAMBER",
+        "applicability": "25",
+        "conclusion": "Non-pecuniary damage - finding of violation sufficient;Pecuniary damage - claim dismissed;Costs and expenses award - domestic proceedings;Costs and expenses award - Convention proceedings",
+        "importance": "2",
+        "externalsources": "Austrian Act on Conditional Sentences, Section 3",
+        "rulesofcourt": "",
+        "referencedate": "07/10/1966 00:00:00",
+        "extractedappno": "1936/63;42/73",
+        "itemid": "001-57543",
+        "article": "5;5-5;41",
+        "ecli": "ECLI:CE:ECHR:1974:0507JUD000193663",
+        "issue": "",
+        "nonviolation": "",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.77394"
+      }
+    }
+  ],
+  "message": null
+}

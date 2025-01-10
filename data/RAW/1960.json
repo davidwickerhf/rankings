@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "appno": "332/57",
+        "respondent": "IRL",
+        "languageisocode": "ENG",
+        "representedby": "N/A",
+        "violation": "",
+        "docname": "CASE OF LAWLESS v. IRELAND (No. 1)",
+        "separateopinion": "TRUE",
+        "judgementdate": "14/11/1960 00:00:00",
+        "scl": "",
+        "publishedby": "A1",
+        "doctypebranch": "CHAMBER",
+        "applicability": "",
+        "conclusion": "Preliminary objection rejected (incompatibility);Questions of procedure rejected",
+        "importance": "2",
+        "externalsources": "Rules of Procedure of the Commission, Rule 76",
+        "rulesofcourt": "",
+        "referencedate": "13/04/1960 00:00:00",
+        "extractedappno": "332/57",
+        "itemid": "001-57516",
+        "article": "",
+        "ecli": "ECLI:CE:ECHR:1960:1114JUD000033257",
+        "issue": "<div class=\"ExternalClassE9194872F0DE49F084C876BC197A327A\">Rules of Procedure of the Commission, Rule 76</div>",
+        "nonviolation": "",
+        "originatingbody": "9",
+        "doctype": "HEJUD",
+        "rank": "134.69456"
+      }
+    }
+  ],
+  "message": null
+}

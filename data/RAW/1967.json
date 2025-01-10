@@ -1,0 +1,36 @@
+{
+  "resultcount": 1,
+  "results": [
+    {
+      "columns": {
+        "rulesofcourt": "",
+        "applicability": "",
+        "judgementdate": "09/02/1967 00:00:00",
+        "article": "19;32;32-2;57",
+        "respondent": "BEL",
+        "violation": "",
+        "separateopinion": "FALSE",
+        "externalsources": "Permanent Court of International Justice, Opinion No. 4, Series B, no. 4, p. 26;Permanent Court of International Justice, Mavrommatis Case, judgment of 30 August 1924, Series A, no. 2, p. 16;Permanent Court of International Justice, Electricity Company of Sofia and Bulgaria, judgment of 4 April 1939, Series A/B, no. 77, p. 83",
+        "referencedate": "25/06/1965 00:00:00",
+        "appno": "1474/62;1677/62;1691/62;1769/63;1994/63;2126/64",
+        "docname": "CASE \"RELATING TO CERTAIN ASPECTS OF THE LAWS ON THE USE OF LANGUAGES IN EDUCATION IN BELGIUM\" (PRELIMINARY OBJECTION)",
+        "extractedappno": "1474/62;1677/62;1691/62;1769/63;1994/63;2126/64",
+        "ecli": "ECLI:CE:ECHR:1967:0209JUD000147462",
+        "conclusion": "Preliminary objection rejected (incompatibility)",
+        "doctypebranch": "CHAMBER",
+        "issue": "",
+        "representedby": "N/A",
+        "doctype": "HEJUD",
+        "importance": "2",
+        "nonviolation": "",
+        "languageisocode": "ENG",
+        "publishedby": "A5",
+        "scl": "",
+        "originatingbody": "15",
+        "itemid": "001-57524",
+        "rank": "134.72672"
+      }
+    }
+  ],
+  "message": null
+}
