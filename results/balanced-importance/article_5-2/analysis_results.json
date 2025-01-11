@@ -1,0 +1,223 @@
+{
+    "correlations": {
+        "importance": {
+            "weight_composite_ranking": {
+                "degree_centrality_importance": 0.1789153428712607,
+                "degree_centrality_doctypebranch": 0.21256183251088462,
+                "in_degree_centrality_importance": 0.3050312612035736,
+                "in_degree_centrality_doctypebranch": 0.2643402663188405,
+                "out_degree_centrality_importance": -0.18105526572497155,
+                "out_degree_centrality_doctypebranch": -0.04268673604765692,
+                "betweenness_centrality_importance": NaN,
+                "betweenness_centrality_doctypebranch": NaN,
+                "closeness_centrality_importance": 0.3050312612035736,
+                "closeness_centrality_doctypebranch": 0.2643402663188405,
+                "core_number_importance": 0.19135056514854837,
+                "core_number_doctypebranch": 0.21912524504463884,
+                "relative_in_degree_centrality_importance": 0.3050312612035736,
+                "relative_in_degree_centrality_doctypebranch": 0.2643402663188405,
+                "eigenvector_centrality_importance": 0.3050312612035736,
+                "eigenvector_centrality_doctypebranch": 0.2643402663188405,
+                "pagerank_importance": 0.3050312612035736,
+                "pagerank_doctypebranch": 0.2643402663188405,
+                "hits_hub_importance": -0.18105526572497155,
+                "hits_hub_doctypebranch": -0.04268673604765692,
+                "hits_authority_importance": 0.1066036330080473,
+                "hits_authority_doctypebranch": 0.039103574718918455,
+                "harmonic_centrality_importance": 0.3050312612035736,
+                "harmonic_centrality_doctypebranch": 0.2643402663188405,
+                "disruption_importance": 0.3050312612035736,
+                "disruption_doctypebranch": 0.2643402663188405,
+                "composite_importance": 0.3050312612035736,
+                "composite_doctypebranch": 0.2643402663188405
+            }
+        },
+        "doctypebranch": {
+            "weight_composite_ranking": {
+                "degree_centrality_importance": 0.1789153428712607,
+                "degree_centrality_doctypebranch": 0.21256183251088462,
+                "in_degree_centrality_importance": 0.3050312612035736,
+                "in_degree_centrality_doctypebranch": 0.2643402663188405,
+                "out_degree_centrality_importance": -0.18105526572497155,
+                "out_degree_centrality_doctypebranch": -0.04268673604765692,
+                "betweenness_centrality_importance": NaN,
+                "betweenness_centrality_doctypebranch": NaN,
+                "closeness_centrality_importance": 0.3050312612035736,
+                "closeness_centrality_doctypebranch": 0.2643402663188405,
+                "core_number_importance": 0.19135056514854837,
+                "core_number_doctypebranch": 0.21912524504463884,
+                "relative_in_degree_centrality_importance": 0.3050312612035736,
+                "relative_in_degree_centrality_doctypebranch": 0.2643402663188405,
+                "eigenvector_centrality_importance": 0.3050312612035736,
+                "eigenvector_centrality_doctypebranch": 0.2643402663188405,
+                "pagerank_importance": 0.3050312612035736,
+                "pagerank_doctypebranch": 0.2643402663188405,
+                "hits_hub_importance": -0.18105526572497155,
+                "hits_hub_doctypebranch": -0.04268673604765692,
+                "hits_authority_importance": 0.1066036330080473,
+                "hits_authority_doctypebranch": 0.039103574718918455,
+                "harmonic_centrality_importance": 0.3050312612035736,
+                "harmonic_centrality_doctypebranch": 0.2643402663188405,
+                "disruption_importance": 0.3050312612035736,
+                "disruption_doctypebranch": 0.2643402663188405,
+                "composite_importance": 0.3050312612035736,
+                "composite_doctypebranch": 0.2643402663188405
+            }
+        }
+    },
+    "composite_rankings": {
+        "importance": {
+            "weight_composite_ranking_param": 0.01,
+            "weight_composite_ranking": {
+                "0": 27.5,
+                "1": 27.5,
+                "2": 27.5,
+                "3": 27.5,
+                "4": 27.5,
+                "5": 27.5,
+                "6": 27.5,
+                "7": 27.5,
+                "8": 27.5,
+                "9": 27.5,
+                "10": 27.5,
+                "11": 27.5,
+                "12": 27.5,
+                "13": 27.5,
+                "14": 27.5,
+                "15": 27.5,
+                "16": 27.5,
+                "17": 27.5,
+                "18": 27.5,
+                "19": 27.5,
+                "20": 2.5,
+                "21": 27.5,
+                "22": 27.5,
+                "23": 27.5,
+                "24": 27.5,
+                "25": 27.5,
+                "26": 27.5,
+                "27": 27.5,
+                "28": 27.5,
+                "29": 27.5,
+                "30": 27.5,
+                "31": 27.5,
+                "32": 27.5,
+                "33": 27.5,
+                "34": 27.5,
+                "35": 27.5,
+                "36": 27.5,
+                "37": 2.5,
+                "38": 27.5,
+                "39": 27.5,
+                "40": 27.5,
+                "41": 2.5,
+                "42": 27.5,
+                "43": 27.5,
+                "44": 27.5,
+                "45": 2.5,
+                "46": 27.5,
+                "47": 27.5,
+                "48": 27.5,
+                "49": 27.5
+            }
+        },
+        "doctypebranch": {
+            "weight_composite_ranking_param": 0.01,
+            "weight_composite_ranking": {
+                "0": 27.5,
+                "1": 27.5,
+                "2": 27.5,
+                "3": 27.5,
+                "4": 27.5,
+                "5": 27.5,
+                "6": 27.5,
+                "7": 27.5,
+                "8": 27.5,
+                "9": 27.5,
+                "10": 27.5,
+                "11": 27.5,
+                "12": 27.5,
+                "13": 27.5,
+                "14": 27.5,
+                "15": 27.5,
+                "16": 27.5,
+                "17": 27.5,
+                "18": 27.5,
+                "19": 27.5,
+                "20": 2.5,
+                "21": 27.5,
+                "22": 27.5,
+                "23": 27.5,
+                "24": 27.5,
+                "25": 27.5,
+                "26": 27.5,
+                "27": 27.5,
+                "28": 27.5,
+                "29": 27.5,
+                "30": 27.5,
+                "31": 27.5,
+                "32": 27.5,
+                "33": 27.5,
+                "34": 27.5,
+                "35": 27.5,
+                "36": 27.5,
+                "37": 2.5,
+                "38": 27.5,
+                "39": 27.5,
+                "40": 27.5,
+                "41": 2.5,
+                "42": 27.5,
+                "43": 27.5,
+                "44": 27.5,
+                "45": 2.5,
+                "46": 27.5,
+                "47": 27.5,
+                "48": 27.5,
+                "49": 27.5
+            }
+        }
+    },
+    "best_centralities": {
+        "importance": {
+            "high": "in_degree_centrality",
+            "low": "closeness_centrality"
+        },
+        "doctypebranch": {
+            "high": "in_degree_centrality",
+            "low": "closeness_centrality"
+        }
+    },
+    "class_distribution": {
+        "total_cases": 50,
+        "class_counts": {
+            "importance": {
+                "2": 24,
+                "1": 13,
+                "3": 10,
+                "4": 3
+            },
+            "doctypebranch": {
+                "2": 40,
+                "1": 8,
+                "3": 2
+            }
+        },
+        "class_percentages": {
+            "importance": {
+                "2": 48.0,
+                "1": 26.0,
+                "3": 20.0,
+                "4": 6.0
+            },
+            "doctypebranch": {
+                "2": 80.0,
+                "1": 16.0,
+                "3": 4.0
+            }
+        }
+    },
+    "network_stats": {
+        "n_nodes": 50,
+        "n_edges": 8
+    }
+}

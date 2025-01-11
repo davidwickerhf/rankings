@@ -1,0 +1,11 @@
+centrality,times_best_high,times_best_low,times_best_overall
+harmonic_centrality,1,0,1
+pagerank,7,1,7
+closeness_centrality,0,6,0
+hits_authority,4,1,4
+out_degree_centrality,0,1,0
+degree_centrality,27,13,27
+relative_in_degree_centrality,0,15,0
+core_number,11,25,11
+disruption,8,0,8
+in_degree_centrality,19,15,19

@@ -1,0 +1,16 @@
+combination,times_selected
+in_degree_centrality+closeness_centrality,8
+disruption+in_degree_centrality,5
+pagerank+disruption,2
+hits_authority+in_degree_centrality,1
+degree_centrality+in_degree_centrality,3
+out_degree_centrality+in_degree_centrality,2
+disruption+pagerank,3
+in_degree_centrality+relative_in_degree_centrality,2
+out_degree_centrality+hits_hub,3
+core_number+degree_centrality,4
+degree_centrality+core_number,1
+hits_authority+hits_hub,1
+hits_hub+disruption,1
+hits_authority+degree_centrality,1
+out_degree_centrality+pagerank,1

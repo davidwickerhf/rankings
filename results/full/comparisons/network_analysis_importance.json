@@ -1,0 +1,38 @@
+{
+    "centrality_counts": {
+        "high": {
+            "in_degree_centrality": 3
+        },
+        "low": {
+            "relative_in_degree_centrality": 3
+        },
+        "best_overall": {
+            "in_degree_centrality": 1,
+            "degree_centrality": 1,
+            "eigenvector_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "in_degree_centrality+relative_in_degree_centrality": 3
+    },
+    "composite_performance": {
+        "outperformed_count": 3,
+        "best_combinations": [
+            {
+                "network": "full-balanced-importance",
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "correlation": 0.4616068535635089
+            },
+            {
+                "network": "full-unbalanced",
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "correlation": 0.43523681403105435
+            },
+            {
+                "network": "full-balanced-doctypebranch",
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "correlation": 0.3702238214981914
+            }
+        ]
+    }
+}

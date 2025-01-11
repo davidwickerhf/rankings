@@ -1,0 +1,436 @@
+{
+    "importance": {
+        "high_performers": {
+            "in_degree_centrality": 11,
+            "disruption": 28,
+            "pagerank": 9,
+            "degree_centrality": 5,
+            "out_degree_centrality": 1,
+            "hits_authority": 1,
+            "hits_hub": 1,
+            "harmonic_centrality": 1,
+            "core_number": 1,
+            "betweenness_centrality": 0,
+            "eigenvector_centrality": 0,
+            "closeness_centrality": 0,
+            "relative_in_degree_centrality": 0
+        },
+        "low_performers": {
+            "relative_in_degree_centrality": 7,
+            "pagerank": 8,
+            "in_degree_centrality": 19,
+            "harmonic_centrality": 5,
+            "closeness_centrality": 7,
+            "hits_authority": 1,
+            "disruption": 3,
+            "eigenvector_centrality": 3,
+            "out_degree_centrality": 1,
+            "core_number": 2,
+            "hits_hub": 1,
+            "degree_centrality": 1,
+            "betweenness_centrality": 0
+        },
+        "best_overall": {
+            "in_degree_centrality": 27,
+            "disruption": 15,
+            "hits_authority": 3,
+            "degree_centrality": 4,
+            "pagerank": 5,
+            "out_degree_centrality": 1,
+            "betweenness_centrality": 1,
+            "closeness_centrality": 1,
+            "hits_hub": 1,
+            "eigenvector_centrality": 0,
+            "core_number": 0,
+            "relative_in_degree_centrality": 0,
+            "harmonic_centrality": 0
+        },
+        "combinations": {
+            "in_degree_centrality+relative_in_degree_centrality": 7,
+            "disruption+pagerank": 8,
+            "pagerank+in_degree_centrality": 7,
+            "disruption+harmonic_centrality": 4,
+            "degree_centrality+in_degree_centrality": 3,
+            "in_degree_centrality+closeness_centrality": 4,
+            "disruption+hits_authority": 1,
+            "disruption+closeness_centrality": 2,
+            "disruption+in_degree_centrality": 9,
+            "out_degree_centrality+disruption": 1,
+            "disruption+eigenvector_centrality": 3,
+            "hits_authority+disruption": 1,
+            "hits_hub+out_degree_centrality": 1,
+            "degree_centrality+core_number": 2,
+            "harmonic_centrality+closeness_centrality": 1,
+            "pagerank+disruption": 1,
+            "disruption+hits_hub": 1,
+            "core_number+degree_centrality": 1,
+            "pagerank+harmonic_centrality": 1
+        },
+        "composite_performance": {
+            "outperformed_count": 37,
+            "best_combinations": [
+                {
+                    "network": "article_2-1",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.42476974927913286
+                },
+                {
+                    "network": "article_8-1",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.4008712564295494
+                },
+                {
+                    "network": "article_4-2",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.31811249411601555
+                },
+                {
+                    "network": "article_6-1",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.4353338946133107
+                },
+                {
+                    "network": "article_10",
+                    "combination": "disruption+harmonic_centrality",
+                    "correlation": 0.4107991480605081
+                },
+                {
+                    "network": "article_29",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.21200355354857778
+                },
+                {
+                    "network": "article_5-1-c",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.38177682698731674
+                },
+                {
+                    "network": "article_46-2",
+                    "combination": "in_degree_centrality+closeness_centrality",
+                    "correlation": 0.38549673399782014
+                },
+                {
+                    "network": "article_29-3",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.21200355354857778
+                },
+                {
+                    "network": "article_3",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.40467253582427015
+                },
+                {
+                    "network": "article_4",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.44608049832925
+                },
+                {
+                    "network": "article_2",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.43059670005659273
+                },
+                {
+                    "network": "article_P1-3",
+                    "combination": "in_degree_centrality+closeness_centrality",
+                    "correlation": 0.36994415120518903
+                },
+                {
+                    "network": "article_P1-1-1",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.3991987194932189
+                },
+                {
+                    "network": "article_10-1",
+                    "combination": "disruption+harmonic_centrality",
+                    "correlation": 0.4400207410268609
+                },
+                {
+                    "network": "article_6-3",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.42695725668269024
+                },
+                {
+                    "network": "article_2-2",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.3666154075386171
+                },
+                {
+                    "network": "article_8-2",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.29778156747441514
+                },
+                {
+                    "network": "article_6-3-c",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.4804908632880178
+                },
+                {
+                    "network": "article_13",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.40490843074315896
+                },
+                {
+                    "network": "article_5-1-f",
+                    "combination": "disruption+eigenvector_centrality",
+                    "correlation": 0.44747197407802236
+                },
+                {
+                    "network": "article_14",
+                    "combination": "disruption+eigenvector_centrality",
+                    "correlation": 0.35048254318006566
+                },
+                {
+                    "network": "article_6-3-d",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.37866456226651873
+                },
+                {
+                    "network": "article_46",
+                    "combination": "hits_authority+disruption",
+                    "correlation": 0.42041652211957625
+                },
+                {
+                    "network": "article_41",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.4460436137045932
+                },
+                {
+                    "network": "article_11-1",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.3511842242195048
+                },
+                {
+                    "network": "article_37",
+                    "combination": "degree_centrality+core_number",
+                    "correlation": 0.2462545880722864
+                },
+                {
+                    "network": "article_39",
+                    "combination": "degree_centrality+core_number",
+                    "correlation": 0.27086254048336783
+                },
+                {
+                    "network": "article_5-4",
+                    "combination": "disruption+harmonic_centrality",
+                    "correlation": 0.3806706662559087
+                },
+                {
+                    "network": "article_7-1",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.16844224138862338
+                },
+                {
+                    "network": "article_5-5",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.24229607232860317
+                },
+                {
+                    "network": "article_5-2",
+                    "combination": "in_degree_centrality+closeness_centrality",
+                    "correlation": 0.3050312612035736
+                },
+                {
+                    "network": "article_P1-1",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.4090594350113341
+                },
+                {
+                    "network": "article_37-1",
+                    "combination": "core_number+degree_centrality",
+                    "correlation": 0.1492552755578038
+                },
+                {
+                    "network": "article_1",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.45362089300330866
+                },
+                {
+                    "network": "article_6",
+                    "combination": "in_degree_centrality+relative_in_degree_centrality",
+                    "correlation": 0.4548326964544215
+                },
+                {
+                    "network": "article_8",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.38696962504244065
+                }
+            ]
+        },
+        "best_performers": {
+            "high": "disruption",
+            "low": "in_degree_centrality",
+            "overall": "in_degree_centrality",
+            "combination": "disruption+in_degree_centrality"
+        }
+    },
+    "doctypebranch": {
+        "high_performers": {
+            "in_degree_centrality": 27,
+            "disruption": 15,
+            "hits_authority": 3,
+            "degree_centrality": 4,
+            "pagerank": 5,
+            "out_degree_centrality": 1,
+            "betweenness_centrality": 1,
+            "closeness_centrality": 1,
+            "hits_hub": 1,
+            "eigenvector_centrality": 0,
+            "harmonic_centrality": 0,
+            "relative_in_degree_centrality": 0,
+            "core_number": 0
+        },
+        "low_performers": {
+            "relative_in_degree_centrality": 18,
+            "in_degree_centrality": 19,
+            "closeness_centrality": 10,
+            "hits_authority": 4,
+            "disruption": 1,
+            "pagerank": 3,
+            "core_number": 1,
+            "harmonic_centrality": 1,
+            "eigenvector_centrality": 1,
+            "betweenness_centrality": 0,
+            "out_degree_centrality": 0,
+            "degree_centrality": 0,
+            "hits_hub": 0
+        },
+        "best_overall": {
+            "in_degree_centrality": 27,
+            "disruption": 15,
+            "hits_authority": 3,
+            "degree_centrality": 4,
+            "pagerank": 5,
+            "out_degree_centrality": 1,
+            "betweenness_centrality": 1,
+            "closeness_centrality": 1,
+            "hits_hub": 1,
+            "eigenvector_centrality": 0,
+            "harmonic_centrality": 0,
+            "relative_in_degree_centrality": 0,
+            "core_number": 0
+        },
+        "combinations": {
+            "in_degree_centrality+relative_in_degree_centrality": 18,
+            "disruption+in_degree_centrality": 9,
+            "hits_authority+in_degree_centrality": 2,
+            "in_degree_centrality+closeness_centrality": 9,
+            "degree_centrality+in_degree_centrality": 3,
+            "pagerank+in_degree_centrality": 5,
+            "disruption+hits_authority": 2,
+            "out_degree_centrality+disruption": 1,
+            "betweenness_centrality+hits_authority": 1,
+            "hits_authority+closeness_centrality": 1,
+            "disruption+pagerank": 3,
+            "degree_centrality+core_number": 1,
+            "disruption+harmonic_centrality": 1,
+            "closeness_centrality+eigenvector_centrality": 1,
+            "hits_hub+hits_authority": 1
+        },
+        "composite_performance": {
+            "outperformed_count": 16,
+            "best_combinations": [
+                {
+                    "network": "article_8-1",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.29143862323887637
+                },
+                {
+                    "network": "article_34",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.47598237421985684
+                },
+                {
+                    "network": "article_P1-1-1",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.3342884223051573
+                },
+                {
+                    "network": "article_10-1",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.3633304944424188
+                },
+                {
+                    "network": "article_6-3",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.2871873313444679
+                },
+                {
+                    "network": "article_8-2",
+                    "combination": "disruption+hits_authority",
+                    "correlation": 0.18812939667865544
+                },
+                {
+                    "network": "article_5-1-f",
+                    "combination": "betweenness_centrality+hits_authority",
+                    "correlation": 0.33015987466059055
+                },
+                {
+                    "network": "article_46",
+                    "combination": "hits_authority+closeness_centrality",
+                    "correlation": 0.37244386272236124
+                },
+                {
+                    "network": "article_6-3-b",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.4506334603448393
+                },
+                {
+                    "network": "article_5-3",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.342737711995687
+                },
+                {
+                    "network": "article_9",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.3453080288396975
+                },
+                {
+                    "network": "article_35-3",
+                    "combination": "disruption+harmonic_centrality",
+                    "correlation": 0.3177572437955438
+                },
+                {
+                    "network": "article_7",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.28036749594188937
+                },
+                {
+                    "network": "article_10-2",
+                    "combination": "disruption+pagerank",
+                    "correlation": 0.3675565643500404
+                },
+                {
+                    "network": "article_8",
+                    "combination": "disruption+in_degree_centrality",
+                    "correlation": 0.2919039776182892
+                },
+                {
+                    "network": "article_P1-1-2",
+                    "combination": "pagerank+in_degree_centrality",
+                    "correlation": 0.31715173583477296
+                }
+            ]
+        },
+        "best_performers": {
+            "high": "in_degree_centrality",
+            "low": "in_degree_centrality",
+            "overall": "in_degree_centrality",
+            "combination": "in_degree_centrality+relative_in_degree_centrality"
+        }
+    },
+    "total_counts": {
+        "in_degree_centrality": 130,
+        "disruption": 77,
+        "pagerank": 35,
+        "degree_centrality": 18,
+        "out_degree_centrality": 5,
+        "hits_authority": 15,
+        "hits_hub": 5,
+        "harmonic_centrality": 7,
+        "core_number": 4,
+        "betweenness_centrality": 3,
+        "eigenvector_centrality": 4,
+        "closeness_centrality": 20,
+        "relative_in_degree_centrality": 25
+    }
+}
