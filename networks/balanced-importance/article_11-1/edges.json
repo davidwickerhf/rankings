@@ -1,0 +1,86 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:1999:1208JUD002388594",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0531JUD003943498",
+    "references": [
+      "ECLI:CE:ECHR:1999:1208JUD002388594"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0302JUD004625799",
+    "references": [
+      "ECLI:CE:ECHR:1999:0520JUD002539094"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0321JUD004149698",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:1114JUD002086802",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2007:0531JUD002674002",
+    "references": [
+      "ECLI:CE:ECHR:2004:0217JUD003974898",
+      "ECLI:CE:ECHR:2001:0802JUD003597297"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2008:0327JUD002669805",
+    "references": [
+      "ECLI:CE:ECHR:2005:1020JUD007498901",
+      "ECLI:CE:ECHR:2001:1220JUD004415898",
+      "ECLI:CE:ECHR:1999:1208JUD002388594",
+      "ECLI:CE:ECHR:2004:0217JUD004415898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2009:0305JUD003168405",
+    "references": [
+      "ECLI:CE:ECHR:2008:1007JUD001034605",
+      "ECLI:CE:ECHR:2003:0220JUD002065292",
+      "ECLI:CE:ECHR:2006:1205JUD007455201",
+      "ECLI:CE:ECHR:2002:0409JUD005134699"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2010:0223JUD004492004",
+    "references": [
+      "ECLI:CE:ECHR:2003:0220JUD002065292"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2019:0507JUD001081407",
+    "references": [
+      "ECLI:CE:ECHR:2009:1008JUD003708303",
+      "ECLI:CE:ECHR:2004:0217JUD004415898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2023:0606JUD005826210",
+    "references": [
+      "ECLI:CE:ECHR:2004:0217JUD003974898",
+      "ECLI:CE:ECHR:2015:1015JUD003755305",
+      "ECLI:CE:ECHR:2004:0217JUD004415898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2023:0620JUD006223912",
+    "references": [
+      "ECLI:CE:ECHR:2006:1114JUD002086802",
+      "ECLI:CE:ECHR:2013:0709JUD000233009",
+      "ECLI:CE:ECHR:2009:0730JUD006733601",
+      "ECLI:CE:ECHR:2015:1015JUD003755305",
+      "ECLI:CE:ECHR:2008:1112JUD003450397"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2024:0208JUD000116222",
+    "references": []
+  }
+]

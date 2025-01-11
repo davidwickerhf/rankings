@@ -1,0 +1,22 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0527JUD002514394",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0331JUD004364098",
+    "references": [
+      "ECLI:CE:ECHR:1999:0121JUD002610395"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1220JUD004258998",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0301JUD005658100",
+    "references": []
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:2001:0717JUD003450297",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2001:0918JUD004066998",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:0429JUD002849295",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1028JUD004817399",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0519JUD005233299",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0628JUD005827400",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1110JUD000514204",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1110JUD002178404",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1110JUD002179804",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1208JUD006818901",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0425JUD004980699",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2009:0407JUD000186007",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2014:0701JUD002992005",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2014:0624JUD002732906",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2015:0721JUD004185810",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2016:0114JUD006806012",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2017:1026JUD002892309",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2019:1010JUD003401618",
+    "references": [
+      "ECLI:CE:ECHR:2016:0921JUD003803012"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2020:0213JUD000867515",
+    "references": [
+      "ECLI:CE:ECHR:2016:0114JUD006806012"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2021:0330JUD002318909",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2022:0118JUD000680009",
+    "references": [
+      "ECLI:CE:ECHR:2005:0224JUD006321400"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2022:0707JUD003271519",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2023:1212JUD003432321",
+    "references": [
+      "ECLI:CE:ECHR:2009:0330JUD001932402"
+    ]
+  }
+]

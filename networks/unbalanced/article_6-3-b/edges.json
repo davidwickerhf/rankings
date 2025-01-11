@@ -1,0 +1,539 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:1986:1124JUD000906380",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2002:1205JUD003489697",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:0605JUD005010299",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:0624JUD004405798",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:0923JUD004392898",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1016JUD003745297",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005074399",
+    "references": [
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005105399",
+    "references": [
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005274499",
+    "references": [
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005301499",
+    "references": [
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005343199",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD004158098",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005011999",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1023JUD005141699",
+    "references": [
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1113JUD005396800",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1127JUD003838997",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1127JUD004273898",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1127JUD004729699",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1204JUD004638899",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1204JUD004765499",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1204JUD004775799",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1204JUD004951799",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1218JUD005794400",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0108JUD005756200",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0115JUD005602100",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0122JUD004843899",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0309JUD004243598",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0408JUD005542700",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0715JUD005353099",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0715JUD005289899",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0715JUD004292098",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0729JUD004399598",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1019JUD005933500",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1019JUD003858697",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1021JUD004928399",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1026JUD003449897",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1028JUD004817399",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2004:0122JUD004843899",
+      "ECLI:CE:ECHR:2004:0408JUD005542700"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1028JUD004243798",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1110JUD004161898",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1110JUD004861699",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2004:0122JUD004843899",
+      "ECLI:CE:ECHR:2004:0408JUD005542700"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1110JUD004898899",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1110JUD004905999",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:1209JUD004098598",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD004894499",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD004956699",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD005069199",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD006373300",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD006392500",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD005027399",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0616JUD006392600",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:0715JUD006231900",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:1023JUD005301499",
+      "ECLI:CE:ECHR:2003:0605JUD005010299",
+      "ECLI:CE:ECHR:2004:1110JUD004861699",
+      "ECLI:CE:ECHR:2004:0408JUD005542700"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1025JUD005840000",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1110JUD006201700",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1220JUD003245696",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1220JUD004098798",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1220JUD004258998",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898",
+      "ECLI:CE:ECHR:2005:0616JUD006392600"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1220JUD004259098",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1222JUD005717200",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0207JUD004255498",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0307JUD007710901",
+    "references": [
+      "ECLI:CE:ECHR:2004:1110JUD004898899"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0330JUD003245896",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0411JUD005537300",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0411JUD004243498",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0413JUD003929502",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0420JUD004854499",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0420JUD005796500",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0420JUD005683500",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0427JUD000987404",
+    "references": [
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0502JUD005069299",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0504JUD003452097",
+    "references": [
+      "ECLI:CE:ECHR:2003:0923JUD004392898"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0613JUD006164800",
+    "references": [
+      "ECLI:CE:ECHR:2004:1110JUD004861699",
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2003:0605JUD005010299"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0622JUD004952399",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0921JUD004666199",
+    "references": [
+      "ECLI:CE:ECHR:2001:0301JUD002908295",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0926JUD007352901",
+    "references": [
+      "ECLI:CE:ECHR:1999:0325JUD002544494",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:1128JUD007777301",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:1219JUD003404302",
+    "references": [
+      "ECLI:CE:ECHR:1999:0325JUD002544494",
+      "ECLI:CE:ECHR:2005:0512JUD004622199"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2007:0220JUD006571501",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2005:0315JUD004732899"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2007:0724JUD005364000",
+    "references": [
+      "ECLI:CE:ECHR:2000:1207JUD002920295"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2007:1211JUD002557504",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2008:0325JUD004208402",
+    "references": [
+      "ECLI:CE:ECHR:2004:1028JUD004817399",
+      "ECLI:CE:ECHR:2002:1205JUD003489697"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2010:1104JUD002257508",
+    "references": [
+      "ECLI:CE:ECHR:2005:0512JUD004622199",
+      "ECLI:CE:ECHR:2006:1018JUD001811402",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0412JUD002117503",
+    "references": [
+      "ECLI:CE:ECHR:2007:1211JUD002557504",
+      "ECLI:CE:ECHR:2010:0107JUD002049404",
+      "ECLI:CE:ECHR:2001:0301JUD002908295",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:0724JUD002947606",
+    "references": [
+      "ECLI:CE:ECHR:2003:1023JUD005343199",
+      "ECLI:CE:ECHR:2007:1211JUD002557504",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2013:0305JUD006100509",
+    "references": [
+      "ECLI:CE:ECHR:2007:1211JUD002557504",
+      "ECLI:CE:ECHR:2011:0412JUD002117503",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2018:0222JUD006517309",
+    "references": [
+      "ECLI:CE:ECHR:2007:1211JUD002557504",
+      "ECLI:CE:ECHR:2006:1018JUD001811402",
+      "ECLI:CE:ECHR:2012:0724JUD002947606",
+      "ECLI:CE:ECHR:2001:0301JUD002908295",
+      "ECLI:CE:ECHR:1999:0325JUD002544494"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2018:1211JUD000910609",
+    "references": [
+      "ECLI:CE:ECHR:2005:0120JUD006337800",
+      "ECLI:CE:ECHR:2016:1004JUD000265313",
+      "ECLI:CE:ECHR:2013:0725JUD001108206"
+    ]
+  }
+]

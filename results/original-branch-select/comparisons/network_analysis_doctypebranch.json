@@ -1,0 +1,137 @@
+{
+    "centrality_counts": {
+        "high": {
+            "degree_centrality": 31,
+            "core_number": 11,
+            "in_degree_centrality": 25,
+            "pagerank": 8,
+            "out_degree_centrality": 1,
+            "hits_authority": 2,
+            "harmonic_centrality": 1
+        },
+        "low": {
+            "core_number": 27,
+            "degree_centrality": 11,
+            "in_degree_centrality": 13,
+            "closeness_centrality": 7,
+            "relative_in_degree_centrality": 20,
+            "hits_hub": 1
+        },
+        "best_overall": {
+            "degree_centrality": 31,
+            "core_number": 11,
+            "in_degree_centrality": 25,
+            "pagerank": 8,
+            "out_degree_centrality": 1,
+            "hits_authority": 2,
+            "harmonic_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "degree_centrality+core_number": 27,
+        "core_number+degree_centrality": 11,
+        "degree_centrality+in_degree_centrality": 4,
+        "in_degree_centrality+closeness_centrality": 5,
+        "in_degree_centrality+relative_in_degree_centrality": 20,
+        "pagerank+in_degree_centrality": 7,
+        "out_degree_centrality+hits_hub": 1,
+        "hits_authority+in_degree_centrality": 2,
+        "harmonic_centrality+closeness_centrality": 1,
+        "pagerank+closeness_centrality": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 18,
+        "best_combinations": [
+            {
+                "network": "unbalanced-article_6-1",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.35854322702503016
+            },
+            {
+                "network": "unbalanced-article_11-2",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.15615562434609767
+            },
+            {
+                "network": "unbalanced-article_11",
+                "combination": "core_number+degree_centrality",
+                "correlation": 0.4759248161659634
+            },
+            {
+                "network": "unbalanced-article_29",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.04601288146497311
+            },
+            {
+                "network": "unbalanced-article_9-2",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.4653011441368899
+            },
+            {
+                "network": "unbalanced-article_4",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.27875097352211753
+            },
+            {
+                "network": "unbalanced-article_2",
+                "combination": "degree_centrality+in_degree_centrality",
+                "correlation": 0.28670994004751904
+            },
+            {
+                "network": "unbalanced-article_P1-1-1",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.337689680949264
+            },
+            {
+                "network": "unbalanced-article_6-3",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.32700412149093805
+            },
+            {
+                "network": "unbalanced-article_2-2",
+                "combination": "degree_centrality+in_degree_centrality",
+                "correlation": 0.2314489971192579
+            },
+            {
+                "network": "unbalanced-article_6-3-c",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.3182811600480535
+            },
+            {
+                "network": "unbalanced-article_6-3-b",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.2452202767363588
+            },
+            {
+                "network": "unbalanced-article_37",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.22059700692321313
+            },
+            {
+                "network": "unbalanced-article_9-1",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.3315565339910817
+            },
+            {
+                "network": "unbalanced-article_7-1",
+                "combination": "pagerank+in_degree_centrality",
+                "correlation": 0.26919642757018586
+            },
+            {
+                "network": "unbalanced-article_9",
+                "combination": "harmonic_centrality+closeness_centrality",
+                "correlation": 0.1370464107673685
+            },
+            {
+                "network": "unbalanced-article_37-1",
+                "combination": "pagerank+closeness_centrality",
+                "correlation": 0.20544961217829624
+            },
+            {
+                "network": "unbalanced-article_6",
+                "combination": "degree_centrality+core_number",
+                "correlation": 0.3267430010100457
+            }
+        ]
+    }
+}

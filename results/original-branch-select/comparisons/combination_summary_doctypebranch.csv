@@ -1,0 +1,11 @@
+combination,times_selected
+degree_centrality+core_number,27
+core_number+degree_centrality,11
+degree_centrality+in_degree_centrality,4
+in_degree_centrality+closeness_centrality,5
+in_degree_centrality+relative_in_degree_centrality,20
+pagerank+in_degree_centrality,7
+out_degree_centrality+hits_hub,1
+hits_authority+in_degree_centrality,2
+harmonic_centrality+closeness_centrality,1
+pagerank+closeness_centrality,1
