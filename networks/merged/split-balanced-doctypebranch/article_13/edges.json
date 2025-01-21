@@ -1,0 +1,99 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:1997:1128JUD002318694",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2000:0627JUD002227793",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2001:0712JUD002570294",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0519JUD006543001",
+    "references": [
+      "ECLI:CE:ECHR:2000:1026JUD003021096"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0722JUD004498798",
+    "references": [
+      "ECLI:CE:ECHR:2000:1026JUD003021096"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2005:1115JUD004996199",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0504JUD005791600",
+    "references": [
+      "ECLI:CE:ECHR:2000:0627JUD002227793",
+      "ECLI:CE:ECHR:2000:0627JUD002198693"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2007:0412JUD006645501",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2008:0124JUD000754903",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2009:0219JUD000345505",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0120JUD005124608",
+    "references": [
+      "ECLI:CE:ECHR:2000:1026JUD003021096",
+      "ECLI:CE:ECHR:2006:0704JUD005945000",
+      "ECLI:CE:ECHR:2003:1211JUD003908497"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2011:0121JUD003069609",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:0223JUD002776509",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2012:1213JUD002268907",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2017:0124JUD005636709",
+    "references": [
+      "ECLI:CE:ECHR:2000:1026JUD003021096",
+      "ECLI:CE:ECHR:2010:0910JUD003133306",
+      "ECLI:CE:ECHR:2006:0608JUD007552901"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2019:1121JUD004728715",
+    "references": [
+      "ECLI:CE:ECHR:2016:1006JUD000480113",
+      "ECLI:CE:ECHR:2016:1124JUD002973207",
+      "ECLI:CE:ECHR:2016:1006JUD007386410",
+      "ECLI:CE:ECHR:2016:1215JUD001648312"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2020:0213JUD000867515",
+    "references": [
+      "ECLI:CE:ECHR:2016:1006JUD000480113",
+      "ECLI:CE:ECHR:2016:1124JUD002973207",
+      "ECLI:CE:ECHR:2016:1006JUD007386410",
+      "ECLI:CE:ECHR:2016:1215JUD001648312"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2024:0924JUD000631921",
+    "references": []
+  }
+]

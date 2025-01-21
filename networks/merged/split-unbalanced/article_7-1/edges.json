@@ -1,0 +1,30 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0527JUD002514394",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2006:0621JUD000151303",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2009:0917JUD001024903",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2014:0624JUD002732906",
+    "references": [
+      "ECLI:CE:ECHR:2007:1207JUD005964300"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2020:0213JUD000867515",
+    "references": [
+      "ECLI:CE:ECHR:2016:1018JUD004232209"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2023:0117JUD004079210",
+    "references": []
+  }
+]
