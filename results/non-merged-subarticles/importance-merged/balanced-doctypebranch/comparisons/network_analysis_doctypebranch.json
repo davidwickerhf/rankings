@@ -1,0 +1,27 @@
+{
+    "centrality_counts": {
+        "high": {
+            "eigenvector_centrality": 1
+        },
+        "low": {
+            "in_degree_centrality": 1
+        },
+        "best_overall": {
+            "eigenvector_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "eigenvector_centrality+in_degree_centrality": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 1,
+        "best_combinations": [
+            {
+                "combination": "eigenvector_centrality_in_degree_centrality",
+                "correlation": 0.3602318365284108,
+                "network": "full-balanced-doctypebranch",
+                "optimal_weight": 0.62
+            }
+        ]
+    }
+}

@@ -1,9 +1,0 @@
-combination,times_selected
-disruption+in_degree_centrality,4
-disruption+eigenvector_centrality,3
-out_degree_centrality+disruption,2
-disruption+pagerank,4
-disruption+closeness_centrality,1
-hits_hub+out_degree_centrality,1
-core_number+degree_centrality,1
-eigenvector_centrality+pagerank,1

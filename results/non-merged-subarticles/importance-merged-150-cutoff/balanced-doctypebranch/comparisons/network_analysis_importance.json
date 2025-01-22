@@ -1,0 +1,60 @@
+{
+    "centrality_counts": {
+        "high": {
+            "disruption": 12,
+            "out_degree_centrality": 2,
+            "hits_hub": 1,
+            "core_number": 1,
+            "eigenvector_centrality": 1
+        },
+        "low": {
+            "in_degree_centrality": 4,
+            "eigenvector_centrality": 3,
+            "disruption": 2,
+            "pagerank": 5,
+            "closeness_centrality": 1,
+            "out_degree_centrality": 1,
+            "degree_centrality": 1
+        },
+        "best_overall": {
+            "disruption": 12,
+            "out_degree_centrality": 2,
+            "hits_hub": 1,
+            "core_number": 1,
+            "eigenvector_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "disruption+in_degree_centrality": 4,
+        "disruption+eigenvector_centrality": 3,
+        "out_degree_centrality+disruption": 2,
+        "disruption+pagerank": 4,
+        "disruption+closeness_centrality": 1,
+        "hits_hub+out_degree_centrality": 1,
+        "core_number+degree_centrality": 1,
+        "eigenvector_centrality+pagerank": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 3,
+        "best_combinations": [
+            {
+                "combination": "disruption_pagerank",
+                "correlation": 0.2680366256845697,
+                "network": "article_3",
+                "optimal_weight": 0.61
+            },
+            {
+                "combination": "disruption_eigenvector_centrality",
+                "correlation": 0.2975609047467702,
+                "network": "article_4",
+                "optimal_weight": 0.53
+            },
+            {
+                "combination": "hits_hub_out_degree_centrality",
+                "correlation": 0.4157220870864307,
+                "network": "article_41",
+                "optimal_weight": 0.55
+            }
+        ]
+    }
+}

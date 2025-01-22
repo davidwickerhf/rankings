@@ -1,0 +1,73 @@
+{
+    "centrality_counts": {
+        "high": {
+            "disruption": 15,
+            "out_degree_centrality": 4,
+            "degree_centrality": 1,
+            "core_number": 1,
+            "hits_authority": 1,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 1
+        },
+        "low": {
+            "in_degree_centrality": 9,
+            "eigenvector_centrality": 3,
+            "hits_hub": 3,
+            "disruption": 1,
+            "pagerank": 5,
+            "closeness_centrality": 2,
+            "degree_centrality": 1
+        },
+        "best_overall": {
+            "disruption": 15,
+            "out_degree_centrality": 4,
+            "degree_centrality": 1,
+            "core_number": 1,
+            "hits_authority": 1,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "disruption+in_degree_centrality": 7,
+        "disruption+eigenvector_centrality": 3,
+        "out_degree_centrality+hits_hub": 3,
+        "out_degree_centrality+disruption": 1,
+        "disruption+pagerank": 4,
+        "disruption+closeness_centrality": 1,
+        "degree_centrality+in_degree_centrality": 1,
+        "core_number+degree_centrality": 1,
+        "hits_authority+in_degree_centrality": 1,
+        "in_degree_centrality+closeness_centrality": 1,
+        "eigenvector_centrality+pagerank": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 4,
+        "best_combinations": [
+            {
+                "combination": "disruption_pagerank",
+                "correlation": 0.2680366256845697,
+                "network": "article_3",
+                "optimal_weight": 0.61
+            },
+            {
+                "combination": "disruption_eigenvector_centrality",
+                "correlation": 0.2975609047467702,
+                "network": "article_4",
+                "optimal_weight": 0.53
+            },
+            {
+                "combination": "out_degree_centrality_hits_hub",
+                "correlation": 0.38556970440933847,
+                "network": "article_35-1",
+                "optimal_weight": 0.5
+            },
+            {
+                "combination": "out_degree_centrality_hits_hub",
+                "correlation": 0.4093558651487257,
+                "network": "article_41",
+                "optimal_weight": 0.49
+            }
+        ]
+    }
+}

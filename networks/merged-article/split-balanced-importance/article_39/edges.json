@@ -1,0 +1,28 @@
+[
+  {
+    "ecli": "ECLI:CE:ECHR:1988:1005JUD000978782",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2001:0710JUD002494694",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2002:0620JUD003507697",
+    "references": [
+      "ECLI:CE:ECHR:2002:0514JUD003298596"
+    ]
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2003:1125JUD003543097",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2004:0311JUD006787301",
+    "references": []
+  },
+  {
+    "ecli": "ECLI:CE:ECHR:2009:0915JUD000079805",
+    "references": []
+  }
+]

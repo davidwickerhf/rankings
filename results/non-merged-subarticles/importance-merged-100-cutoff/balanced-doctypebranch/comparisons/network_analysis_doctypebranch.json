@@ -1,0 +1,75 @@
+{
+    "centrality_counts": {
+        "high": {
+            "disruption": 10,
+            "eigenvector_centrality": 4,
+            "in_degree_centrality": 3,
+            "out_degree_centrality": 3,
+            "degree_centrality": 2,
+            "hits_authority": 1,
+            "pagerank": 1
+        },
+        "low": {
+            "in_degree_centrality": 8,
+            "closeness_centrality": 6,
+            "disruption": 2,
+            "pagerank": 3,
+            "harmonic_centrality": 2,
+            "core_number": 1,
+            "hits_hub": 1,
+            "eigenvector_centrality": 1
+        },
+        "best_overall": {
+            "disruption": 10,
+            "eigenvector_centrality": 4,
+            "in_degree_centrality": 3,
+            "out_degree_centrality": 3,
+            "degree_centrality": 2,
+            "hits_authority": 1,
+            "pagerank": 1
+        }
+    },
+    "combination_counts": {
+        "disruption+in_degree_centrality": 6,
+        "eigenvector_centrality+closeness_centrality": 2,
+        "in_degree_centrality+closeness_centrality": 3,
+        "out_degree_centrality+in_degree_centrality": 1,
+        "out_degree_centrality+disruption": 2,
+        "disruption+pagerank": 3,
+        "eigenvector_centrality+harmonic_centrality": 2,
+        "disruption+closeness_centrality": 1,
+        "degree_centrality+core_number": 1,
+        "degree_centrality+in_degree_centrality": 1,
+        "hits_authority+hits_hub": 1,
+        "pagerank+eigenvector_centrality": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 4,
+        "best_combinations": [
+            {
+                "combination": "disruption_pagerank",
+                "correlation": 0.2652540242134035,
+                "network": "article_3",
+                "optimal_weight": 0.61
+            },
+            {
+                "combination": "disruption_closeness_centrality",
+                "correlation": 0.3048676007998933,
+                "network": "article_2",
+                "optimal_weight": 0.01
+            },
+            {
+                "combination": "eigenvector_centrality_harmonic_centrality",
+                "correlation": 0.36188842164740187,
+                "network": "article_41",
+                "optimal_weight": 0.3
+            },
+            {
+                "combination": "eigenvector_centrality_closeness_centrality",
+                "correlation": 0.3047382072131279,
+                "network": "article_6",
+                "optimal_weight": 0.5
+            }
+        ]
+    }
+}
