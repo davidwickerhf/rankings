@@ -1,0 +1,81 @@
+{
+    "importance": {
+        "high_performers": {
+            "in_degree_centrality": 3,
+            "relative_in_degree_centrality": 0
+        },
+        "low_performers": {
+            "relative_in_degree_centrality": 3,
+            "in_degree_centrality": 0
+        },
+        "best_overall": {
+            "in_degree_centrality": 3,
+            "relative_in_degree_centrality": 0
+        },
+        "combinations": {
+            "in_degree_centrality+relative_in_degree_centrality": 3
+        },
+        "composite_performance": {
+            "outperformed_count": 0,
+            "best_combinations": []
+        },
+        "best_performers": {
+            "high": "in_degree_centrality",
+            "low": "relative_in_degree_centrality",
+            "overall": "in_degree_centrality",
+            "combination": "in_degree_centrality+relative_in_degree_centrality"
+        }
+    },
+    "doctypebranch": {
+        "high_performers": {
+            "degree_centrality": 1,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 1,
+            "relative_in_degree_centrality": 0,
+            "core_number": 0
+        },
+        "low_performers": {
+            "core_number": 1,
+            "relative_in_degree_centrality": 1,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 0,
+            "degree_centrality": 0
+        },
+        "best_overall": {
+            "degree_centrality": 1,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 1,
+            "relative_in_degree_centrality": 0,
+            "core_number": 0
+        },
+        "combinations": {
+            "degree_centrality+core_number": 1,
+            "in_degree_centrality+relative_in_degree_centrality": 1,
+            "eigenvector_centrality+in_degree_centrality": 1
+        },
+        "composite_performance": {
+            "outperformed_count": 1,
+            "best_combinations": [
+                {
+                    "combination": "eigenvector_centrality_in_degree_centrality",
+                    "correlation": 0.3602318365284108,
+                    "network": "balanced-doctypebranch_full-balanced-doctypebranch",
+                    "optimal_weight": 0.62
+                }
+            ]
+        },
+        "best_performers": {
+            "high": "degree_centrality",
+            "low": "core_number",
+            "overall": "degree_centrality",
+            "combination": "degree_centrality+core_number"
+        }
+    },
+    "total_counts": {
+        "in_degree_centrality": 9,
+        "relative_in_degree_centrality": 4,
+        "degree_centrality": 2,
+        "eigenvector_centrality": 2,
+        "core_number": 1
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "centrality_counts": {
+        "high": {
+            "in_degree_centrality": 29,
+            "degree_centrality": 5,
+            "hits_authority": 4,
+            "pagerank": 9,
+            "disruption": 11,
+            "harmonic_centrality": 2,
+            "core_number": 1,
+            "betweenness_centrality": 1
+        },
+        "low": {
+            "relative_in_degree_centrality": 25,
+            "in_degree_centrality": 19,
+            "harmonic_centrality": 2,
+            "closeness_centrality": 7,
+            "degree_centrality": 3,
+            "eigenvector_centrality": 1,
+            "core_number": 2,
+            "pagerank": 2,
+            "disruption": 1
+        },
+        "best_overall": {
+            "in_degree_centrality": 29,
+            "degree_centrality": 5,
+            "hits_authority": 4,
+            "pagerank": 9,
+            "disruption": 11,
+            "harmonic_centrality": 2,
+            "core_number": 1,
+            "betweenness_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "in_degree_centrality+relative_in_degree_centrality": 25,
+        "degree_centrality+in_degree_centrality": 4,
+        "hits_authority+harmonic_centrality": 2,
+        "pagerank+in_degree_centrality": 6,
+        "in_degree_centrality+closeness_centrality": 4,
+        "disruption+in_degree_centrality": 7,
+        "harmonic_centrality+in_degree_centrality": 2,
+        "pagerank+closeness_centrality": 1,
+        "core_number+degree_centrality": 1,
+        "betweenness_centrality+eigenvector_centrality": 1,
+        "hits_authority+core_number": 1,
+        "disruption+closeness_centrality": 2,
+        "pagerank+degree_centrality": 1,
+        "hits_authority+degree_centrality": 1,
+        "disruption+pagerank": 2,
+        "degree_centrality+core_number": 1,
+        "pagerank+disruption": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 18,
+        "best_combinations": [
+            {
+                "combination": "hits_authority_harmonic_centrality",
+                "correlation": 0.21997589678454874,
+                "network": "article_4-2",
+                "optimal_weight": 0.85
+            },
+            {
+                "combination": "pagerank_in_degree_centrality",
+                "correlation": 0.23372553463552298,
+                "network": "article_11-2",
+                "optimal_weight": 0.88
+            },
+            {
+                "combination": "pagerank_in_degree_centrality",
+                "correlation": 0.25646156859042435,
+                "network": "article_6-3",
+                "optimal_weight": 0.75
+            },
+            {
+                "combination": "disruption_in_degree_centrality",
+                "correlation": 0.24930795480109683,
+                "network": "article_2-2",
+                "optimal_weight": 0.75
+            },
+            {
+                "combination": "disruption_in_degree_centrality",
+                "correlation": 0.24285793071721676,
+                "network": "article_8-2",
+                "optimal_weight": 0.61
+            },
+            {
+                "combination": "disruption_in_degree_centrality",
+                "correlation": 0.2854439870809278,
+                "network": "article_6-2",
+                "optimal_weight": 0.62
+            },
+            {
+                "combination": "pagerank_closeness_centrality",
+                "correlation": 0.23352612348033794,
+                "network": "article_6-3-c",
+                "optimal_weight": 0.2
+            },
+            {
+                "combination": "hits_authority_core_number",
+                "correlation": 0.22049740212179947,
+                "network": "article_6-3-d",
+                "optimal_weight": 0.01
+            },
+            {
+                "combination": "disruption_closeness_centrality",
+                "correlation": 0.4570874767959082,
+                "network": "article_46",
+                "optimal_weight": 0.62
+            },
+            {
+                "combination": "hits_authority_harmonic_centrality",
+                "correlation": 0.2581515888613132,
+                "network": "article_P4-2",
+                "optimal_weight": 0.6
+            },
+            {
+                "combination": "pagerank_degree_centrality",
+                "correlation": 0.3026155259501504,
+                "network": "article_11-1",
+                "optimal_weight": 0.8200000000000001
+            },
+            {
+                "combination": "hits_authority_degree_centrality",
+                "correlation": 0.05862025211298822,
+                "network": "article_39",
+                "optimal_weight": 0.01
+            },
+            {
+                "combination": "pagerank_in_degree_centrality",
+                "correlation": 0.3491319852985925,
+                "network": "article_5-3",
+                "optimal_weight": 0.7000000000000001
+            },
+            {
+                "combination": "disruption_pagerank",
+                "correlation": 0.2272285345852498,
+                "network": "article_7-1",
+                "optimal_weight": 0.51
+            },
+            {
+                "combination": "disruption_in_degree_centrality",
+                "correlation": 0.3004806690422394,
+                "network": "article_9",
+                "optimal_weight": 0.55
+            },
+            {
+                "combination": "disruption_closeness_centrality",
+                "correlation": 0.4059979551115689,
+                "network": "article_35-3",
+                "optimal_weight": 0.53
+            },
+            {
+                "combination": "disruption_pagerank",
+                "correlation": 0.4137536664228068,
+                "network": "article_35-3-a",
+                "optimal_weight": 0.5
+            },
+            {
+                "combination": "pagerank_disruption",
+                "correlation": 0.3564229004816175,
+                "network": "article_P1-1-2",
+                "optimal_weight": 0.5
+            }
+        ]
+    }
+}

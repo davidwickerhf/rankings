@@ -1,0 +1,4 @@
+combination,times_selected
+degree_centrality+core_number,1
+in_degree_centrality+relative_in_degree_centrality,1
+eigenvector_centrality+in_degree_centrality,1
