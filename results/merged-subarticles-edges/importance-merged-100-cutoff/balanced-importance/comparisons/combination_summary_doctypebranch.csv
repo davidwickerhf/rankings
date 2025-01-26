@@ -1,0 +1,8 @@
+combination,times_selected
+degree_centrality+in_degree_centrality,4
+eigenvector_centrality+harmonic_centrality,1
+degree_centrality+core_number,5
+in_degree_centrality+relative_in_degree_centrality,6
+harmonic_centrality+closeness_centrality,1
+degree_centrality+eigenvector_centrality,1
+closeness_centrality+harmonic_centrality,1

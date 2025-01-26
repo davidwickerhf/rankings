@@ -1,0 +1,7 @@
+centrality,times_best_high,times_best_low,times_best_overall
+core_number,0,2,0
+in_degree_centrality,4,1,4
+relative_in_degree_centrality,0,4,0
+eigenvector_centrality,1,0,1
+degree_centrality,3,0,3
+closeness_centrality,0,1,0

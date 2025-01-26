@@ -1,0 +1,241 @@
+{
+    "importance": {
+        "high_performers": {
+            "harmonic_centrality": 1,
+            "eigenvector_centrality": 3,
+            "core_number": 3,
+            "degree_centrality": 6,
+            "in_degree_centrality": 2,
+            "disruption": 1,
+            "relative_in_degree_centrality": 0,
+            "closeness_centrality": 0
+        },
+        "low_performers": {
+            "closeness_centrality": 2,
+            "degree_centrality": 4,
+            "core_number": 5,
+            "harmonic_centrality": 2,
+            "relative_in_degree_centrality": 2,
+            "in_degree_centrality": 1,
+            "eigenvector_centrality": 0,
+            "disruption": 0
+        },
+        "best_overall": {
+            "harmonic_centrality": 1,
+            "eigenvector_centrality": 3,
+            "core_number": 3,
+            "degree_centrality": 6,
+            "in_degree_centrality": 2,
+            "disruption": 1,
+            "relative_in_degree_centrality": 0,
+            "closeness_centrality": 0
+        },
+        "combinations": {
+            "harmonic_centrality+closeness_centrality": 1,
+            "eigenvector_centrality+closeness_centrality": 1,
+            "core_number+degree_centrality": 3,
+            "degree_centrality+core_number": 5,
+            "eigenvector_centrality+harmonic_centrality": 1,
+            "in_degree_centrality+relative_in_degree_centrality": 2,
+            "eigenvector_centrality+in_degree_centrality": 1,
+            "degree_centrality+harmonic_centrality": 1,
+            "disruption+degree_centrality": 1
+        },
+        "composite_performance": {
+            "outperformed_count": 12,
+            "best_combinations": [
+                {
+                    "combination": "harmonic_centrality_closeness_centrality",
+                    "correlation": 0.5766656353113278,
+                    "network": "article_10",
+                    "optimal_weight": 0.3
+                },
+                {
+                    "combination": "eigenvector_centrality_closeness_centrality",
+                    "correlation": 0.6161366434258226,
+                    "network": "article_11",
+                    "optimal_weight": 0.75
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7164394449458,
+                    "network": "article_35",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "eigenvector_centrality_harmonic_centrality",
+                    "correlation": 0.7049504037990719,
+                    "network": "article_3",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "eigenvector_centrality_harmonic_centrality",
+                    "correlation": 0.7051477716357438,
+                    "network": "article_3",
+                    "optimal_weight": 0.1
+                },
+                {
+                    "combination": "core_number_degree_centrality",
+                    "correlation": 0.6316896592971293,
+                    "network": "article_2",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "eigenvector_centrality_in_degree_centrality",
+                    "correlation": 0.7027755892866904,
+                    "network": "article_13",
+                    "optimal_weight": 0.32
+                },
+                {
+                    "combination": "degree_centrality_harmonic_centrality",
+                    "correlation": 0.4918387585211488,
+                    "network": "article_14",
+                    "optimal_weight": 0.52
+                },
+                {
+                    "combination": "degree_centrality_harmonic_centrality",
+                    "correlation": 0.5209841358676276,
+                    "network": "article_14",
+                    "optimal_weight": 0.7
+                },
+                {
+                    "combination": "disruption_degree_centrality",
+                    "correlation": 0.41008022813215084,
+                    "network": "article_46",
+                    "optimal_weight": 0.9
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.6705904403166416,
+                    "network": "article_41",
+                    "optimal_weight": 0.7
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.641431013344529,
+                    "network": "article_37",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7430749268760628,
+                    "network": "article_P1",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.667965815150804,
+                    "network": "article_8",
+                    "optimal_weight": 0.7
+                }
+            ]
+        },
+        "best_performers": {
+            "high": "degree_centrality",
+            "low": "core_number",
+            "overall": "degree_centrality",
+            "combination": "degree_centrality+core_number"
+        }
+    },
+    "doctypebranch": {
+        "high_performers": {
+            "in_degree_centrality": 7,
+            "hits_hub": 1,
+            "degree_centrality": 5,
+            "core_number": 2,
+            "eigenvector_centrality": 1,
+            "relative_in_degree_centrality": 0,
+            "closeness_centrality": 0
+        },
+        "low_performers": {
+            "relative_in_degree_centrality": 7,
+            "eigenvector_centrality": 1,
+            "core_number": 4,
+            "degree_centrality": 2,
+            "closeness_centrality": 1,
+            "in_degree_centrality": 1,
+            "hits_hub": 0
+        },
+        "best_overall": {
+            "in_degree_centrality": 7,
+            "hits_hub": 1,
+            "degree_centrality": 5,
+            "core_number": 2,
+            "eigenvector_centrality": 1,
+            "relative_in_degree_centrality": 0,
+            "closeness_centrality": 0
+        },
+        "combinations": {
+            "in_degree_centrality+relative_in_degree_centrality": 7,
+            "hits_hub+eigenvector_centrality": 1,
+            "degree_centrality+core_number": 4,
+            "core_number+degree_centrality": 2,
+            "eigenvector_centrality+closeness_centrality": 1,
+            "degree_centrality+in_degree_centrality": 1
+        },
+        "composite_performance": {
+            "outperformed_count": 6,
+            "best_combinations": [
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7343996827979792,
+                    "network": "article_35",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "core_number_degree_centrality",
+                    "correlation": 0.5969389735139387,
+                    "network": "article_2",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "eigenvector_centrality_closeness_centrality",
+                    "correlation": 0.6896222115497868,
+                    "network": "article_13",
+                    "optimal_weight": 0.9400000000000001
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.6751118738032279,
+                    "network": "article_41",
+                    "optimal_weight": 0.7
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.5580005310385059,
+                    "network": "article_37",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "degree_centrality_in_degree_centrality",
+                    "correlation": 0.6938801874475973,
+                    "network": "article_P1",
+                    "optimal_weight": 0.34
+                },
+                {
+                    "combination": "degree_centrality_in_degree_centrality",
+                    "correlation": 0.7350938394786907,
+                    "network": "article_P1",
+                    "optimal_weight": 0.6
+                }
+            ]
+        },
+        "best_performers": {
+            "high": "in_degree_centrality",
+            "low": "relative_in_degree_centrality",
+            "overall": "in_degree_centrality",
+            "combination": "in_degree_centrality+relative_in_degree_centrality"
+        }
+    },
+    "total_counts": {
+        "harmonic_centrality": 4,
+        "eigenvector_centrality": 9,
+        "core_number": 19,
+        "degree_centrality": 28,
+        "in_degree_centrality": 20,
+        "disruption": 2,
+        "relative_in_degree_centrality": 9,
+        "closeness_centrality": 3,
+        "hits_hub": 2
+    }
+}

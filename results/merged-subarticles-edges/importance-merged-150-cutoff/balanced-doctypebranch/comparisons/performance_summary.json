@@ -1,0 +1,132 @@
+{
+    "importance": {
+        "best_performers": {
+            "high": {
+                "centrality": "degree_centrality",
+                "times_selected": 4
+            },
+            "low": {
+                "centrality": "core_number",
+                "times_selected": 4
+            },
+            "combination": {
+                "combination": "degree_centrality+core_number",
+                "times_selected": 4
+            }
+        },
+        "composite_performance": {
+            "outperformed_count": 6,
+            "best_combinations": [],
+            "best_outperforming_combo": {
+                "combination": "degree_centrality_core_number",
+                "times_outperformed": 4
+            },
+            "highest_correlation": 0.7430749268760628,
+            "detailed_combinations": [
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7164394449458,
+                    "network": "article_35",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "eigenvector_centrality_harmonic_centrality",
+                    "correlation": 0.7049504037990719,
+                    "network": "article_3",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "eigenvector_centrality_harmonic_centrality",
+                    "correlation": 0.7051477716357438,
+                    "network": "article_3",
+                    "optimal_weight": 0.1
+                },
+                {
+                    "combination": "eigenvector_centrality_in_degree_centrality",
+                    "correlation": 0.7027755892866904,
+                    "network": "article_13",
+                    "optimal_weight": 0.32
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.6705904403166416,
+                    "network": "article_41",
+                    "optimal_weight": 0.7
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7430749268760628,
+                    "network": "article_P1",
+                    "optimal_weight": 0.5
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.667965815150804,
+                    "network": "article_8",
+                    "optimal_weight": 0.7
+                }
+            ]
+        }
+    },
+    "doctypebranch": {
+        "best_performers": {
+            "high": {
+                "centrality": "in_degree_centrality",
+                "times_selected": 4
+            },
+            "low": {
+                "centrality": "relative_in_degree_centrality",
+                "times_selected": 4
+            },
+            "combination": {
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "times_selected": 4
+            }
+        },
+        "composite_performance": {
+            "outperformed_count": 4,
+            "best_combinations": [],
+            "best_outperforming_combo": {
+                "combination": "degree_centrality_core_number",
+                "times_outperformed": 2
+            },
+            "highest_correlation": 0.7350938394786907,
+            "detailed_combinations": [
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.7343996827979792,
+                    "network": "article_35",
+                    "optimal_weight": 0.4
+                },
+                {
+                    "combination": "eigenvector_centrality_closeness_centrality",
+                    "correlation": 0.6896222115497868,
+                    "network": "article_13",
+                    "optimal_weight": 0.9400000000000001
+                },
+                {
+                    "combination": "degree_centrality_core_number",
+                    "correlation": 0.6751118738032279,
+                    "network": "article_41",
+                    "optimal_weight": 0.7
+                },
+                {
+                    "combination": "degree_centrality_in_degree_centrality",
+                    "correlation": 0.6938801874475973,
+                    "network": "article_P1",
+                    "optimal_weight": 0.34
+                },
+                {
+                    "combination": "degree_centrality_in_degree_centrality",
+                    "correlation": 0.7350938394786907,
+                    "network": "article_P1",
+                    "optimal_weight": 0.6
+                }
+            ]
+        }
+    },
+    "overall_best_performer": {
+        "centrality": "degree_centrality",
+        "total_times_selected": 14
+    }
+}

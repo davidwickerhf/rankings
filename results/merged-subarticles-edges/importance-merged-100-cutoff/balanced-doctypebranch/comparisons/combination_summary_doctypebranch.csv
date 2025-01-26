@@ -1,0 +1,7 @@
+combination,times_selected
+hits_authority+in_degree_centrality,1
+core_number+degree_centrality,1
+degree_centrality+core_number,2
+in_degree_centrality+relative_in_degree_centrality,5
+eigenvector_centrality+closeness_centrality,1
+degree_centrality+in_degree_centrality,1

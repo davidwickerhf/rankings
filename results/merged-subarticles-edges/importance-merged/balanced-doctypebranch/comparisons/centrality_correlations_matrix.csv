@@ -1,0 +1,14 @@
+Centrality,full-balanced-doctypebranch
+betweenness_centrality,Doctypebranch: -0.6228 | Importance: -0.6699
+closeness_centrality,Doctypebranch: -0.6964 | Importance: -0.7197
+core_number,Doctypebranch: -0.6376 | Importance: -0.7146
+degree_centrality,Doctypebranch: -0.6394 | Importance: -0.7150
+disruption,Doctypebranch: 0.2808 | Importance: 0.2984
+eigenvector_centrality,Doctypebranch: -0.6948 | Importance: -0.7189
+harmonic_centrality,Doctypebranch: -0.6972 | Importance: -0.7208
+hits_authority,Doctypebranch: -0.6175 | Importance: -0.6338
+hits_hub,Doctypebranch: -0.4088 | Importance: -0.4850
+in_degree_centrality,Doctypebranch: -0.7074 | Importance: -0.7310
+out_degree_centrality,Doctypebranch: -0.4593 | Importance: -0.5456
+pagerank,Doctypebranch: nan | Importance: nan
+relative_in_degree_centrality,Doctypebranch: -0.7074 | Importance: -0.7310
