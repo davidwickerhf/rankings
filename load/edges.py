@@ -65,19 +65,40 @@ def metadata_to_nodesedgeslist(df):
 
 def retrieve_nodes_list(df):
     """
-    Returns a dataframe where 'ecli' is moved to the first column.
+    Returns a cleaned dataframe where 'ecli' is moved to the first column.
+    Removes rows with null ECLIs and handles duplicates.
     
     param df: the dataframe after article filter
     """
     df = metadata_to_nodesedgeslist(df)
-    # Instead of dropping first column blindly, keep appno
-    df_copy = df.copy()
+    
+    initial_count = len(df)
+    
+    # Count and remove rows with null ECLIs
+    null_eclis = df[df['ecli'].isna()]
+    df = df.dropna(subset=['ecli'])
+    
+    # Count and handle duplicate ECLIs
+    duplicates = df[df['ecli'].duplicated(keep=False)]
+    if len(duplicates) > 0:
+        print(f"\nWarning: Found {len(duplicates)} rows with duplicate ECLIs")
+        print(f"Number of unique duplicate ECLIs: {duplicates['ecli'].nunique()}")
+        # Keep first occurrence of each ECLI
+        df = df.drop_duplicates(subset=['ecli'], keep='first')
     
     # Move ecli to first position
-    col = df_copy.pop("ecli")
-    df_copy.insert(0, col.name, col)
+    df = df.copy()
+    col = df.pop("ecli")
+    df.insert(0, col.name, col)
     
-    return df_copy
+    # Print summary of cleaning
+    print(f"\nNode Cleaning Summary:")
+    print(f"Initial nodes: {initial_count}")
+    print(f"Dropped null ECLIs: {len(null_eclis)}")
+    print(f"Dropped duplicate rows: {len(duplicates)}")
+    print(f"Final nodes: {len(df)}")
+    
+    return df
 
 @lru_cache(maxsize=50000)
 def get_year_from_ref(ref_tuple: Tuple[str]) -> int:
@@ -242,11 +263,16 @@ def retrieve_edges_list(df: pd.DataFrame, df_unfiltered: pd.DataFrame) -> Tuple[
                 all_missing_cases.extend(batch_missing)
                 pbar.update(batch_size)
     
-     # Print summary statistics
+    # Remove duplicates from all_missing_cases by converting each dict to a tuple of items
+    all_missing_cases = [dict(t) for t in {tuple(d.items()) for d in all_missing_cases}]
+    missing_targets = df['missing_reference'].nunique()
+
+    # Print summary statistics
     print("\nReference Extraction Summary:")
     print(f"Total nodes processed: {len(df)}")
     print(f"Total edges found: {sum(len(d['references']) for d in edges_list)}")
-    print(f"Total missing references: {len(all_missing_cases)}")
+    print(f"Total failed edges: {len(all_missing_cases)}")
+    print(f"Total missing targets: {missing_targets}")
     
     return pd.DataFrame(edges_list), pd.DataFrame(all_missing_cases)
 
