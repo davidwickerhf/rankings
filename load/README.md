@@ -66,7 +66,7 @@ Number of missing references per source:
 
 ## Notable Cases
 
-The most significant case in terms of missing references is:
+The most significant case in terms of missing references is: [ECLI:CE:ECHR:2017:1012JUD004685213](ECLI:CE:ECHR:2017:1012JUD004685213.md)
 
 ```
 ECLI:CE:ECHR:2017:1012JUD004685213
