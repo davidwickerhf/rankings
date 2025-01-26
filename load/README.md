@@ -86,7 +86,7 @@ Analysis performed using Python with pandas, matplotlib, and seaborn libraries. 
 
 ## Data Sources
 
-- Missing cases data: `data/METADATA/optimized/missing_cases.csv`
+- Missing cases data: `data/METADATA/missing_cases.csv`
 - Metadata: `data/METADATA/echr_metadata.csv`
 
 ## Detailed Analysis Files
