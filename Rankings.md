@@ -1,5 +1,24 @@
 # Network Analysis Results Documentation
 
+1. [Overview](#overview)
+2. [Key Findings](#key-findings)
+   - [Best Centrality Selection](#best-centrality-selection)
+   - [Selection Process](#selection-process)
+   - [Statistical Analysis of Selected Centralities](#statistical-analysis-of-selected-centralities)
+3. [Critical Analysis](#critical-analysis)
+   - [Similarity of Centrality Measures](#similarity-of-centrality-measures)
+   - [Issues with Ranking Approach](#issues-with-ranking-approach)
+   - [Recommendations](#recommendations)
+4. [Statistical Relevance](#statistical-relevance)
+5. [Mathematical Analysis of Ranking vs. Direct Values](#mathematical-analysis-of-ranking-vs-direct-values)
+   - [Goal Definition](#goal-definition)
+   - [Current Approach Using Rankings](#current-approach-using-rankings)
+   - [Mathematical Arguments](#mathematical-arguments)
+   - [Mathematical Proof of Information Loss](#mathematical-proof-of-information-loss)
+   - [Recommended Approach](#recommended-approach)
+   - [Statistical Benefits of Direct Values](#statistical-benefits-of-direct-values)
+6. [Conclusion](#conclusion)
+
 ## Overview
 
 This document details the analysis of network centrality measures for the `article_1` network, focusing on the selection of optimal centrality measures and their combination methods.
