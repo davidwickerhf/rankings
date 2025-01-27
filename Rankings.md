@@ -98,6 +98,141 @@ The current ranking approach is statistically suboptimal for several reasons:
 
 3. **Scale Considerations**: The original centrality values operate on different scales but contain meaningful relative differences that are lost in ranking.
 
+## Mathematical Analysis of Ranking vs. Direct Values
+
+### Goal Definition
+
+We aim to create a composite metric `C(v)` for each node `v` that:
+
+1. Uses high-correlation metric `H(v)` for high values
+2. Uses low-correlation metric `L(v)` for low values
+3. Maximizes correlation with ground truth `G(v)`
+
+### Current Approach Using Rankings
+
+Given:
+
+- Original centrality values: `H(v)` and `L(v)`
+- Rankings of these values: `R_H(v)` and `R_L(v)`
+
+#### Implementation Methods
+
+1. **Threshold Method**:
+
+```python
+if R_H(v) > threshold:
+    C(v) = R_H(v)
+else:
+    C(v) = R_L(v)
+```
+
+2. **Weight Method**:
+
+```python
+C(v) = w * R_H(v) + (1-w) * R_L(v)
+```
+
+### Mathematical Arguments
+
+#### Arguments For Rankings
+
+1. **Normalization**:
+
+   - Rankings provide uniform scale [1, n]
+   - Makes combination mathematically straightforward
+   - Eliminates issues with different value ranges
+
+2. **Monotonic Transformation**:
+   - For Spearman correlation: `corr(rank(x), G) = corr(x, G)`
+   - Preserves ordinal relationships
+
+#### Arguments Against Rankings
+
+1. **Loss of Magnitude Information**:
+
+```
+Original values H: [0.001, 0.002, 0.1]
+Original values L: [0.001, 0.003, 0.004]
+Rankings both become: [3, 2, 1]
+```
+
+2. **Tie Handling Issues**:
+
+```python
+# With method='average'
+[0.001, 0.001, 0.002] → [1.5, 1.5, 3]
+```
+
+3. **Scale Distortion**:
+   - Small centrality differences → large rank differences
+   - Large centrality differences → small rank differences
+
+### Mathematical Proof of Information Loss
+
+Consider this example:
+
+1. **Original Values**:
+
+```
+H(v) = [0.1, 0.2, 0.8]
+L(v) = [0.15, 0.25, 0.3]
+```
+
+2. **Rankings**:
+
+```
+R_H(v) = [3, 2, 1]
+R_L(v) = [3, 2, 1]
+```
+
+3. **Weighted Combination**:
+   - With original values: `C(v) = w*H(v) + (1-w)*L(v)`
+   - Different weights produce different orderings:
+
+```
+w=0.7: [0.115, 0.215, 0.65]
+```
+
+4. **Ranked Combination**:
+   - `C_rank(v) = w*R_H(v) + (1-w)*R_L(v)`
+   - All weights produce same ordering:
+
+```
+Any w: [3, 2, 1]
+```
+
+### Recommended Approach
+
+Use original centrality values with:
+
+1. **Threshold Method**:
+
+```python
+C(v) = {
+    H(v)   if H(v) > threshold
+    L(v)   otherwise
+}
+```
+
+2. **Weight Method**:
+
+```python
+C(v) = w*H(v) + (1-w)*L(v)
+```
+
+### Statistical Benefits of Direct Values
+
+1. **Information Preservation**:
+
+   - Maintains relative differences between nodes
+   - Allows for more nuanced combinations
+   - Better reflects network structure
+
+2. **Statistical Validity**:
+   - Preserves original probability distributions
+   - Maintains actual magnitude of differences
+   - Enables more meaningful statistical analysis
+
 ## Conclusion
 
-The current ranking-based approach is demonstrably problematic, producing identical results across different combination methods. Working with raw centrality values would preserve more information and potentially lead to more meaningful distinctions between combination methods. This is particularly important given that our selected centrality measures (in-degree and relative in-degree) are inherently related and produce similar distributions.
+This mathematical analysis strongly supports the use of direct centrality values over rankings. The current implementation's identical results across different combination methods (correlation 0.42233110999129997) demonstrates the information loss inherent in the ranking approach. The recommended shift to direct value manipulation would preserve the subtle differences between measures and potentially lead to more meaningful distinctions between combination methods.
