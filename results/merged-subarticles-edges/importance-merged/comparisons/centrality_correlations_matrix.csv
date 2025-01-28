@@ -1,0 +1,14 @@
+Centrality,balanced-doctypebranch_full-balanced-doctypebranch,balanced-importance_full-balanced-importance,unbalanced_full-unbalanced
+betweenness_centrality,Doctypebranch: -0.6228 | Importance: -0.6699,Doctypebranch: -0.3754 | Importance: -0.4456,Doctypebranch: -0.3637 | Importance: -0.4434
+closeness_centrality,Doctypebranch: -0.6964 | Importance: -0.7197,Doctypebranch: -0.4107 | Importance: -0.5233,Doctypebranch: -0.4467 | Importance: -0.4432
+core_number,Doctypebranch: -0.6376 | Importance: -0.7146,Doctypebranch: -0.3955 | Importance: -0.4910,Doctypebranch: -0.2053 | Importance: -0.4781
+degree_centrality,Doctypebranch: -0.6394 | Importance: -0.7150,Doctypebranch: -0.4050 | Importance: -0.5059,Doctypebranch: -0.2228 | Importance: -0.4869
+disruption,Doctypebranch: 0.2808 | Importance: 0.2984,Doctypebranch: 0.1897 | Importance: 0.2189,Doctypebranch: 0.1609 | Importance: 0.2660
+eigenvector_centrality,Doctypebranch: -0.6948 | Importance: -0.7189,Doctypebranch: -0.4089 | Importance: -0.5232,Doctypebranch: -0.4464 | Importance: -0.4430
+harmonic_centrality,Doctypebranch: -0.6972 | Importance: -0.7208,Doctypebranch: -0.4135 | Importance: -0.5258,Doctypebranch: -0.4480 | Importance: -0.4477
+hits_authority,Doctypebranch: -0.6041 | Importance: -0.6263,Doctypebranch: -0.4168 | Importance: -0.4955,Doctypebranch: -0.4103 | Importance: -0.4136
+hits_hub,Doctypebranch: -0.4094 | Importance: -0.4850,Doctypebranch: -0.1899 | Importance: -0.2152,Doctypebranch: -0.0123 | Importance: -0.1959
+in_degree_centrality,Doctypebranch: -0.7074 | Importance: -0.7310,Doctypebranch: -0.4451 | Importance: -0.5477,Doctypebranch: -0.4462 | Importance: -0.4680
+out_degree_centrality,Doctypebranch: -0.4593 | Importance: -0.5456,Doctypebranch: -0.2430 | Importance: -0.2955,Doctypebranch: -0.0628 | Importance: -0.3495
+pagerank,Doctypebranch: -0.6985 | Importance: -0.7154,Doctypebranch: -0.4316 | Importance: -0.5456,Doctypebranch: -0.4411 | Importance: -0.4551
+relative_in_degree_centrality,Doctypebranch: -0.7074 | Importance: -0.7310,Doctypebranch: -0.4451 | Importance: -0.5477,Doctypebranch: -0.4462 | Importance: -0.4680

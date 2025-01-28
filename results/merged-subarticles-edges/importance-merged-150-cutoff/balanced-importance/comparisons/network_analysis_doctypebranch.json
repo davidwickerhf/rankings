@@ -1,0 +1,35 @@
+{
+    "centrality_counts": {
+        "high": {
+            "degree_centrality": 8,
+            "eigenvector_centrality": 1,
+            "in_degree_centrality": 6,
+            "harmonic_centrality": 1
+        },
+        "low": {
+            "in_degree_centrality": 3,
+            "harmonic_centrality": 1,
+            "pagerank": 2,
+            "core_number": 4,
+            "relative_in_degree_centrality": 6
+        },
+        "best_overall": {
+            "degree_centrality": 8,
+            "eigenvector_centrality": 1,
+            "in_degree_centrality": 6,
+            "harmonic_centrality": 1
+        }
+    },
+    "combination_counts": {
+        "degree_centrality+in_degree_centrality": 3,
+        "eigenvector_centrality+harmonic_centrality": 1,
+        "degree_centrality+pagerank": 1,
+        "degree_centrality+core_number": 4,
+        "in_degree_centrality+relative_in_degree_centrality": 6,
+        "harmonic_centrality+pagerank": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 0,
+        "best_combinations": []
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "failed_centralities": [
+        "current_flow_betweenness",
+        "current_flow_closeness",
+        "trophic_level"
+    ],
+    "network_stats": {
+        "num_nodes": 6450,
+        "num_edges": 6450,
+        "density": 0.0011920843445471386,
+        "average_degree": 15.375503875968992
+    },
+    "ground_truths": [
+        "importance",
+        "doctypebranch"
+    ],
+    "centralities": [
+        "degree_centrality",
+        "in_degree_centrality",
+        "out_degree_centrality",
+        "betweenness_centrality",
+        "closeness_centrality",
+        "core_number",
+        "relative_in_degree_centrality",
+        "eigenvector_centrality",
+        "pagerank",
+        "hits_hub",
+        "hits_authority",
+        "harmonic_centrality",
+        "disruption"
+    ],
+    "composite_functions": [
+        "weight_composite_ranking",
+        "threshold_composite_ranking"
+    ],
+    "centrality_correlations": {
+        "('degree_centrality', 'importance')": -0.5059358571331906,
+        "('degree_centrality', 'doctypebranch')": -0.40500635635261917,
+        "('in_degree_centrality', 'importance')": -0.5477217811737101,
+        "('in_degree_centrality', 'doctypebranch')": -0.4451297444240184,
+        "('out_degree_centrality', 'importance')": -0.29549375635916286,
+        "('out_degree_centrality', 'doctypebranch')": -0.24295633583079376,
+        "('betweenness_centrality', 'importance')": -0.44560101800874985,
+        "('betweenness_centrality', 'doctypebranch')": -0.37536147673326337,
+        "('closeness_centrality', 'importance')": -0.5232957557301594,
+        "('closeness_centrality', 'doctypebranch')": -0.41069272056464423,
+        "('core_number', 'importance')": -0.49098928403795694,
+        "('core_number', 'doctypebranch')": -0.3954708572076275,
+        "('relative_in_degree_centrality', 'importance')": -0.5477217811737101,
+        "('relative_in_degree_centrality', 'doctypebranch')": -0.4451297444240184,
+        "('eigenvector_centrality', 'importance')": -0.5231948690814162,
+        "('eigenvector_centrality', 'doctypebranch')": -0.40893998144393584,
+        "('pagerank', 'importance')": -0.5456217770770669,
+        "('pagerank', 'doctypebranch')": -0.4315885430817922,
+        "('hits_hub', 'importance')": -0.2152024360063659,
+        "('hits_hub', 'doctypebranch')": -0.18992700170449278,
+        "('hits_authority', 'importance')": -0.49548603172509326,
+        "('hits_authority', 'doctypebranch')": -0.41684631780626646,
+        "('harmonic_centrality', 'importance')": -0.5257754597662753,
+        "('harmonic_centrality', 'doctypebranch')": -0.41353973141186495,
+        "('disruption', 'importance')": 0.21889218356034562,
+        "('disruption', 'doctypebranch')": 0.1896852647166254
+    },
+    "ground_truth_analysis": {
+        "importance": {
+            "threshold": 1,
+            "weight": 1.0,
+            "correlations": {
+                "('degree_centrality', 'importance')": 0.5059358571331906,
+                "('degree_centrality', 'doctypebranch')": 0.40500635635261917,
+                "('in_degree_centrality', 'importance')": 0.5477217811737101,
+                "('in_degree_centrality', 'doctypebranch')": 0.4451297444240184,
+                "('out_degree_centrality', 'importance')": 0.29549375635916286,
+                "('out_degree_centrality', 'doctypebranch')": 0.24295633583079376,
+                "('betweenness_centrality', 'importance')": 0.4455771944948215,
+                "('betweenness_centrality', 'doctypebranch')": 0.37532851446168186,
+                "('closeness_centrality', 'importance')": 0.5232957557301594,
+                "('closeness_centrality', 'doctypebranch')": 0.41069272056464423,
+                "('core_number', 'importance')": 0.49098928403795694,
+                "('core_number', 'doctypebranch')": 0.3954708572076275,
+                "('relative_in_degree_centrality', 'importance')": 0.5477217811737101,
+                "('relative_in_degree_centrality', 'doctypebranch')": 0.4451297444240184,
+                "('eigenvector_centrality', 'importance')": 0.5231948690814162,
+                "('eigenvector_centrality', 'doctypebranch')": 0.40893998144393584,
+                "('pagerank', 'importance')": 0.5456217770770669,
+                "('pagerank', 'doctypebranch')": 0.4315885430817922,
+                "('hits_hub', 'importance')": 0.21823032009241436,
+                "('hits_hub', 'doctypebranch')": 0.18992980750888053,
+                "('hits_authority', 'importance')": 0.49558209729342173,
+                "('hits_authority', 'doctypebranch')": 0.41678319789413526,
+                "('harmonic_centrality', 'importance')": 0.5257754597662753,
+                "('harmonic_centrality', 'doctypebranch')": 0.41353973141186495,
+                "('disruption', 'importance')": 0.35578379663712945,
+                "('disruption', 'doctypebranch')": 0.2973522239729748,
+                "('composite_ranking_importance_weight_composite_ranking', 'importance')": 0.5477217811737101,
+                "('composite_ranking_importance_weight_composite_ranking', 'doctypebranch')": 0.4451297444240184,
+                "('composite_ranking_importance_threshold_composite_ranking', 'importance')": 0.5477217811737101,
+                "('composite_ranking_importance_threshold_composite_ranking', 'doctypebranch')": 0.4451297444240184,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'importance')": 0.5042903079838627,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'doctypebranch')": 0.40409931864683185,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'importance')": 0.5058525355146524,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'doctypebranch')": 0.4045745818330591
+            },
+            "best_centralities": {
+                "high": "in_degree_centrality",
+                "low": "relative_in_degree_centrality",
+                "overall": "in_degree_centrality"
+            },
+            "composite_rankings": {},
+            "composite_performance": {
+                "outperformed_count": 0,
+                "best_combinations": []
+            },
+            "optimal_weights": {},
+            "class_distribution": {
+                "3": 2150,
+                "2": 2150,
+                "1": 2150
+            },
+            "centrality_counts": {
+                "high": {
+                    "in_degree_centrality": 1
+                },
+                "low": {
+                    "relative_in_degree_centrality": 1
+                },
+                "best_overall": {
+                    "in_degree_centrality": 1
+                }
+            },
+            "combination_counts": {},
+            "network_performance": {}
+        },
+        "doctypebranch": {
+            "threshold": 99,
+            "weight": 87.0,
+            "correlations": {
+                "('degree_centrality', 'importance')": 0.5059358571331906,
+                "('degree_centrality', 'doctypebranch')": 0.40500635635261917,
+                "('in_degree_centrality', 'importance')": 0.5477217811737101,
+                "('in_degree_centrality', 'doctypebranch')": 0.4451297444240184,
+                "('out_degree_centrality', 'importance')": 0.29549375635916286,
+                "('out_degree_centrality', 'doctypebranch')": 0.24295633583079376,
+                "('betweenness_centrality', 'importance')": 0.4455771944948215,
+                "('betweenness_centrality', 'doctypebranch')": 0.37532851446168186,
+                "('closeness_centrality', 'importance')": 0.5232957557301594,
+                "('closeness_centrality', 'doctypebranch')": 0.41069272056464423,
+                "('core_number', 'importance')": 0.49098928403795694,
+                "('core_number', 'doctypebranch')": 0.3954708572076275,
+                "('relative_in_degree_centrality', 'importance')": 0.5477217811737101,
+                "('relative_in_degree_centrality', 'doctypebranch')": 0.4451297444240184,
+                "('eigenvector_centrality', 'importance')": 0.5231948690814162,
+                "('eigenvector_centrality', 'doctypebranch')": 0.40893998144393584,
+                "('pagerank', 'importance')": 0.5456217770770669,
+                "('pagerank', 'doctypebranch')": 0.4315885430817922,
+                "('hits_hub', 'importance')": 0.21823032009241436,
+                "('hits_hub', 'doctypebranch')": 0.18992980750888053,
+                "('hits_authority', 'importance')": 0.49558209729342173,
+                "('hits_authority', 'doctypebranch')": 0.41678319789413526,
+                "('harmonic_centrality', 'importance')": 0.5257754597662753,
+                "('harmonic_centrality', 'doctypebranch')": 0.41353973141186495,
+                "('disruption', 'importance')": 0.35578379663712945,
+                "('disruption', 'doctypebranch')": 0.2973522239729748,
+                "('composite_ranking_importance_weight_composite_ranking', 'importance')": 0.5477217811737101,
+                "('composite_ranking_importance_weight_composite_ranking', 'doctypebranch')": 0.4451297444240184,
+                "('composite_ranking_importance_threshold_composite_ranking', 'importance')": 0.5477217811737101,
+                "('composite_ranking_importance_threshold_composite_ranking', 'doctypebranch')": 0.4451297444240184,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'importance')": 0.5042903079838627,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'doctypebranch')": 0.40409931864683185,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'importance')": 0.5058525355146524,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'doctypebranch')": 0.4045745818330591
+            },
+            "best_centralities": {
+                "high": "in_degree_centrality",
+                "low": "relative_in_degree_centrality",
+                "overall": "in_degree_centrality"
+            },
+            "composite_rankings": {},
+            "composite_performance": {
+                "outperformed_count": 0,
+                "best_combinations": []
+            },
+            "optimal_weights": {},
+            "class_distribution": {
+                "2": 5227,
+                "3": 728,
+                "1": 495
+            },
+            "centrality_counts": {
+                "high": {
+                    "in_degree_centrality": 1
+                },
+                "low": {
+                    "relative_in_degree_centrality": 1
+                },
+                "best_overall": {
+                    "in_degree_centrality": 1
+                }
+            },
+            "combination_counts": {},
+            "network_performance": {}
+        }
+    }
+}

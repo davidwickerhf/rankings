@@ -1,0 +1,7 @@
+combination,times_selected
+in_degree_centrality+relative_in_degree_centrality,7
+hits_hub+eigenvector_centrality,1
+degree_centrality+core_number,4
+core_number+degree_centrality,2
+eigenvector_centrality+closeness_centrality,1
+degree_centrality+in_degree_centrality,1

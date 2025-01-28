@@ -1,0 +1,9 @@
+centrality,times_best_high,times_best_low,times_best_overall
+relative_in_degree_centrality,0,8,0
+degree_centrality,1,0,1
+core_number,0,1,0
+harmonic_centrality,0,1,0
+eigenvector_centrality,1,0,1
+pagerank,5,0,5
+in_degree_centrality,8,6,8
+closeness_centrality,1,0,1

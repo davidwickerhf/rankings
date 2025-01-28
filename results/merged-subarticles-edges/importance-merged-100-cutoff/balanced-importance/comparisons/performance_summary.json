@@ -1,0 +1,46 @@
+{
+    "importance": {
+        "best_performers": {
+            "high": {
+                "centrality": "in_degree_centrality",
+                "times_selected": 8
+            },
+            "low": {
+                "centrality": "relative_in_degree_centrality",
+                "times_selected": 8
+            },
+            "combination": {
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "times_selected": 8
+            }
+        },
+        "composite_performance": {
+            "outperformed_count": 0,
+            "best_combinations": []
+        }
+    },
+    "doctypebranch": {
+        "best_performers": {
+            "high": {
+                "centrality": "degree_centrality",
+                "times_selected": 10
+            },
+            "low": {
+                "centrality": "relative_in_degree_centrality",
+                "times_selected": 6
+            },
+            "combination": {
+                "combination": "in_degree_centrality+relative_in_degree_centrality",
+                "times_selected": 6
+            }
+        },
+        "composite_performance": {
+            "outperformed_count": 0,
+            "best_combinations": []
+        }
+    },
+    "overall_best_performer": {
+        "centrality": "in_degree_centrality",
+        "total_times_selected": 37
+    }
+}

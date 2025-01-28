@@ -1,0 +1,14 @@
+combination,times_selected
+degree_centrality+pagerank,2
+harmonic_centrality+closeness_centrality,2
+in_degree_centrality+relative_in_degree_centrality,7
+eigenvector_centrality+in_degree_centrality,2
+degree_centrality+core_number,3
+betweenness_centrality+hits_authority,1
+harmonic_centrality+eigenvector_centrality,2
+degree_centrality+in_degree_centrality,2
+betweenness_centrality+in_degree_centrality,1
+eigenvector_centrality+pagerank,1
+hits_hub+pagerank,1
+pagerank+closeness_centrality,1
+eigenvector_centrality+harmonic_centrality,1

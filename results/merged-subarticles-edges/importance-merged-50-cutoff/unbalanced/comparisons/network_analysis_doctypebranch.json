@@ -1,0 +1,51 @@
+{
+    "centrality_counts": {
+        "high": {
+            "degree_centrality": 7,
+            "harmonic_centrality": 4,
+            "in_degree_centrality": 7,
+            "eigenvector_centrality": 4,
+            "betweenness_centrality": 2,
+            "hits_hub": 1,
+            "pagerank": 1
+        },
+        "low": {
+            "pagerank": 4,
+            "closeness_centrality": 3,
+            "relative_in_degree_centrality": 7,
+            "in_degree_centrality": 5,
+            "core_number": 3,
+            "hits_authority": 1,
+            "eigenvector_centrality": 2,
+            "harmonic_centrality": 1
+        },
+        "best_overall": {
+            "degree_centrality": 7,
+            "harmonic_centrality": 4,
+            "in_degree_centrality": 7,
+            "eigenvector_centrality": 4,
+            "betweenness_centrality": 2,
+            "hits_hub": 1,
+            "pagerank": 1
+        }
+    },
+    "combination_counts": {
+        "degree_centrality+pagerank": 2,
+        "harmonic_centrality+closeness_centrality": 2,
+        "in_degree_centrality+relative_in_degree_centrality": 7,
+        "eigenvector_centrality+in_degree_centrality": 2,
+        "degree_centrality+core_number": 3,
+        "betweenness_centrality+hits_authority": 1,
+        "harmonic_centrality+eigenvector_centrality": 2,
+        "degree_centrality+in_degree_centrality": 2,
+        "betweenness_centrality+in_degree_centrality": 1,
+        "eigenvector_centrality+pagerank": 1,
+        "hits_hub+pagerank": 1,
+        "pagerank+closeness_centrality": 1,
+        "eigenvector_centrality+harmonic_centrality": 1
+    },
+    "composite_performance": {
+        "outperformed_count": 0,
+        "best_combinations": []
+    }
+}
