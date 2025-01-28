@@ -1,0 +1,2 @@
+Network,Initial Nodes,Valid Nodes,Removed Nodes,Total Edges,Connected Nodes,Non-Connected Nodes,Connected Components,Biggest Component Size,Density,Doctypebranch Distribution,Importance Distribution,Importance Pre-1998,Importance Post-1998
+full-balanced-doctypebranch,1542,1542,0,7472,1202,340,6,1192,0.00314449,"2: 514, 3: 514, 1: 514","3: 854, 1: 526, 2: 162","1: 41, 2: 12","3: 854, 1: 485, 2: 150"

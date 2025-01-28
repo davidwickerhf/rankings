@@ -1,0 +1,233 @@
+{
+    "failed_centralities": [
+        "current_flow_betweenness",
+        "current_flow_closeness",
+        "trophic_level"
+    ],
+    "network_stats": {
+        "num_nodes": 3990,
+        "num_edges": 3990,
+        "density": 0.0010123076555766453,
+        "average_degree": 8.076190476190476
+    },
+    "ground_truths": [
+        "importance",
+        "doctypebranch"
+    ],
+    "centralities": "                                    degree_centrality  in_degree_centrality  \\\nECLI:CE:ECHR:1971:0618JUD000283266           0.000000              0.000000   \nECLI:CE:ECHR:1976:0206JUD000561472           0.000000              0.000000   \nECLI:CE:ECHR:1978:0906JUD000502971           0.000251              0.000251   \nECLI:CE:ECHR:1979:1009JUD000628973           0.000000              0.000000   \nECLI:CE:ECHR:1981:0813JUD000760176           0.000000              0.000000   \n...                                               ...                   ...   \nECLI:CE:ECHR:2024:1212JUD003271523           0.000752              0.000000   \nECLI:CE:ECHR:2024:1212JUD003342623           0.000501              0.000000   \nECLI:CE:ECHR:2025:0109JUD005144815           0.003510              0.000000   \nECLI:CE:ECHR:2025:0107JUD003912719           0.000752              0.000000   \nECLI:CE:ECHR:2025:0107JUD001578321           0.003259              0.000000   \n\n                                    out_degree_centrality  \\\nECLI:CE:ECHR:1971:0618JUD000283266               0.000000   \nECLI:CE:ECHR:1976:0206JUD000561472               0.000000   \nECLI:CE:ECHR:1978:0906JUD000502971               0.000000   \nECLI:CE:ECHR:1979:1009JUD000628973               0.000000   \nECLI:CE:ECHR:1981:0813JUD000760176               0.000000   \n...                                                   ...   \nECLI:CE:ECHR:2024:1212JUD003271523               0.000752   \nECLI:CE:ECHR:2024:1212JUD003342623               0.000501   \nECLI:CE:ECHR:2025:0109JUD005144815               0.003510   \nECLI:CE:ECHR:2025:0107JUD003912719               0.000752   \nECLI:CE:ECHR:2025:0107JUD001578321               0.003259   \n\n                                    relative_in_degree_centrality  \\\nECLI:CE:ECHR:1971:0618JUD000283266                       0.000000   \nECLI:CE:ECHR:1976:0206JUD000561472                       0.000000   \nECLI:CE:ECHR:1978:0906JUD000502971                       0.000251   \nECLI:CE:ECHR:1979:1009JUD000628973                       0.000000   \nECLI:CE:ECHR:1981:0813JUD000760176                       0.000000   \n...                                                           ...   \nECLI:CE:ECHR:2024:1212JUD003271523                       0.000000   \nECLI:CE:ECHR:2024:1212JUD003342623                       0.000000   \nECLI:CE:ECHR:2025:0109JUD005144815                       0.000000   \nECLI:CE:ECHR:2025:0107JUD003912719                       0.000000   \nECLI:CE:ECHR:2025:0107JUD001578321                       0.000000   \n\n                                    core_number  betweenness_centrality  \\\nECLI:CE:ECHR:1971:0618JUD000283266            0                     0.0   \nECLI:CE:ECHR:1976:0206JUD000561472            0                     0.0   \nECLI:CE:ECHR:1978:0906JUD000502971            1                     0.0   \nECLI:CE:ECHR:1979:1009JUD000628973            0                     0.0   \nECLI:CE:ECHR:1981:0813JUD000760176            0                     0.0   \n...                                         ...                     ...   \nECLI:CE:ECHR:2024:1212JUD003271523            3                     0.0   \nECLI:CE:ECHR:2024:1212JUD003342623            2                     0.0   \nECLI:CE:ECHR:2025:0109JUD005144815           10                     0.0   \nECLI:CE:ECHR:2025:0107JUD003912719            2                     0.0   \nECLI:CE:ECHR:2025:0107JUD001578321            9                     0.0   \n\n                                    closeness_centrality  harmonic_centrality  \\\nECLI:CE:ECHR:1971:0618JUD000283266              0.000000                 0.00   \nECLI:CE:ECHR:1976:0206JUD000561472              0.000000                 0.00   \nECLI:CE:ECHR:1978:0906JUD000502971              0.005073                23.25   \nECLI:CE:ECHR:1979:1009JUD000628973              0.000000                 0.00   \nECLI:CE:ECHR:1981:0813JUD000760176              0.000000                 0.00   \n...                                                  ...                  ...   \nECLI:CE:ECHR:2024:1212JUD003271523              0.000000                 0.00   \nECLI:CE:ECHR:2024:1212JUD003342623              0.000000                 0.00   \nECLI:CE:ECHR:2025:0109JUD005144815              0.000000                 0.00   \nECLI:CE:ECHR:2025:0107JUD003912719              0.000000                 0.00   \nECLI:CE:ECHR:2025:0107JUD001578321              0.000000                 0.00   \n\n                                    current_flow_betweenness  \\\nECLI:CE:ECHR:1971:0618JUD000283266                       0.0   \nECLI:CE:ECHR:1976:0206JUD000561472                       0.0   \nECLI:CE:ECHR:1978:0906JUD000502971                       0.0   \nECLI:CE:ECHR:1979:1009JUD000628973                       0.0   \nECLI:CE:ECHR:1981:0813JUD000760176                       0.0   \n...                                                      ...   \nECLI:CE:ECHR:2024:1212JUD003271523                       0.0   \nECLI:CE:ECHR:2024:1212JUD003342623                       0.0   \nECLI:CE:ECHR:2025:0109JUD005144815                       0.0   \nECLI:CE:ECHR:2025:0107JUD003912719                       0.0   \nECLI:CE:ECHR:2025:0107JUD001578321                       0.0   \n\n                                    current_flow_closeness  \\\nECLI:CE:ECHR:1971:0618JUD000283266                     0.0   \nECLI:CE:ECHR:1976:0206JUD000561472                     0.0   \nECLI:CE:ECHR:1978:0906JUD000502971                     0.0   \nECLI:CE:ECHR:1979:1009JUD000628973                     0.0   \nECLI:CE:ECHR:1981:0813JUD000760176                     0.0   \n...                                                    ...   \nECLI:CE:ECHR:2024:1212JUD003271523                     0.0   \nECLI:CE:ECHR:2024:1212JUD003342623                     0.0   \nECLI:CE:ECHR:2025:0109JUD005144815                     0.0   \nECLI:CE:ECHR:2025:0107JUD003912719                     0.0   \nECLI:CE:ECHR:2025:0107JUD001578321                     0.0   \n\n                                    eigenvector_centrality  pagerank  \\\nECLI:CE:ECHR:1971:0618JUD000283266            1.572494e-24  0.000059   \nECLI:CE:ECHR:1976:0206JUD000561472            1.572494e-24  0.000059   \nECLI:CE:ECHR:1978:0906JUD000502971            2.583856e-13  0.000082   \nECLI:CE:ECHR:1979:1009JUD000628973            1.572494e-24  0.000059   \nECLI:CE:ECHR:1981:0813JUD000760176            1.572494e-24  0.000059   \n...                                                    ...       ...   \nECLI:CE:ECHR:2024:1212JUD003271523            1.572494e-24  0.000059   \nECLI:CE:ECHR:2024:1212JUD003342623            1.572494e-24  0.000059   \nECLI:CE:ECHR:2025:0109JUD005144815            1.572494e-24  0.000059   \nECLI:CE:ECHR:2025:0107JUD003912719            1.572494e-24  0.000059   \nECLI:CE:ECHR:2025:0107JUD001578321            1.572494e-24  0.000059   \n\n                                        hits_hub  hits_authority  \\\nECLI:CE:ECHR:1971:0618JUD000283266 -0.000000e+00   -0.000000e+00   \nECLI:CE:ECHR:1976:0206JUD000561472 -0.000000e+00   -1.269711e-19   \nECLI:CE:ECHR:1978:0906JUD000502971 -0.000000e+00    9.093354e-07   \nECLI:CE:ECHR:1979:1009JUD000628973 -0.000000e+00    1.015769e-18   \nECLI:CE:ECHR:1981:0813JUD000760176 -0.000000e+00    1.523654e-18   \n...                                          ...             ...   \nECLI:CE:ECHR:2024:1212JUD003271523  8.192265e-06    2.539423e-19   \nECLI:CE:ECHR:2024:1212JUD003342623  8.143482e-07    5.078845e-19   \nECLI:CE:ECHR:2025:0109JUD005144815  6.283641e-04   -0.000000e+00   \nECLI:CE:ECHR:2025:0107JUD003912719  2.258407e-06    2.539423e-19   \nECLI:CE:ECHR:2025:0107JUD001578321  8.750797e-05    5.078845e-19   \n\n                                    hits_combined  trophic_level  disruption  \\\nECLI:CE:ECHR:1971:0618JUD000283266  -0.000000e+00            0.0         0.0   \nECLI:CE:ECHR:1976:0206JUD000561472  -1.269711e-19            0.0         0.0   \nECLI:CE:ECHR:1978:0906JUD000502971   9.093354e-07            0.0         1.0   \nECLI:CE:ECHR:1979:1009JUD000628973   1.015769e-18            0.0         0.0   \nECLI:CE:ECHR:1981:0813JUD000760176   1.523654e-18            0.0         0.0   \n...                                           ...            ...         ...   \nECLI:CE:ECHR:2024:1212JUD003271523   8.192265e-06            0.0         0.0   \nECLI:CE:ECHR:2024:1212JUD003342623   8.143482e-07            0.0         0.0   \nECLI:CE:ECHR:2025:0109JUD005144815   6.283641e-04            0.0         0.0   \nECLI:CE:ECHR:2025:0107JUD003912719   2.258407e-06            0.0         0.0   \nECLI:CE:ECHR:2025:0107JUD001578321   8.750797e-05            0.0         0.0   \n\n                                                                  ecli  \nECLI:CE:ECHR:1971:0618JUD000283266  ECLI:CE:ECHR:1971:0618JUD000283266  \nECLI:CE:ECHR:1976:0206JUD000561472  ECLI:CE:ECHR:1976:0206JUD000561472  \nECLI:CE:ECHR:1978:0906JUD000502971  ECLI:CE:ECHR:1978:0906JUD000502971  \nECLI:CE:ECHR:1979:1009JUD000628973  ECLI:CE:ECHR:1979:1009JUD000628973  \nECLI:CE:ECHR:1981:0813JUD000760176  ECLI:CE:ECHR:1981:0813JUD000760176  \n...                                                                ...  \nECLI:CE:ECHR:2024:1212JUD003271523  ECLI:CE:ECHR:2024:1212JUD003271523  \nECLI:CE:ECHR:2024:1212JUD003342623  ECLI:CE:ECHR:2024:1212JUD003342623  \nECLI:CE:ECHR:2025:0109JUD005144815  ECLI:CE:ECHR:2025:0109JUD005144815  \nECLI:CE:ECHR:2025:0107JUD003912719  ECLI:CE:ECHR:2025:0107JUD003912719  \nECLI:CE:ECHR:2025:0107JUD001578321  ECLI:CE:ECHR:2025:0107JUD001578321  \n\n[3990 rows x 18 columns]",
+    "composite_functions": [
+        "weight_composite_ranking",
+        "threshold_composite_ranking"
+    ],
+    "centrality_correlations": {
+        "('degree_centrality', 'importance')": -0.38307285261255486,
+        "('degree_centrality', 'doctypebranch')": -0.3570151877053467,
+        "('in_degree_centrality', 'importance')": -0.44405433172737657,
+        "('in_degree_centrality', 'doctypebranch')": -0.4707517790367835,
+        "('out_degree_centrality', 'importance')": -0.2400540116630453,
+        "('out_degree_centrality', 'doctypebranch')": -0.20315909078366268,
+        "('betweenness_centrality', 'importance')": -0.4397696556062527,
+        "('betweenness_centrality', 'doctypebranch')": -0.4146307622069414,
+        "('closeness_centrality', 'importance')": -0.44125545137047356,
+        "('closeness_centrality', 'doctypebranch')": -0.46773029604501004,
+        "('core_number', 'importance')": -0.35563134448134204,
+        "('core_number', 'doctypebranch')": -0.3338796018421112,
+        "('relative_in_degree_centrality', 'importance')": -0.44405433172737657,
+        "('relative_in_degree_centrality', 'doctypebranch')": -0.4707517790367835,
+        "('eigenvector_centrality', 'importance')": -0.4476623983973434,
+        "('eigenvector_centrality', 'doctypebranch')": -0.4701670036815649,
+        "('pagerank', 'importance')": -0.44161963028448664,
+        "('pagerank', 'doctypebranch')": -0.4656107809222374,
+        "('hits_hub', 'importance')": -0.20506897847263697,
+        "('hits_hub', 'doctypebranch')": -0.2524056071206832,
+        "('hits_authority', 'importance')": -0.36439359817732675,
+        "('hits_authority', 'doctypebranch')": -0.3942872768748402,
+        "('harmonic_centrality', 'importance')": -0.44202637796211064,
+        "('harmonic_centrality', 'doctypebranch')": -0.46801395309736277,
+        "('disruption', 'importance')": 0.14186564109496158,
+        "('disruption', 'doctypebranch')": 0.11508558094374247
+    },
+    "ground_truth_analysis": {
+        "importance": {
+            "threshold": 99,
+            "weight": 57.00000000000001,
+            "correlations": {
+                "('degree_centrality', 'importance')": 0.38307285261255486,
+                "('degree_centrality', 'doctypebranch')": 0.3570151877053467,
+                "('in_degree_centrality', 'importance')": 0.44405433172737657,
+                "('in_degree_centrality', 'doctypebranch')": 0.4707517790367835,
+                "('out_degree_centrality', 'importance')": 0.2400540116630453,
+                "('out_degree_centrality', 'doctypebranch')": 0.20315909078366268,
+                "('betweenness_centrality', 'importance')": 0.4400338097856103,
+                "('betweenness_centrality', 'doctypebranch')": 0.41438895441430895,
+                "('closeness_centrality', 'importance')": 0.44125545137047356,
+                "('closeness_centrality', 'doctypebranch')": 0.46773029604501004,
+                "('core_number', 'importance')": 0.35563134448134204,
+                "('core_number', 'doctypebranch')": 0.3338796018421112,
+                "('relative_in_degree_centrality', 'importance')": 0.44405433172737657,
+                "('relative_in_degree_centrality', 'doctypebranch')": 0.4707517790367835,
+                "('eigenvector_centrality', 'importance')": 0.4476623983973434,
+                "('eigenvector_centrality', 'doctypebranch')": 0.4701670036815649,
+                "('pagerank', 'importance')": 0.44161963028448664,
+                "('pagerank', 'doctypebranch')": 0.4656107809222374,
+                "('hits_hub', 'importance')": 0.20496054910518446,
+                "('hits_hub', 'doctypebranch')": 0.2517475186431345,
+                "('hits_authority', 'importance')": 0.35680347218050207,
+                "('hits_authority', 'doctypebranch')": 0.38870563817103154,
+                "('harmonic_centrality', 'importance')": 0.44202637796211064,
+                "('harmonic_centrality', 'doctypebranch')": 0.46801395309736277,
+                "('disruption', 'importance')": 0.3414889879291157,
+                "('disruption', 'doctypebranch')": 0.43478222928844595,
+                "('composite_ranking_importance_weight_composite_ranking', 'importance')": 0.4523694168404047,
+                "('composite_ranking_importance_weight_composite_ranking', 'doctypebranch')": 0.4734074211791572,
+                "('composite_ranking_importance_threshold_composite_ranking', 'importance')": 0.4452752170631566,
+                "('composite_ranking_importance_threshold_composite_ranking', 'doctypebranch')": 0.4662490330612982,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'importance')": 0.4504777994568969,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'doctypebranch')": 0.4706485656769908,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'importance')": 0.4475901901366138,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'doctypebranch')": 0.470259682614882
+            },
+            "best_centralities": {
+                "high": "eigenvector_centrality",
+                "low": "in_degree_centrality",
+                "overall": "eigenvector_centrality"
+            },
+            "composite_rankings": {},
+            "composite_performance": {
+                "outperformed_count": 0,
+                "best_combinations": []
+            },
+            "optimal_weights": {},
+            "class_distribution": {
+                "3": 2917,
+                "2": 693,
+                "1": 380
+            },
+            "centrality_counts": {
+                "high": {
+                    "eigenvector_centrality": 1
+                },
+                "low": {
+                    "in_degree_centrality": 1
+                },
+                "best_overall": {
+                    "eigenvector_centrality": 1
+                }
+            },
+            "combination_counts": {},
+            "network_performance": {
+                "article_13": {
+                    "high": "eigenvector_centrality",
+                    "low": "in_degree_centrality",
+                    "best_overall": "eigenvector_centrality",
+                    "correlations": {
+                        "degree_centrality": 0.38307285261255486,
+                        "in_degree_centrality": 0.44405433172737657,
+                        "out_degree_centrality": 0.2400540116630453,
+                        "betweenness_centrality": 0.4397696556062527,
+                        "closeness_centrality": 0.44125545137047356,
+                        "core_number": 0.35563134448134204,
+                        "relative_in_degree_centrality": 0.44405433172737657,
+                        "eigenvector_centrality": 0.4476623983973434,
+                        "pagerank": 0.44161963028448664,
+                        "hits_hub": 0.20506897847263697,
+                        "hits_authority": 0.36439359817732675,
+                        "harmonic_centrality": 0.44202637796211064,
+                        "disruption": 0.14186564109496158
+                    }
+                }
+            }
+        },
+        "doctypebranch": {
+            "threshold": 99,
+            "weight": 80.0,
+            "correlations": {
+                "('degree_centrality', 'importance')": 0.38307285261255486,
+                "('degree_centrality', 'doctypebranch')": 0.3570151877053467,
+                "('in_degree_centrality', 'importance')": 0.44405433172737657,
+                "('in_degree_centrality', 'doctypebranch')": 0.4707517790367835,
+                "('out_degree_centrality', 'importance')": 0.2400540116630453,
+                "('out_degree_centrality', 'doctypebranch')": 0.20315909078366268,
+                "('betweenness_centrality', 'importance')": 0.4400338097856103,
+                "('betweenness_centrality', 'doctypebranch')": 0.41438895441430895,
+                "('closeness_centrality', 'importance')": 0.44125545137047356,
+                "('closeness_centrality', 'doctypebranch')": 0.46773029604501004,
+                "('core_number', 'importance')": 0.35563134448134204,
+                "('core_number', 'doctypebranch')": 0.3338796018421112,
+                "('relative_in_degree_centrality', 'importance')": 0.44405433172737657,
+                "('relative_in_degree_centrality', 'doctypebranch')": 0.4707517790367835,
+                "('eigenvector_centrality', 'importance')": 0.4476623983973434,
+                "('eigenvector_centrality', 'doctypebranch')": 0.4701670036815649,
+                "('pagerank', 'importance')": 0.44161963028448664,
+                "('pagerank', 'doctypebranch')": 0.4656107809222374,
+                "('hits_hub', 'importance')": 0.20496054910518446,
+                "('hits_hub', 'doctypebranch')": 0.2517475186431345,
+                "('hits_authority', 'importance')": 0.35680347218050207,
+                "('hits_authority', 'doctypebranch')": 0.38870563817103154,
+                "('harmonic_centrality', 'importance')": 0.44202637796211064,
+                "('harmonic_centrality', 'doctypebranch')": 0.46801395309736277,
+                "('disruption', 'importance')": 0.3414889879291157,
+                "('disruption', 'doctypebranch')": 0.43478222928844595,
+                "('composite_ranking_importance_weight_composite_ranking', 'importance')": 0.4523694168404047,
+                "('composite_ranking_importance_weight_composite_ranking', 'doctypebranch')": 0.4734074211791572,
+                "('composite_ranking_importance_threshold_composite_ranking', 'importance')": 0.4452752170631566,
+                "('composite_ranking_importance_threshold_composite_ranking', 'doctypebranch')": 0.4662490330612982,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'importance')": 0.4504777994568969,
+                "('composite_ranking_doctypebranch_weight_composite_ranking', 'doctypebranch')": 0.4706485656769908,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'importance')": 0.4475901901366138,
+                "('composite_ranking_doctypebranch_threshold_composite_ranking', 'doctypebranch')": 0.470259682614882
+            },
+            "best_centralities": {
+                "high": "in_degree_centrality",
+                "low": "relative_in_degree_centrality",
+                "overall": "in_degree_centrality"
+            },
+            "composite_rankings": {},
+            "composite_performance": {
+                "outperformed_count": 0,
+                "best_combinations": []
+            },
+            "optimal_weights": {},
+            "class_distribution": {
+                "2": 2527,
+                "3": 1394,
+                "1": 69
+            },
+            "centrality_counts": {
+                "high": {
+                    "in_degree_centrality": 1
+                },
+                "low": {
+                    "relative_in_degree_centrality": 1
+                },
+                "best_overall": {
+                    "in_degree_centrality": 1
+                }
+            },
+            "combination_counts": {},
+            "network_performance": {
+                "article_13": {
+                    "high": "in_degree_centrality",
+                    "low": "relative_in_degree_centrality",
+                    "best_overall": "in_degree_centrality",
+                    "correlations": {
+                        "degree_centrality": 0.3570151877053467,
+                        "in_degree_centrality": 0.4707517790367835,
+                        "out_degree_centrality": 0.20315909078366268,
+                        "betweenness_centrality": 0.4146307622069414,
+                        "closeness_centrality": 0.46773029604501004,
+                        "core_number": 0.3338796018421112,
+                        "relative_in_degree_centrality": 0.4707517790367835,
+                        "eigenvector_centrality": 0.4701670036815649,
+                        "pagerank": 0.4656107809222374,
+                        "hits_hub": 0.2524056071206832,
+                        "hits_authority": 0.3942872768748402,
+                        "harmonic_centrality": 0.46801395309736277,
+                        "disruption": 0.11508558094374247
+                    }
+                }
+            }
+        }
+    },
+    "dataframe": "                                    ecli  \\\n0     ECLI:CE:ECHR:1971:0618JUD000283266   \n1     ECLI:CE:ECHR:1976:0206JUD000561472   \n2     ECLI:CE:ECHR:1978:0906JUD000502971   \n3     ECLI:CE:ECHR:1979:1009JUD000628973   \n4     ECLI:CE:ECHR:1981:0813JUD000760176   \n...                                  ...   \n3985  ECLI:CE:ECHR:2024:1212JUD003271523   \n3986  ECLI:CE:ECHR:2024:1212JUD003342623   \n3987  ECLI:CE:ECHR:2025:0109JUD005144815   \n3988  ECLI:CE:ECHR:2025:0107JUD003912719   \n3989  ECLI:CE:ECHR:2025:0107JUD001578321   \n\n                                                  appno respondent  \\\n0                               2832/66;2835/66;2899/66        BEL   \n1                                               5614/72        SWE   \n2                                               5029/71        DEU   \n3                                               6289/73        IRL   \n4                                       7601/76;7806/77        GBR   \n...                                                 ...        ...   \n3985  32715/23;34303/23;39973/23;42063/23;284/24;147...        UKR   \n3986         33426/23;1790/24;9383/24;11075/24;11176/24        UKR   \n3987                                           51448/15        ARM   \n3988                                           39127/19        BGR   \n3989                                           15783/21        GRC   \n\n     languageisocode                representedby  \\\n0                ENG                         None   \n1                ENG                         None   \n2                ENG                         None   \n3                ENG                         None   \n4                ENG                         None   \n...              ...                          ...   \n3985             ENG   Rybiy, Sergiy Mykolayovych   \n3986             ENG  Dzyubenko, Sergiy Petrovych   \n3987             ENG               Zalyan, Arayik   \n3988             ENG   Ekimdzhiev, Mihail Tiholov   \n3989             ENG              Papamina, Maria   \n\n                         violation  \\\n0                            5;5-4   \n1                             None   \n2                             None   \n3                          6;6-1;8   \n4                               11   \n...                            ...   \n3985  3;13;13+3;5;5-3;6;6-1;13+6-1   \n3986               6;6-1;13;13+6-1   \n3987                 2;2-1;13;13+2   \n3988               6;6-2;13;13+6-2   \n3989       3;13;13+3;5;5-1;5-2;5-4   \n\n                                                docname  separateopinion  \\\n0          CASE OF DE WILDE, OOMS AND VERSYP v. BELGIUM             True   \n1       CASE OF SWEDISH ENGINE DRIVERS' UNION v. SWEDEN            False   \n2                   CASE OF KLASS AND OTHERS v. GERMANY             True   \n3                              CASE OF AIREY v. IRELAND             True   \n4     CASE OF YOUNG, JAMES AND WEBSTER v. THE UNITED...             True   \n...                                                 ...              ...   \n3985               CASE OF DYUMIN AND OTHERS v. UKRAINE            False   \n3986            CASE OF SEMENENKO AND OTHERS v. UKRAINE            False   \n3987                       CASE OF PETROSYAN v. ARMENIA            False   \n3988                       CASE OF YONCHEVA v. BULGARIA            False   \n3989                           CASE OF A.R.E. v. GREECE             True   \n\n            judgementdate                                                scl  \\\n0     18/06/1971 00:00:00  Belgian linguistic case judgment of 9 February...   \n1     06/02/1976 00:00:00  National Union of Belgian Police judgment of 2...   \n2     06/09/1978 00:00:00  Belgian linguistic case judgment of 9 February...   \n3     09/10/1979 00:00:00  Klass and Others judgment of 6 September 1978,...   \n4     13/08/1981 00:00:00  National Union of Belgian Police judgment of 2...   \n...                   ...                                                ...   \n3985  12/12/2024 00:00:00                                               None   \n3986  12/12/2024 00:00:00                                               None   \n3987  09/01/2025 00:00:00  Al-Skeini and Others v. the United Kingdom [GC...   \n3988  07/01/2025 00:00:00  Allenet de Ribemont v. France, 10 February 199...   \n3989  07/01/2025 00:00:00  A.A. and Others v. North Macedonia, nos. 55798...   \n\n      ... correlation_disruption_importance  \\\n0     ...                          0.341489   \n1     ...                          0.341489   \n2     ...                          0.341489   \n3     ...                          0.341489   \n4     ...                          0.341489   \n...   ...                               ...   \n3985  ...                          0.341489   \n3986  ...                          0.341489   \n3987  ...                          0.341489   \n3988  ...                          0.341489   \n3989  ...                          0.341489   \n\n      correlation_disruption_doctypebranch  \\\n0                                 0.434782   \n1                                 0.434782   \n2                                 0.434782   \n3                                 0.434782   \n4                                 0.434782   \n...                                    ...   \n3985                              0.434782   \n3986                              0.434782   \n3987                              0.434782   \n3988                              0.434782   \n3989                              0.434782   \n\n     correlation_composite_ranking_importance_weight_composite_ranking_importance  \\\n0                                              0.452369                             \n1                                              0.452369                             \n2                                              0.452369                             \n3                                              0.452369                             \n4                                              0.452369                             \n...                                                 ...                             \n3985                                           0.452369                             \n3986                                           0.452369                             \n3987                                           0.452369                             \n3988                                           0.452369                             \n3989                                           0.452369                             \n\n     correlation_composite_ranking_importance_weight_composite_ranking_doctypebranch  \\\n0                                              0.473407                                \n1                                              0.473407                                \n2                                              0.473407                                \n3                                              0.473407                                \n4                                              0.473407                                \n...                                                 ...                                \n3985                                           0.473407                                \n3986                                           0.473407                                \n3987                                           0.473407                                \n3988                                           0.473407                                \n3989                                           0.473407                                \n\n      correlation_composite_ranking_importance_threshold_composite_ranking_importance  \\\n0                                              0.445275                                 \n1                                              0.445275                                 \n2                                              0.445275                                 \n3                                              0.445275                                 \n4                                              0.445275                                 \n...                                                 ...                                 \n3985                                           0.445275                                 \n3986                                           0.445275                                 \n3987                                           0.445275                                 \n3988                                           0.445275                                 \n3989                                           0.445275                                 \n\n     correlation_composite_ranking_importance_threshold_composite_ranking_doctypebranch  \\\n0                                              0.466249                                   \n1                                              0.466249                                   \n2                                              0.466249                                   \n3                                              0.466249                                   \n4                                              0.466249                                   \n...                                                 ...                                   \n3985                                           0.466249                                   \n3986                                           0.466249                                   \n3987                                           0.466249                                   \n3988                                           0.466249                                   \n3989                                           0.466249                                   \n\n     correlation_composite_ranking_doctypebranch_weight_composite_ranking_importance  \\\n0                                              0.450478                                \n1                                              0.450478                                \n2                                              0.450478                                \n3                                              0.450478                                \n4                                              0.450478                                \n...                                                 ...                                \n3985                                           0.450478                                \n3986                                           0.450478                                \n3987                                           0.450478                                \n3988                                           0.450478                                \n3989                                           0.450478                                \n\n     correlation_composite_ranking_doctypebranch_weight_composite_ranking_doctypebranch  \\\n0                                              0.470649                                   \n1                                              0.470649                                   \n2                                              0.470649                                   \n3                                              0.470649                                   \n4                                              0.470649                                   \n...                                                 ...                                   \n3985                                           0.470649                                   \n3986                                           0.470649                                   \n3987                                           0.470649                                   \n3988                                           0.470649                                   \n3989                                           0.470649                                   \n\n     correlation_composite_ranking_doctypebranch_threshold_composite_ranking_importance  \\\n0                                               0.44759                                   \n1                                               0.44759                                   \n2                                               0.44759                                   \n3                                               0.44759                                   \n4                                               0.44759                                   \n...                                                 ...                                   \n3985                                            0.44759                                   \n3986                                            0.44759                                   \n3987                                            0.44759                                   \n3988                                            0.44759                                   \n3989                                            0.44759                                   \n\n     correlation_composite_ranking_doctypebranch_threshold_composite_ranking_doctypebranch  \n0                                               0.47026                                     \n1                                               0.47026                                     \n2                                               0.47026                                     \n3                                               0.47026                                     \n4                                               0.47026                                     \n...                                                 ...                                     \n3985                                            0.47026                                     \n3986                                            0.47026                                     \n3987                                            0.47026                                     \n3988                                            0.47026                                     \n3989                                            0.47026                                     \n\n[3990 rows x 82 columns]"
+}
