@@ -1,0 +1,2 @@
+Network,Initial Nodes,Valid Nodes,Removed Nodes,Total Edges,Connected Nodes,Non-Connected Nodes,Connected Components,Biggest Component Size,Density,Doctypebranch Distribution,Importance Distribution,Importance Pre-1998,Importance Post-1998
+full-unbalanced,27801,27801,0,232002,23306,4495,25,23252,0.00030018,"2: 20717, 3: 6570, 1: 514","3: 19895, 2: 5756, 1: 2150","1: 420, 2: 238, 3: 179","3: 19716, 2: 5518, 1: 1730"
