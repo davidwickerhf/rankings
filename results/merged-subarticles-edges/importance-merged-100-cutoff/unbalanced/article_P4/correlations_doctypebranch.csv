@@ -19,8 +19,8 @@ Correlation,Centrality,Ground Truth
 0.39556453636819366,pagerank,doctypebranch
 0.2023996620789473,hits_hub,importance
 0.11600761671987858,hits_hub,doctypebranch
-0.35602259516664236,hits_authority,importance
-0.30525495932249586,hits_authority,doctypebranch
+0.35606626160752336,hits_authority,importance
+0.3053301325059109,hits_authority,doctypebranch
 0.4466264883031027,harmonic_centrality,importance
 0.3928780069456613,harmonic_centrality,doctypebranch
 0.39459542992689384,disruption,importance
