@@ -1,3 +1,14 @@
+# Networks Directory
+
+This directory contains all network data structures and processed network files for the ECHR centrality analysis.
+
+## Recent Updates (December 2024)
+
+- **Network Processing**: Completed processing of all article-specific networks
+- **Balancing Implementation**: Applied importance and doctype branch balancing across all networks
+- **Edge Refactoring**: Standardized edge format for consistent analysis
+- **Network Validation**: Quality checks and validation of network structures
+
 ## Data Files
 
 To perform the analysis in the `rankings.ipynb` notebook, you need to upload your node and edge data files into this folder. Ensure that the files are in JSON format and follow the required structure for proper loading and processing in the notebook.

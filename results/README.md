@@ -2,6 +2,13 @@ Here's a comprehensive README for the `/results` folder:
 
 # Results Directory Documentation
 
+## Recent Updates (December 2024)
+
+- **Composite Rankings**: Implemented weighted and threshold-based composite ranking systems
+- **Network Analysis**: Completed analysis across all article-specific networks
+- **Correlation Analysis**: Comprehensive correlation analysis between centrality measures and ground truth labels
+- **Performance Metrics**: Best performer identification across different network configurations
+
 ## Directory Structure
 
 ```

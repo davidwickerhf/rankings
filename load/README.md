@@ -1,4 +1,15 @@
-# Analysis of Missing References in ECHR Case Law
+# Load Directory
+
+This directory contains the data loading, processing, and network construction pipeline for the ECHR centrality analysis.
+
+## Recent Updates (December 2024)
+
+- **Data Pipeline**: Streamlined ECHR data ingestion and processing
+- **Network Construction**: Optimized network building from citation data
+- **Quality Control**: Enhanced data validation and error handling
+- **Performance**: Improved processing speed for large datasets
+
+## Analysis of Missing References in ECHR Case Law
 
 ## Overview
 
