@@ -7,7 +7,7 @@
             },
             "low": {
                 "centrality": "in_degree_centrality",
-                "times_selected": 10
+                "times_selected": 9
             },
             "combination": {
                 "combination": "degree_centrality+core_number",
@@ -23,15 +23,15 @@
         "best_performers": {
             "high": {
                 "centrality": "in_degree_centrality",
-                "times_selected": 7
+                "times_selected": 6
             },
             "low": {
-                "centrality": "relative_in_degree_centrality",
-                "times_selected": 7
+                "centrality": "pagerank",
+                "times_selected": 4
             },
             "combination": {
-                "combination": "in_degree_centrality+relative_in_degree_centrality",
-                "times_selected": 7
+                "combination": "degree_centrality+core_number",
+                "times_selected": 3
             }
         },
         "composite_performance": {
@@ -41,6 +41,6 @@
     },
     "overall_best_performer": {
         "centrality": "in_degree_centrality",
-        "total_times_selected": 35
+        "total_times_selected": 30
     }
 }

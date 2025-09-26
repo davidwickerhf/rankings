@@ -37,24 +37,28 @@
         "high_performers": {
             "harmonic_centrality": 1,
             "in_degree_centrality": 2,
-            "closeness_centrality": 0,
-            "relative_in_degree_centrality": 0
+            "relative_in_degree_centrality": 0,
+            "pagerank": 0,
+            "closeness_centrality": 0
         },
         "low_performers": {
             "closeness_centrality": 1,
-            "relative_in_degree_centrality": 2,
-            "in_degree_centrality": 0,
-            "harmonic_centrality": 0
+            "relative_in_degree_centrality": 1,
+            "pagerank": 1,
+            "harmonic_centrality": 0,
+            "in_degree_centrality": 0
         },
         "best_overall": {
             "harmonic_centrality": 1,
             "in_degree_centrality": 2,
-            "closeness_centrality": 0,
-            "relative_in_degree_centrality": 0
+            "relative_in_degree_centrality": 0,
+            "pagerank": 0,
+            "closeness_centrality": 0
         },
         "combinations": {
             "harmonic_centrality+closeness_centrality": 1,
-            "in_degree_centrality+relative_in_degree_centrality": 2
+            "in_degree_centrality+relative_in_degree_centrality": 1,
+            "in_degree_centrality+pagerank": 1
         },
         "composite_performance": {
             "outperformed_count": 0,
@@ -62,18 +66,18 @@
         },
         "best_performers": {
             "high": "in_degree_centrality",
-            "low": "relative_in_degree_centrality",
+            "low": "closeness_centrality",
             "overall": "in_degree_centrality",
-            "combination": "in_degree_centrality+relative_in_degree_centrality"
+            "combination": "harmonic_centrality+closeness_centrality"
         }
     },
     "total_counts": {
         "degree_centrality": 4,
-        "pagerank": 2,
+        "pagerank": 3,
         "in_degree_centrality": 5,
         "core_number": 2,
         "harmonic_centrality": 2,
-        "closeness_centrality": 1,
-        "relative_in_degree_centrality": 2
+        "relative_in_degree_centrality": 1,
+        "closeness_centrality": 1
     }
 }

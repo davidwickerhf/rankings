@@ -6,9 +6,9 @@ degree_centrality,Doctypebranch: -0.2228 | Importance: -0.4869
 disruption,Doctypebranch: 0.1609 | Importance: 0.2660
 eigenvector_centrality,Doctypebranch: -0.4464 | Importance: -0.4430
 harmonic_centrality,Doctypebranch: -0.4480 | Importance: -0.4477
-hits_authority,Doctypebranch: -0.4162 | Importance: -0.4177
-hits_hub,Doctypebranch: -0.0120 | Importance: -0.1954
+hits_authority,Doctypebranch: -0.4112 | Importance: -0.4181
+hits_hub,Doctypebranch: -0.0121 | Importance: -0.1953
 in_degree_centrality,Doctypebranch: -0.4462 | Importance: -0.4680
 out_degree_centrality,Doctypebranch: -0.0628 | Importance: -0.3495
 pagerank,Doctypebranch: -0.4411 | Importance: -0.4551
-relative_in_degree_centrality,Doctypebranch: -0.4462 | Importance: -0.4680
+relative_in_degree_centrality,Doctypebranch: -0.4262 | Importance: -0.4640

@@ -26,12 +26,12 @@
                 "times_selected": 2
             },
             "low": {
-                "centrality": "relative_in_degree_centrality",
-                "times_selected": 2
+                "centrality": "closeness_centrality",
+                "times_selected": 1
             },
             "combination": {
-                "combination": "in_degree_centrality+relative_in_degree_centrality",
-                "times_selected": 2
+                "combination": "harmonic_centrality+closeness_centrality",
+                "times_selected": 1
             }
         },
         "composite_performance": {

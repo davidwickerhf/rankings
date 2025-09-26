@@ -6,9 +6,9 @@ degree_centrality,Doctypebranch: -0.6272 | Importance: -0.7011,Doctypebranch: -0
 disruption,Doctypebranch: 0.3743 | Importance: 0.3999,Doctypebranch: 0.2145 | Importance: 0.2153,Doctypebranch: 0.1609 | Importance: 0.2660
 eigenvector_centrality,Doctypebranch: -0.6812 | Importance: -0.6611,Doctypebranch: -0.4215 | Importance: -0.4899,Doctypebranch: -0.4464 | Importance: -0.4430
 harmonic_centrality,Doctypebranch: -0.6849 | Importance: -0.6655,Doctypebranch: -0.4262 | Importance: -0.4940,Doctypebranch: -0.4480 | Importance: -0.4477
-hits_authority,Doctypebranch: -0.6604 | Importance: -0.6470,Doctypebranch: -0.4434 | Importance: -0.4753,Doctypebranch: -0.4162 | Importance: -0.4177
-hits_hub,Doctypebranch: -0.2133 | Importance: -0.2796,Doctypebranch: -0.0986 | Importance: -0.1091,Doctypebranch: -0.0120 | Importance: -0.1954
+hits_authority,Doctypebranch: -0.6516 | Importance: -0.6451,Doctypebranch: -0.4393 | Importance: -0.4730,Doctypebranch: -0.4112 | Importance: -0.4181
+hits_hub,Doctypebranch: -0.2138 | Importance: -0.2803,Doctypebranch: -0.0986 | Importance: -0.1087,Doctypebranch: -0.0121 | Importance: -0.1953
 in_degree_centrality,Doctypebranch: -0.6999 | Importance: -0.6921,Doctypebranch: -0.4529 | Importance: -0.5042,Doctypebranch: -0.4462 | Importance: -0.4680
 out_degree_centrality,Doctypebranch: -0.3321 | Importance: -0.4339,Doctypebranch: -0.1890 | Importance: -0.2163,Doctypebranch: -0.0628 | Importance: -0.3495
 pagerank,Doctypebranch: -0.6984 | Importance: -0.6833,Doctypebranch: -0.4398 | Importance: -0.5161,Doctypebranch: -0.4411 | Importance: -0.4551
-relative_in_degree_centrality,Doctypebranch: -0.6999 | Importance: -0.6921,Doctypebranch: -0.4529 | Importance: -0.5042,Doctypebranch: -0.4462 | Importance: -0.4680
+relative_in_degree_centrality,Doctypebranch: -0.6837 | Importance: -0.6825,Doctypebranch: -0.4430 | Importance: -0.4714,Doctypebranch: -0.4262 | Importance: -0.4640

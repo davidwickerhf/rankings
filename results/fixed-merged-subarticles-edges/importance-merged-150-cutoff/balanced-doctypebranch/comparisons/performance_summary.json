@@ -7,7 +7,7 @@
             },
             "low": {
                 "centrality": "in_degree_centrality",
-                "times_selected": 9
+                "times_selected": 7
             },
             "combination": {
                 "combination": "degree_centrality+core_number",
@@ -22,16 +22,16 @@
     "doctypebranch": {
         "best_performers": {
             "high": {
-                "centrality": "degree_centrality",
-                "times_selected": 6
+                "centrality": "harmonic_centrality",
+                "times_selected": 4
             },
             "low": {
-                "centrality": "in_degree_centrality",
-                "times_selected": 6
+                "centrality": "relative_in_degree_centrality",
+                "times_selected": 4
             },
             "combination": {
-                "combination": "in_degree_centrality+relative_in_degree_centrality",
-                "times_selected": 5
+                "combination": "degree_centrality+core_number",
+                "times_selected": 3
             }
         },
         "composite_performance": {
@@ -40,7 +40,7 @@
         }
     },
     "overall_best_performer": {
-        "centrality": "in_degree_centrality",
-        "total_times_selected": 29
+        "centrality": "degree_centrality",
+        "total_times_selected": 26
     }
 }

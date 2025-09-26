@@ -23,15 +23,15 @@
         "best_performers": {
             "high": {
                 "centrality": "degree_centrality",
-                "times_selected": 8
+                "times_selected": 6
             },
             "low": {
-                "centrality": "in_degree_centrality",
-                "times_selected": 7
+                "centrality": "pagerank",
+                "times_selected": 5
             },
             "combination": {
-                "combination": "in_degree_centrality+relative_in_degree_centrality",
-                "times_selected": 5
+                "combination": "degree_centrality+core_number",
+                "times_selected": 3
             }
         },
         "composite_performance": {
@@ -40,7 +40,7 @@
         }
     },
     "overall_best_performer": {
-        "centrality": "in_degree_centrality",
-        "total_times_selected": 33
+        "centrality": "degree_centrality",
+        "total_times_selected": 30
     }
 }
