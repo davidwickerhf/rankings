@@ -1,0 +1,19 @@
+Combination,Network Type,Ground Truth,Composite Wins,Total Networks,Win Rate
+PageRank+Degree,balanced-importance,importance,9,24,37.5%
+PageRank+Degree,balanced-importance,doctypebranch,11,24,45.8%
+PageRank+Degree,balanced-doctypebranch,importance,8,16,50.0%
+PageRank+Degree,balanced-doctypebranch,doctypebranch,6,16,37.5%
+PageRank+Degree,unbalanced,importance,12,26,46.2%
+PageRank+Degree,unbalanced,doctypebranch,9,26,34.6%
+Degree+Eigenvector,balanced-importance,importance,7,24,29.2%
+Degree+Eigenvector,balanced-importance,doctypebranch,11,24,45.8%
+Degree+Eigenvector,balanced-doctypebranch,importance,8,16,50.0%
+Degree+Eigenvector,balanced-doctypebranch,doctypebranch,8,16,50.0%
+Degree+Eigenvector,unbalanced,importance,14,26,53.8%
+Degree+Eigenvector,unbalanced,doctypebranch,9,26,34.6%
+Degree+InDegree,balanced-importance,importance,6,24,25.0%
+Degree+InDegree,balanced-importance,doctypebranch,9,24,37.5%
+Degree+InDegree,balanced-doctypebranch,importance,6,16,37.5%
+Degree+InDegree,balanced-doctypebranch,doctypebranch,5,16,31.2%
+Degree+InDegree,unbalanced,importance,13,26,50.0%
+Degree+InDegree,unbalanced,doctypebranch,9,26,34.6%

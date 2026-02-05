@@ -1,0 +1,717 @@
+%%
+%% This is file `sample-sigconf-authordraft.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,proceedings,bibtex,authordraft')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf-authordraft.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf,authordraft]{acmart}
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+\usepackage{booktabs}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{graphicx}  
+\usepackage{subcaption} 
+
+
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmlicensed}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
+%% These commands are for a PROCEEDINGS abstract or paper.
+% \acmConference[ICAIL]{20th International Conference on Artificial Intelligence and Law Northwestern University}{June 16--20, 2025}{Chicago, United States}
+%%
+%%  Uncomment \acmBooktitle if the title of the proceedings is different
+%%  from ``Proceedings of ...''!
+%%
+%%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%%  June 03--05, 2018, Woodstock, NY}
+\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Why Some Judgments Matter More Than Others: Advancing Network Centrality Analysis}
+
+%
+% The "author" command and its associated commands are used to define
+% the authors and their affiliations.
+% Of note is the shared affiliation of the first two authors, and the
+% "authornote" and "authornotemark" commands
+% used to denote shared contribution to the research.
+
+\author{anonymous author(s)}
+
+% \author{Gijs van Dijck}
+% %\authornote{Both authors contributed equally to this research.}
+% \orcid{0000-0003-4102-4415}
+% \affiliation{%
+%   \institution{Maastricht Law and Tech Lab}
+%   \city{Maastricht}
+%   \country{the Netherlands}
+% }
+
+% \author{David Henry Francis Wicker}
+% \affiliation{%
+%   \institution{Maastricht Law and Tech Lab}
+%   \city{Maastricht}
+%   \country{the Netherlands}}
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Van Dijck \& Wicker}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+
+When courts cite other cases, each citation shapes the judgments that will guide the law. Network analysis is a powerful tool for identifying such precedents, yet robust evidence is lacking on whether centrality measures truly capture the precedent value. This study examines this question in the context of European Court of Human Rights (ECtHR) case law. Using a dataset of 27,801 judgments and their citation relationships, this study assesses the ability of various centrality measures to capture precedent value, as defined by two ground truths: Court Branch (Grand Chamber, Chamber, Committee) and Importance (importance scores assigned by court clerks). 
+
+Because the number of less relevant judgments (as defined by the ground truths) vastly exceeded the number of relevant judgments, the centrality measures were evaluated before and after balancing. This proved decisive: while In-Degree Centrality correlated strongly with precedent value in the unbalanced network, the best-performing measures after balancing depended on whether one aimed to predict high-relevance, low-relevance, or both. PageRank and Degree Centrality surfaced as best-performing centrality measures for high-relevance cases in the balanced sub-networks that were created, with Degree, Eigenvector, and In-Degree performing well for low-relevance cases.
+
+The findings suggest that widely used centrality measures may appear effective because they mirror structural imbalance rather than reflect legal significance. To address this, we developed and evaluated a composite measure that integrates signals for both high- and low-relevance judgments. This composite measure outperformed all individual centrality measures.
+
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10010405.10010455.10010458</concept_id>
+       <concept_desc>Applied computing~Law</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Applied computing~Law}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Network Analysis, Law, Centrality, Precedents, Ground Truth}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+% \begin{teaserfigure}
+%   \includegraphics[width=\textwidth]{sampleteaser}
+%   \caption{Seattle Mariners at Spring Training, 2010.}
+%   \Description{Enjoying the baseball game from the third-base
+%   seats. Ichiro Suzuki preparing to bat.}
+%   \label{fig:teaser}
+% \end{teaserfigure}
+
+\received{31 January 2026}
+\received[revised]{xxx}
+\received[accepted]{xxx}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+Applied to case law, network analysis can assist in identifying precedents, that is, court judgments that serve as authoritative rules in current or future cases. By treating court decisions as nodes and citations between them as edges, a network can be created that identifies which decisions receive more attention (are more central) than others.
+This type of legal network analysis (LNA) allowed Fowler and Jeon to identify \textit{Speiser versus Randall (1958)}, a case for which it had taken judicial specialists 18 years to recognize its significance as an influential case \cite{FOWLER200816}.
+
+In citation analysis, citation frequency is a proxy for authority; for instance, by focusing on the number of times decisions are cited, court decisions cited more frequently are presumed to be more authoritative than those cited less frequently.
+Various centrality measures are available for determining the precedent value of court decisions. These measures include in-degree (number of incoming citations), degree (number of incoming and outgoing citations), and PageRank (assigning more value to links from highly-ranked cases). Determining which measures are the best proxy for precedent value remains a challenge.
+
+Previous research has analyzed which centrality measures best correlated with two ground truths across different (sub)networks of European Court of Human Rights (ECtHR) case law \cite{Dijck23}. One ground truth concerned the Court Branch, which assumed the Grand Chamber delivers more significant judgments than the Chamber, and the Chamber provides more significant judgments than the Committee. The other concerned Importance Score, a score assigned to each judgment by a court employee.
+The study found that several network centrality measures showed reasonable correlations with the ground truths. Degree emerged as a particularly stable measure across the different (sub)networks. 
+%it was also noted that the ground truths are limited because they originate at the time of the judgment and are not adjusted later. However, a case is assigned to a court branch (Grand Chamber, Chamber, Committee) and is assigned an importance score without any knowledge of how relevant the case will be in the future or whether its relevance will diminish over time. 
+%This study therefore proposes and introduces an additional ground truth: an expert-based score of the importance of a judgment after the decision was taken, namely at the time of when the expert is consulted.
+
+The study also reported unequal distributions across the ground-truth categories. The number of cases decided by the Chamber or the Committee vastly exceeded the number of Grand Chamber cases, and the number of cases with a high importance score was only a fraction of the total number of cases. 
+The study suggested that, because of unequal distributions across the court-branch and importance-score categories, some centrality measures may exhibit lower correlation coefficients due to their inability to effectively distinguish the majority class, even though they perform well at differentiating the minority classes.  
+
+This study further explores the issue of finding centrality measures that are the best proxies for precedent value by comparing strategies to account for data imbalances, including balancing (by undersampling) and developing a composite measure that leverages the fact that some centrality measures perform well at identifying relevant judgments and some at identifying less relevant judgments.
+
+
+\section{Related Work}
+
+Various studies have examined the correlation between centrality and relevant judgments by comparing network centrality metrics to expert evaluations. After analyzing US Supreme Court cases, Fowler and Jeon reported that the 'top 10' cases identified in their network analysis research were found in one or more of the legal sources they utilized for comparison \cite{FOWLER200816}. 
+Research that focused on the centrality of decisions from the Court of Justice of the European Union (CJEU) also revealed a significant consensus on which judgments were classified as the 'top 10' judgments \cite{Derlen_etal_2014}: 
+
+\begin{quote}
+  65\% of the 117 judgments appear among the frequently cited in only one textbook, 76\% are frequently cited in just one or two textbooks, only 10 judgments are cited in five or more textbooks, and merely two cases rank among the top 30 cited across all seven textbooks.  
+\end{quote}
+
+In addition to expert ratings, textbook citations \cite{Derlen_etal_2014}, citations by the Advocate-General \cite{Derlen_etal_2014}, the number of website views \cite{neale2013}, and the number of scholarly opinions, comments, and annotations devoted to the cases analyzed \cite{agnoloni2015, vanopijnen2014} have been used as ground truths to evaluate LNA results.
+
+Whalen found that US Supreme Court decisions are more likely to be cited when judges are more stable in their use of precedents, have a low average age, and cite older precedents \cite{Whalen2013}. Furthermore, judgments were more likely to be referenced in subsequent years when the citation network is less complex. 
+For CJEU decisions, Derlén and Lindholm have shown that CJEU case law is particularly central in preliminary reference rulings, rulings that concern fundamental freedoms or competition law in particular, and that the number of Member States submitting an observation in a preliminary reference procedure was associated with the frequency with which a case will be referred to in subsequent decision\cite{Derlén_Lindholm_2015}. 
+
+LNA has also been used to identify the most cited judgments, to examine how long judgments remain central in a network \cite{neale2013}, and to identify characteristics of overruled decisions \cite{whalen2014}. LNA has been applied to a variety of national and international courts, including the ECtHR, the Court of Justice of the European Union (CJEU)\cite{Derlen_etal_2014}, the US\cite{whalen2014}, Canada\cite{neale2013}, Italy\cite{agnoloni2015}, and the Netherlands\cite{vankuppevelt2017}. 
+
+Various challenges have been identified in conducting LNA. These include the selection of sub-networks, community detection methods, estimating the probability that networks did not occur by chance, and the selection of centrality measures to determine the extent
+to which a judgment has precedent value\cite{vankuppevelt2020}.
+
+
+\section{Data and Methods}
+
+\subsection{Data}
+
+We extracted metadata for all ECtHR judgments published on 11 January 2025 from HUDOC\footnote{https://hudoc.echr.coe.int/} and selected metadata of all published judgments by the Grand Chamber, Chamber, and Committees, including the application numbers, the court branch (Grand Chamber, Chamber, Committee), an importance score assigned by a court employee at the time of the judgment (1-2-3-4), the date of the judgment, and the invoked articles (e.g., Article 1).
+
+We used the \texttt{echr-extractor} PyPi package\footnote{\url{https://pypi.org/project/echr-extractor/}.} to extract the citations to other judgments and to produce a nodes and edges list. This package included the preprocessing of the citation data. Because the extracted application numbers (\texttt{extractedappnos}, storing the application numbers of cited judgment extracted from the full text) in the unpreprocessed data were not always complete, we also collected the metadata regarding the \texttt{scl} (Strasbourg Case Law) attribute, which stored the outgoing citations in terms of a case title, a judgment date, and an application number. The application numbers in \texttt{extractedappnos} and \texttt{scl} were subsequently matched to the judgments' application numbers in the metadata. 
+If no results were found, the case title and judgment data from the citation were extracted from the \texttt{scl} citation and matched to the case titles and judgment dates. 
+Sometimes, the date required to identify a specific ECLI was unavailable. We therefore included all versions as data points in those instances to ensure completeness.
+This process frequently yielded more cited judgments, thereby improving the quality of the citation data. 
+
+Following preprocessing, we constructed a network consisting of nodes (judgments, n=27,801) and unweighted directed edges (citations, n=232,002), with an approximate density of 0.00030018.
+
+
+\subsection{Method} 
+
+We first constructed a network that consisted of ECtHR judgments for which metadata was available, along with sub-networks, one for each invoked article, that contained at least 150 nodes (judgments). This threshold was set to prevent very small networks from impacting the results. The sub-networks were created to include only edges for which both the source and target corresponded to judgments referencing the invoked article in their metadata.
+
+We then calculated and compared the following centrality measures: In-degree (number of incoming edges) \cite{Derlen_etal_2014}, Out-degree (number of outgoing edges)~\cite{Derlen_etal_2014}, Degree (number of incoming and outgoing edges)~\cite{Derlen_etal_2014}, Relative In-degree (in-degree corrected for year of decision)~\cite{Tarissan_etal_2016}, Eigenvector (rewards connections to well-connected nodes)~\cite{Newman2018} (tolerance of 1E-6), PageRank (probability that a random traversal will end at a node)~\cite{Page_etal_1999} (damping factor of .95 and tolerance of 1E-9), Betweenness (to what extent a node can be seen as a broker)~\cite{Freeman1977}, Closeness (average distance between a node and all other nodes it can reach)~\cite{Freeman1979}, Harmonic (closeness using inverse of distances)~\cite{Paolo_etal_2014}, Hub (the extent to which a node connects to nodes with high authority)~\cite{Kleinberg1999} (same parameters as HITS), Authority (the extent to which a node is connected to by nodes which are hubs)~\cite{Kleinberg1999} (same parameters as HITS), Core Number (largest number defining a core in which a node is present)~\cite{Batagelj_etal_2011}, and Disruption (the extent to which a node introduces new information into a network)~\cite{Wu_etal_2019}.
+
+% Current Flow Betweenness (betweenness using an electrical flow model instead of shortest paths)~\cite{Brandes_etal_2005},
+% Hyperlink-Induced Topic Search (HITS) (the sum of authority and hub)~\cite{Kleinberg1999} (tolerance of 1E-8), 
+% Trophic Level (a concept from ecology)~\cite{Levine1980}, 
+% Forest Closeness (closeness using forest distance)~\cite{Grinten_etal_2021} (estimated with $\epsilon=.1$ and $\kappa=.3$), 
+
+We analyzed which measures correlated well with our ground truths (Court Branch and Importance). According to Articles 28(1)(b), 30, and 43 of the European Convention on Human Rights (ECHR), the Court Branch may serve as an indicator of the significance of a matter. For instance, Article 30 ECHR stipulates that the Chamber may refer cases to the Grand Chamber that raise a serious question affecting the interpretation of the Convention or the Protocols or where the outcome might be inconsistent with a judgment of the Court. Article 28(1)(b), in turn, states that the Committee can decide a case on the merits if it involves the interpretation or application of well-established case law of the Court.
+Furthermore, judgments have been assigned one of the following importance scores by the Bureau of the Court: High/Medium/Low importance, or Key cases (since November 1, 1998). We combined (merged) the "Key cases" and "High importance" into a single category when using Importance Score because they were created after the High/Medium/Low importance categories, thereby preserving the inclusion of pre-1998 judgments in the study. 
+Table ~\ref{tab:score-1998} shows the distributions among the different categories before the merging, Table ~\ref{tab:ground-truths_descr} shows the ones after the merging.
+
+
+\begin{table}[t] % Keeps table in one column
+\centering
+\renewcommand{\arraystretch}{1.2} % Adds spacing between rows
+\resizebox{\columnwidth}{!}{ % Fit table within column width
+\begin{tabular}{@{}p{3cm} r r r@{}} % Adjust column widths
+\toprule
+\textbf{Importance Score}  & \textbf{Pre-1998} & \textbf{Post-1998} & \textbf{Total} \\ \midrule
+\textbf{Low}    & 179  (21.4\%)   & 19,716  (73.1\%)  & 19,895  (71.6\%) \\
+\textbf{Medium} & 238  (28.4\%)   &  5,518  (20.5\%)  &  5,756  (20.7\%) \\
+\textbf{High}   & 419  (50.1\%)   &    664  (2.5\%)   &  1,083  (3.9\%)  \\
+\textbf{Key Cases}    &   1  (0.1\%)    &  1,066  (4.0\%)   &  1,067  (3.8\%)  \\
+\textbf{Total}  & 837             & 26,964            & 27,801            \\ \bottomrule
+\end{tabular}
+}
+\caption{Importance Score frequencies before and after November 1, 1998.}
+\label{tab:score-1998}
+\end{table}
+
+
+We first calculated correlations for the complete network and the subnetworks we created. We subsequently created two additional datasets by balancing the unbalanced dataset via undersampling, with the category with the fewest judgments determining the class sizes for all categories. The undersampling consisted of filtering. We did not recalculate the network statistics for the balanced datasets, as randomly removing nodes and edges would disrupt the extent to which the data reflect real-world conditions. We then performed the same correlation analysis as above on the balanced datasets. Hence, two studies were conducted: one for the dataset undersampled by the category with the fewest observations in the Court Branch variable, and one for the dataset undersampled by the class with the fewest observations in the Importance Score variable.
+
+We subsequently explored whether we could create a measure that leverages the observation that some measures correlate well with judgments considered most relevant (according to the ground truths) and others with judgments considered less relevant (again, as defined by the ground truths).
+As a final step, we correlated the rankings of all centrality scores (individually) with the ground truth rankings. To this end, we selected the centrality measure with the highest negative correlation when the ground truth was inverted. We subsequently correlated the composite measure's ranking with the ground truth. The final result was determined by comparing the correlation coefficients for the individual centrality measures with those for the composite measure.
+
+
+\section{Results}
+
+\subsection{Ground Truths}
+We were first interested in the relationship between the ground truths: Court Branch and Importance. Table ~\ref{tab:ground-truths_descr} provides the distributions of the ground truths.
+
+
+\begin{table}[t] % Keeps table in one column
+\centering
+\renewcommand{\arraystretch}{1.2} % Adds spacing between rows
+\resizebox{\columnwidth}{!}{ % Fit table within column width
+\begin{tabular}{@{}p{3cm} r r@{}} % Adjust column widths
+\toprule
+\textbf{Ground Truth Value} & \textbf{Importance Score Freq.} & \textbf{Court Branch Freq.} \\ \midrule
+\textbf{4} & 19,895  (71.6\%) & N/A \\
+\textbf{3} &  5,756  (20.7\%) &  6,570  (23.6\%) \\
+\textbf{2} &  1,083  (3.9\%)  & 20,717  (74.5\%) \\
+\textbf{1} &  1,067  (3.8\%)  &    514  (1.9\%)  \\ 
+\bottomrule
+\end{tabular}
+}
+\caption{Court Branch and merged Importance Score frequencies.}
+\label{tab:ground-truths_descr}
+\end{table}
+
+
+\noindent The correlation between the ground truths is positive and moderate ($\rho$ = .39, $p$ < .001).
+
+Figure \ref{fig:correlation_matrix} shows the correlations between the centrality measures in the unbalanced network. As expected, metrics based on incoming citations (direct or indirect), such as in-degree centrality, eigenvector centrality, authority, PageRank, and relative-in-degree centrality, are highly correlated. 
+
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/correlations/correlation_matrix.png}
+    \caption{Correlation matrix for correlations between centrality measures and/or ground truths (unbalanced network). All correlations are statistically significant at the .05 level or below.}
+    \label{fig:correlation_matrix}
+\end{figure*}
+
+
+\subsection{Analysis with Imbalanced Data}
+
+We further explored the correlations between the centrality measures and the two ground truths. We did this first on the full dataset, which consisted of 27,801 nodes and 232,002 edges (density=0.00030018). The 'Full-Unbalanced' column in Table \ref{tab:correlations_centr_groundtruths} shows the results. Several measures have similar correlation strengths, including closeness centrality, eigenvector centrality, harmonic centrality, in-degree centrality, and PageRank. These correlations are negative because the ground truth scores are measured in descending order (a 2-score means more important than a 3-score). 
+
+
+\begin{table*}[t]
+\centering
+\small % Ensures text matches main body size
+\renewcommand{\arraystretch}{1.2} % Slightly increases row spacing for readability
+\begin{tabular}{@{}p{4cm} r r r@{}}
+\toprule
+\textbf{Centrality} & \textbf{Full-Unbalanced} & \textbf{Full-Balanced-Importance} & \textbf{Full-Balanced-Doctypebranch} \\ \midrule
+betweenness\_centrality           &           -0.4036 | -0.3993 &           -0.3439 | -0.3663 &           -0.5767 | -0.6214   \\
+closeness\_centrality             &           -0.4806 | -0.4584 &           -0.4068 | -0.4923 &           -0.6781 | -0.6662   \\
+core\_number                      &           -0.3914 | -0.4253 &           -0.3689 | -0.4494 &           -0.6109 | -0.6985   \\
+degree\_centrality                &           -0.4122 | -0.4592 &           -0.3875 | -0.4684 &  -0.6205 | \textbf{-0.7053}   \\
+disruption                       &             0.1945 | 0.1818 &             0.2052 | 0.2126 &             0.3564 | 0.3951   \\
+eigenvector\_centrality           &           -0.4813 | -0.4577 &           -0.4087 | -0.4940 &           -0.6794 | -0.6686   \\
+harmonic\_centrality              &           -0.4826 | \textit{-0.4618} &           -0.4138 | -0.4984 &           -0.6835 | -0.6728   \\
+hits\_authority                   &           -0.4518 | -0.4259 &           -0.4248 | -0.4743 &           -0.6514 | -0.6551   \\
+hits\_hub                         &           -0.2533 | -0.3046 &           -0.1042 | -0.1093 &           -0.2146 | -0.2972   \\
+in\_degree\_centrality             &  \textbf{-0.4843} | -0.4603 &  \textbf{-0.4377} | -0.5017 &  \textbf{-0.6988} | -0.7003   \\
+out\_degree\_centrality            &           -0.2226 | -0.2399 &           -0.1902 | -0.2182 &           -0.3247 | -0.4353   \\
+pagerank                         &           -0.4788 | -0.4559 &  -0.4261 | \textbf{-0.5153} &           -0.6963 | -0.6887   \\
+relative\_in\_degree\_centrality    &           -0.4727 | -0.4387 &           -0.4257 | -0.4661 &           -0.6811 | -0.6869   \\
+\bottomrule
+\end{tabular}
+\caption{Correlations between each centrality measure and the ground truths. 
+Correlation with Court Branch (left) and Importance Score (right) are separated 
+by a '|'. Highest correlations per network in bold. All correlations were 
+statistically significant at $p < 0.001$ based on two-tailed Spearman 
+correlation tests with $n=27{,}801$ cases.}
+\label{tab:correlations_centr_groundtruths}
+\end{table*}
+
+
+Because judgments were not evenly distributed across the ground truth categories, we suspected that ignoring this imbalance would affect the results of the correlation analysis. More specifically, we considered that categories with many judgments could dominate the results, biasing the correlations toward those categories and failing to represent the overall relationship accurately.
+
+We were interested in determining whether certain measures excel in identifying judgments with a high ground truth score and whether other measures perform well in finding judgments with a low ground truth score. We therefore inspected the distributions of the centrality measure scores per category for each ground truth. Plotting the scores for each centrality measure against the ground truth categories allowed a comparison of the differences in means and standard deviations for the different ground truth categories. 
+
+The analysis revealed significant variations in mean and standard deviation across the categories. Figure \ref{fig:errors_example} shows that Degree Centrality and In-Degree Centrality exhibited a clear monotonic decrease in mean values across both ground truth categories in the full unbalanced network, with higher values consistently associated with more important cases (Importance=1) and higher court branches (doctypebranch=1). The standard deviations also decrease along these categories, suggesting more consistency for less important cases.
+Disruption shows a non-monotonic pattern across categories. For Importance, it shows high values for both the most important and least important cases, with lower values for medium importance. For Court Branch, it peaked at the middle level compared to the higher and lower branches. 
+
+
+\begin{figure*}[t!] % Use figure* for spanning both columns
+    \centering
+    % First row of images
+    \begin{subfigure}[b]{0.48\textwidth} % Half of total page width (minus spacing)
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/degree_centrality_doctypebranch_error_bars.png}
+        \caption{Degree Centrality vs Court Branch}
+        \label{fig:degree_branch_unbalanced}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/degree_centrality_importance_error_bars.png}
+        \caption{Degree Centrality vs Importance}
+        \label{fig:degree_imp_unbalanced}
+    \end{subfigure}
+
+    % Second row of images
+    \vspace{1em} % Add vertical spacing between rows
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/in_degree_centrality_doctypebranch_error_bars.png}
+        \caption{In-Degree Centrality vs Court Branch}
+        \label{fig:indegcentr_branch_unbalanced}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/in_degree_centrality_importance_error_bars.png}
+        \caption{In-Degree Centrality vs Importance}
+        \label{fig:indegcentr_imp_unbalanced}
+    \end{subfigure}
+
+    % Third row of images
+    \vspace{1em} % Add vertical spacing between rows
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/disruption_doctypebranch_error_bars.png}
+        \caption{Disruption vs Court Branch}
+        \label{fig:disr_branch_unbalanced}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/error_plots/disruption_importance_error_bars.png}
+        \caption{Disruption vs Importance}
+        \label{fig:disr_imp_unbalanced}
+    \end{subfigure}
+
+    \caption{Centrality Scores Distribution per Category per Ground Truth for the full Network (unbalanced). Bars with two shades of green indicate that the corresponding values partially overlap with the blue and green bars, reflecting contributions from both categories.}
+    \label{fig:errors_example}
+\end{figure*}
+
+
+\subsection{Analysis with Balanced Data}
+
+Table ~\ref{tab:ground-truths_descr} reveals significant class imbalance, with less important judgments (Importance=3, n=19,895) vastly outnumbering the most important ones (Importance=1, n=2,150). Similarly, the Chamber (doctypebranch=2, n=20,717) dominates the dataset compared to the Grand Chamber (doctypebranch=1, n=514) and, to a lesser extent, the Committee (doctypebranch=3, n=6,570). These imbalances suggest that correlation analyses that do not account for class distribution might be biased toward the performance of the majority classes.
+
+We used undersampling to balance the data and tested whether the class imbalances affected the correlations. Considering two ground truths were used, we undersampled twice: once based on the category with the lowest number of judgments in Court Branch categories and once based on the category with the lowest number of judgments in the Importance categories. The undersampling yielded two balanced datasets. During undersampling, we preserved the original edges, resulting in the total number of nodes exceeding the number of judgments in the category with the fewest judgments. 
+
+Table \ref{tab:network_balancing} illustrates the number of judgments, the distribution of the other ground truth, the total number of nodes, and the total number of edges in each configuration. As expected, both balancing methods significantly reduced the network's size and complexity.
+
+
+\begin{table*}[t] % Full-page width table
+\centering
+\small % Match document text size
+\renewcommand{\arraystretch}{1.2} % Improve row spacing
+\begin{tabular}{@{}p{4cm} r r r@{}} % Align columns properly
+\toprule
+\textbf{Category} & \textbf{Unbalanced Network} & \textbf{Balanced by Importance} & \textbf{Balanced by Doctypebranch} \\ \midrule
+\multicolumn{4}{l}{\textbf{Importance}} \\ \midrule
+1 (Most Important) & 2,150  (7.73\%)  & 2,150  (33.33\%) &   526  (17.06\%) \\
+2                  & 5,756  (20.71\%) & 2,150  (33.33\%) &   162  (5.25\%)  \\
+3                  & 19,895 (71.56\%) & 2,150  (33.33\%) &   854  (27.69\%) \\ \midrule
+\multicolumn{4}{l}{\textbf{Doctypebranch}} \\ \midrule
+1 (Most Important) &   514  (1.85\%)  &   495  (7.67\%)  &   514  (33.33\%) \\
+2                  & 20,717 (74.52\%) & 5,227  (81.02\%) &   514  (33.33\%) \\
+3                  &  6,570 (23.63\%) &   728  (11.30\%) &   514  (33.33\%) \\ \midrule
+\multicolumn{4}{l}{\textbf{Network Size}} \\ \midrule
+Total Nodes        & 27,801           & 6,450            & 1,542 \\
+Total Edges        & 232,002          & 49,586           & 7,472 \\ \bottomrule
+\end{tabular}
+\caption{Comparison of ground truth distributions and network sizes across unbalanced and balanced networks. Balancing by importance achieves equal distribution across importance categories, while balancing by doctypebranch ensures balance across court levels.}
+\label{tab:network_balancing}
+\end{table*}
+
+
+
+We then repeated the correlation analysis, correlating the centrality measures with the ground truths separately for the two balanced datasets. The last two columns of Table \ref{tab:correlations_centr_groundtruths} show the correlations.
+When comparing the results with the unbalanced data, notable shifts are observed. For instance, In-Degree Centrality, PageRank Centrality, and Degree became the measures that correlated best with both ground truths, with In-Degree Centrality showing the most consistency. PageRank and, to a lesser extent, Eigenvector Centrality, Closeness Centrality, and Harmonic Centrality also were competitive across both balanced datasets and ground truths.
+
+Disruption, conceptually unique, correlated positively with the ground truths because higher Disruption scores align with less important judgments. This inverse relationship makes it less relevant for identifying high-importance judgments in this network. Additionally, its performance is less consistent because it captures structural disruptiveness rather than integration or influence, which are more directly aligned with importance in this context.
+
+Since certain centrality measures correlated well with 'relevant' cases (as defined by our ground truths) but less with 'less relevant' judgments (as defined by our ground truths), we aimed to use this to find the measures that perform best at identifying the most relevant cases and those performing best at identifying the less relevant cases. To this end, we identified which measures correlated most frequently across the sub-networks, where sub-networks comprised judgments in which a specific ECHR provision (article), for instance Article 8 (Right to Family Life), was invoked. We ensured that in each sub-network, both the source nodes (the citing judgments) and the target nodes (the cited judgments) concerned the invoked article of the sub-network, as we believed this would have a higher ecological validity (lawyers interested in the Right to Family Life are more interested in that right than in another right, for instance the Right to Life) than sub-networks where the target nodes could also be related to other invoked articles.
+
+To ensure sufficient statistical power while maintaining analytical flexibility, we analyzed sub-networks at multiple size thresholds. We created three cutoff levels: networks with at least 50 nodes, at least 100 nodes, and at least 150 nodes. Networks with fewer than 50 nodes were not considered. This multi-threshold approach allowed us to examine how network size affects the performance of centrality measures and to identify the optimal balance between statistical significance and network coverage. All results for each cutoff level will be made available in the results repository.
+
+For each subnetwork, we identified the centrality measure with the highest correlation coefficient for the high-relevance category of each ground-truth category, and the one with the highest correlation coefficient for the low-relevance category. Figure \ref{fig:performers} shows the counts per measure, per score category (high relevance, low relevance), per dataset (unbalanced, balanced (based on Court Branch), balanced (based on Importance)) across the different sub-networks.
+
+
+\begin{figure*}[t!] % Use figure* for spanning both columns
+    \centering
+    % First row of images
+    \begin{subfigure}[b]{0.48\textwidth} % Half of total page width (minus spacing)
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/high_performers_unbalanced.png}
+        \caption{Performance for High-Relevance Category in Unbalanced Dataset}
+        \label{fig:high_performers_unbalanced}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/low_performers_unbalanced.png}
+        \caption{Performance for Low-Relevance Category in Unbalanced Dataset}
+        \label{fig:low_performers_unbalanced}
+    \end{subfigure}
+
+    % Second row of images
+    \vspace{1em} % Add vertical spacing between rows
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/high_performers_doctypebranch.png}
+        \caption{Performance for High-Relevance Category in Balanced Dataset (balancing based on Court Branch)}
+        \label{fig:high_performers_balanced_branch}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/low_performers_doctypebranch.png}
+        \caption{Performance for Low-Relevance Category in Balanced Dataset (balancing based on Court Branch)}
+        \label{fig:low_performers_balanced_branch}
+    \end{subfigure}
+
+    % Third row of images
+    \vspace{1em} % Add vertical spacing between rows
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/high_performers_importance.png}
+        \caption{Performance for High-Relevance Category in Balanced Dataset (balancing based on Importance)}
+        \label{fig:high_performers_balanced_imp}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/performers/updated2/low_performers_importance.png}
+        \caption{Performance for Low-Relevance Category in Balanced Dataset (Balancing based on Importance)}
+        \label{fig:low_performers_balanced_imp}
+    \end{subfigure}
+
+    \caption{Comparison for High- and Low-Relevance Categories in Balanced and Unbalanced Datasets}
+    \label{fig:performers}
+\end{figure*}
+
+
+Figure \ref{fig:performers} shows similar patterns for the balanced and unbalanced datasets: Degree Centrality achieves the highest counts for the low-relevance judgments across the three datasets, followed by PageRank. For the high-relevance judgments, Degree Centrality (2 out of 3), Betweenness (1 out of 3), and In-Degree Centrality (1 out of 3) are the best-performing measures.
+
+
+\subsection{Optimizing Centrality}
+
+Building on the findings from Figure \ref{fig:performers}, we developed composite measures that leverage the complementary strengths of centralities optimized for identifying high-relevance versus low-relevance judgments. Based on the frequency analysis across sub-networks, we identified three promising combinations: (1) \textbf{PageRank + Degree}, (2) \textbf{Degree + Eigenvector}, and (3) \textbf{Degree + In-Degree}. Each combination pairs a centrality measure that consistently identified high-relevance judgments with one that performed well for low-relevance cases.
+
+\subsubsection{Composite Ranking Methodology}
+
+For each combination, we created composite rankings using High-Relevance Priority: the top $\tau\%$ of judgments are selected from the high-relevance centrality ranking (ranks 1 to $k$), with the remaining $(1-\tau)\%$ ranked according to the low-relevance centrality measure (ranks $k+1$ to $N$). We also tested an alternative Low-Relevance Priority approach but found it significantly underperformed (average difference: $-31.6\%$ across all 66 article-specific sub-networks), even when the centrality measures were highly correlated.
+
+\subsubsection{Threshold Optimization}
+
+The critical parameter $\tau$ was determined through systematic grid search optimization. For each combination and ground truth, we evaluated thresholds $\tau \in [0.05, 0.95]$ in 0.05 increments across all networks, selecting the threshold that maximized the number of networks where the composite measure achieved the highest correlation with ground truth. This yielded optimal thresholds that varied by combination and ground truth (Table \ref{tab:optimal_thresholds}).
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Combination} & \textbf{Importance ($\tau$)} & \textbf{Doctypebranch ($\tau$)} \\ \midrule
+PageRank + Degree       & 0.65 & 0.70 \\
+Degree + Eigenvector    & 0.30 & 0.35 \\
+Degree + In-Degree      & 0.35 & 0.35 \\ \bottomrule
+\end{tabular}
+\caption{Optimal thresholds for composite measures by ground truth.}
+\label{tab:optimal_thresholds}
+\end{table}
+
+These optimal thresholds were then applied to all networks of the corresponding ground truth type (e.g., the τ=0.30 threshold optimized for Importance was applied to all networks when evaluating against Importance) to assess generalizability. 
+
+Performance varied by combination and network type. For balanced-importance networks (n=24), Degree+Eigenvector achieved highest correlation in 17 networks for Importance and 15 for Court Branch, while Degree+InDegree won 17 for Importance and 16 for Court Branch. For balanced-doctypebranch networks (n=16), Degree+Eigenvector won 9 networks for Importance and 11 for Court Branch, while Degree+InDegree won 10 for Importance and 11 for Court Branch. Across unbalanced networks (n=26), all three composites demonstrated strong performance, with Degree+Eigenvector achieving highest correlation in 19 networks for Importance and 17 for Court Branch. Figure \ref{fig:performers_withcomposite} visualizes composite and individual centrality performance across balanced network subsets.
+
+\begin{figure*}[t!] % Spans both columns
+    \centering
+    % First image
+    \begin{subfigure}[b]{\textwidth} % Reduced width
+        \centering
+        \includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{images/composite/updated/balanced_doctypebranch_overlay.png}
+        \caption{Performance on Court-Branch-balanced networks}
+        \label{fig:image1}
+    \end{subfigure}
+
+    \vspace{0.5em} % Reduced vertical spacing
+
+    % Second image
+    \begin{subfigure}[b]{\textwidth} % Reduced width
+        \centering
+        \includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{images/composite/updated/balanced_importance_overlay.png}
+        \caption{Performance on Importance-balanced networks}
+        \label{fig:image2}
+    \end{subfigure}
+
+    \caption{Composite and individual centrality performance across balanced networks, evaluated against both Importance and Court Branch ground truths.}
+    \label{fig:performers_withcomposite}
+\end{figure*}
+
+
+\section{Discussion}
+
+This study builds on previous research into the selection and performance of centrality measures in LNA for identifying influential judgments. It addressed imbalanced data distributions and the phenomenon that certain centrality measures perform well at identifying relevant judgments (as defined by the ground truths) but not at finding less relevant judgments, whereas other measures do the opposite: they perform well identifying less relevant judgments but not relevant judgments.
+
+In this study, PageRank and Degree Centrality emerged as particularly effective at identifying highly relevant judgments for both ground truths (Court Branch and Importance), whereas Degree Centrality, Eigenvector Centrality, and In-Degree Centrality identified judgments of lower relevance. The findings led to the development of composite measures, as a centrality measure ideally identifies both relevant and less relevant judgments. 
+The composite measures substantially outperformed individual centrality measures. For example, on balanced-importance networks (n=24), the best-performing composite (Degree+Eigenvector or Degree+InDegree) achieved highest correlation in 17 networks for Importance evaluation, compared to individual centralities which typically won 1-2 networks each. Similar patterns emerged across other network types.
+
+This study presents empirical findings without offering an interpretation or theoretical explanation for \textit{why} these correlations exist. It is interesting to observe that Degree Centrality, which considers only a judgment's direct neighbors, not its indirect neighbors, was among the measures that correlated best to the ground truths. This finding suggests that a case's precedent value is often determined by its direct authority rather than its broader influence across multiple cases, and that, unlike in scholarly citation networks, judges do not necessarily follow chains of influence. Instead, they may prefer to cite directly relevant and binding cases. Case law may thus be a precedent system where importance is explicitly recognized rather than emerging from indirect network effects. The emergence of PageRank, however, suggests that this cannot completely be the case.
+
+The research further introduces balancing techniques, evaluates performance per ground-truth score (not just overall), and develops and tests composite metrics that leverage the strengths of different centrality measures for high-relevance and low-relevance cases. In our study, the composite measures improved alignment with ground truth across both balanced and unbalanced datasets.
+
+
+\section{Limitations}
+
+Relevance, importance, and authority are not always synonymous with centrality. Court rulings can be cited as a matter of courtesy, to add authority for the interpretation of a rule or for solving a case, to indicate that the same rule is applied that was laid out in previous cases, to differentiate the case at hand from other cases, or to emphasize that the deciding court deviates from a rule established in a prior case \cite{Derlen_etal_2014}\cite{vankuppevelt2020}\cite{Whalen2016}. As such, there may be a discrepancy between the centrality of precedents and their authority, relevance, or significance. In some jurisdictions, methods or solutions exist (e.g., Shepardizing in the US and Canada, which identifies whether a cited case was overturned, reaffirmed, questioned, or cited by later cases), but such solutions are not always available or effective.
+
+The composite measures tested outperformed individual centrality measures. However, the practical applicability of these measures is limited, as they require ground-truth-specific threshold optimization. While the optimized thresholds demonstrated some generalizability across network types (applying importance-optimized thresholds to Court Branch networks and vice versa), they cannot be computed from the citation network structure alone. Future research may explore methods to estimate optimal thresholds without requiring ground truth labels.
+
+Moreover, the ground truths used in this paper were derived at the time of the judgment. They do not consider that what might have been considered relevant at the time of the judgment may later be seen as less relevant or irrelevant. Additionally, the importance scores are assigned by court personnel, who may or may not accurately determine whether a judgment is relevant.
+Furthermore, relevance is context-dependent, meaning that a judgment may be relevant for answering one question but not for another. As a result, no ultimate ground truth exists.
+
+
+\section{Conclusion}
+
+This study addressed the research gap on which centrality measures best capture precedent value. ECtHR case law was analyzed to identify which centrality measures best correlate with the two ECtHR ground truths: Court Branch and Importance. 
+
+The analysis revealed that In-Degree Centrality is a stable indicator of precedent value when class imbalance is left unaddressed. When analyzing balanced sub-networks, Degree and PageRank performed best at identifying highly relevant cases, while Degree, Eigenvector, and In-Degree performed best at identifying less relevant cases. Composite measures combining these strengths substantially outperformed all individual centrality measures, achieving highest correlation in 9-19 networks per evaluation compared to 1-8 for individual measures across the balanced network subsets tested.
+
+The results highlight the importance of tailored metrics in LNA and can have practical implications for information retrieval, particularly regarding jurisdictions where precedent is critical. Improving the retrieval of high-precedent-value cases can enhance the legal information used by legal researchers and practitioners and, ultimately, the quality of legal research and service.
+
+Supplementary materials will be made available upon publication.
+
+
+% \section{Authors and Affiliations}
+
+% Gijs van Dijck, Maastricht Law and Tech Lab, Maastricht University, the Netherlands. 
+
+% David Wicker, Maastricht Law and Tech Lab, Maastricht University, the Netherlands.
+
+
+% \section*{Declarations}
+
+% \begin{itemize}
+% \item Funding. This research did not receive project funding.
+% \item Conflict of interest. No conflict of interest was declared.
+% \item Ethics approval and consent to participate. Not applicable.
+% \item Consent for publication. All authors have read and agreed to the published version of the manuscript.
+% \item Data availability. Available at \url{https://doi.org/...}.
+% % \item Materials availability. Not applicable.
+% \item Code availability. Available at \url{https://doi.org/...}.
+% \item Author contribution. Conceptualization, GD; methodology, GD; software, DW; investigation, GD+DW; resources, GD+DW; data curation, DW; writing—original draft preparation, GD+DW; writing—review and editing, GD+DW; supervision, GD; funding acquisition, not applicable. 
+% \end{itemize}
+
+
+
+
+% \section{Rights Information}
+
+% Authors of any work published by ACM will need to complete a rights
+% form. Depending on the kind of work, and the rights management choice
+% made by the author, this may be copyright transfer, permission,
+% license, or an OA (open access) agreement.
+
+% Regardless of the rights management choice, the author will receive a
+% copy of the completed rights form once it has been submitted. This
+% form contains \LaTeX\ commands that must be copied into the source
+% document. When the document source is compiled, these commands and
+% their parameters add formatted text to several areas of the final
+% document:
+% \begin{itemize}
+% \item the ``ACM Reference Format'' text on the first page.
+% \item the ``rights management'' text on the first page.
+% \item the conference information in the page header(s).
+% \end{itemize}
+
+% Rights information is unique to the work; if you are preparing several
+% works for an event, make sure to use the correct set of commands with
+% each of the works.
+
+% The ACM Reference Format text is required for all articles over one
+% page in length, and is optional for one-page articles (abstracts).
+
+% \section{CCS Concepts and User-Defined Keywords}
+
+% Two elements of the ``acmart'' document class provide powerful
+% taxonomic tools for you to help readers find your work in an online
+% search.
+
+% The ACM Computing Classification System ---
+% \url{https://www.acm.org/publications/class-2012} --- is a set of
+% classifiers and concepts that describe the computing
+% discipline. Authors can select entries from this classification
+% system, via \url{https://dl.acm.org/ccs/ccs.cfm}, and generate the
+% commands to be included in the \LaTeX\ source.
+
+% User-defined keywords are a comma-separated list of words and phrases
+% of the authors' choosing, providing a more flexible way of describing
+% the research being presented.
+
+% CCS concepts and user-defined keywords are required for for all
+% articles over two pages in length, and are optional for one- and
+% two-page articles (or abstracts).
+
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf-authordraft.tex'.

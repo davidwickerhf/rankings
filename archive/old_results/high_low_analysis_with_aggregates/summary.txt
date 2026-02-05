@@ -1,0 +1,137 @@
+============================================================
+HIGH/LOW PERFORMER ANALYSIS SUMMARY (50-CUTOFF)
+============================================================
+
+
+============================================================
+BALANCED-IMPORTANCE
+============================================================
+
+IMPORTANCE
+------------------------------------------------------------
+Total networks analyzed: 24
+
+HIGH PERFORMERS:
+  pagerank: 9
+  eigenvector_centrality: 4
+  in_degree_centrality: 3
+  closeness_centrality: 2
+  degree_centrality: 2
+  harmonic_centrality: 2
+  relative_in_degree_centrality: 1
+  core_number: 1
+
+LOW PERFORMERS:
+  out_degree_centrality: 10
+  hits_hub: 7
+  disruption: 7
+
+
+DOCTYPEBRANCH
+------------------------------------------------------------
+Total networks analyzed: 24
+
+HIGH PERFORMERS:
+  degree_centrality: 14
+  relative_in_degree_centrality: 5
+  harmonic_centrality: 1
+  hits_authority: 1
+  in_degree_centrality: 1
+  pagerank: 1
+  out_degree_centrality: 1
+
+LOW PERFORMERS:
+  hits_hub: 11
+  disruption: 11
+  betweenness_centrality: 1
+  eigenvector_centrality: 1
+
+
+============================================================
+BALANCED-DOCTYPEBRANCH
+============================================================
+
+IMPORTANCE
+------------------------------------------------------------
+Total networks analyzed: 16
+
+HIGH PERFORMERS:
+  degree_centrality: 4
+  relative_in_degree_centrality: 3
+  pagerank: 2
+  core_number: 2
+  in_degree_centrality: 2
+  eigenvector_centrality: 1
+  closeness_centrality: 1
+  harmonic_centrality: 1
+
+LOW PERFORMERS:
+  disruption: 10
+  hits_hub: 5
+  out_degree_centrality: 1
+
+
+DOCTYPEBRANCH
+------------------------------------------------------------
+Total networks analyzed: 16
+
+HIGH PERFORMERS:
+  degree_centrality: 10
+  relative_in_degree_centrality: 2
+  pagerank: 1
+  eigenvector_centrality: 1
+  closeness_centrality: 1
+  hits_authority: 1
+
+LOW PERFORMERS:
+  hits_hub: 9
+  disruption: 6
+  out_degree_centrality: 1
+
+
+============================================================
+UNBALANCED
+============================================================
+
+IMPORTANCE
+------------------------------------------------------------
+Total networks analyzed: 26
+
+HIGH PERFORMERS:
+  degree_centrality: 8
+  pagerank: 6
+  in_degree_centrality: 4
+  hits_authority: 3
+  harmonic_centrality: 2
+  eigenvector_centrality: 1
+  closeness_centrality: 1
+  relative_in_degree_centrality: 1
+
+LOW PERFORMERS:
+  disruption: 13
+  hits_hub: 7
+  out_degree_centrality: 5
+  hits_authority: 1
+
+
+DOCTYPEBRANCH
+------------------------------------------------------------
+Total networks analyzed: 26
+
+HIGH PERFORMERS:
+  degree_centrality: 12
+  relative_in_degree_centrality: 5
+  betweenness_centrality: 3
+  pagerank: 2
+  eigenvector_centrality: 1
+  harmonic_centrality: 1
+  hits_authority: 1
+  in_degree_centrality: 1
+
+LOW PERFORMERS:
+  hits_hub: 13
+  disruption: 10
+  out_degree_centrality: 1
+  core_number: 1
+  eigenvector_centrality: 1
+

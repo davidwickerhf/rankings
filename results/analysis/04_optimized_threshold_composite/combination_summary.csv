@@ -1,0 +1,19 @@
+Combination,Network Type,Ground Truth,Optimal Threshold,Composite Wins,Total Networks,Win Rate
+PageRank+Degree,balanced-importance,importance,0.65,12,24,50.0%
+PageRank+Degree,balanced-importance,doctypebranch,0.70,8,24,33.3%
+PageRank+Degree,balanced-doctypebranch,importance,0.65,8,16,50.0%
+PageRank+Degree,balanced-doctypebranch,doctypebranch,0.70,10,16,62.5%
+PageRank+Degree,unbalanced,importance,0.65,16,26,61.5%
+PageRank+Degree,unbalanced,doctypebranch,0.70,17,26,65.4%
+Degree+Eigenvector,balanced-importance,importance,0.30,17,24,70.8%
+Degree+Eigenvector,balanced-importance,doctypebranch,0.35,15,24,62.5%
+Degree+Eigenvector,balanced-doctypebranch,importance,0.30,9,16,56.2%
+Degree+Eigenvector,balanced-doctypebranch,doctypebranch,0.35,11,16,68.8%
+Degree+Eigenvector,unbalanced,importance,0.30,19,26,73.1%
+Degree+Eigenvector,unbalanced,doctypebranch,0.35,17,26,65.4%
+Degree+InDegree,balanced-importance,importance,0.35,17,24,70.8%
+Degree+InDegree,balanced-importance,doctypebranch,0.35,16,24,66.7%
+Degree+InDegree,balanced-doctypebranch,importance,0.35,10,16,62.5%
+Degree+InDegree,balanced-doctypebranch,doctypebranch,0.35,11,16,68.8%
+Degree+InDegree,unbalanced,importance,0.35,18,26,69.2%
+Degree+InDegree,unbalanced,doctypebranch,0.35,18,26,69.2%

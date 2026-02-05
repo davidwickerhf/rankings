@@ -1,0 +1,19 @@
+Combination,Network Type,Ground Truth,Total Networks,High-Rel Wins,High-Rel Rate,Low-Rel Wins,Low-Rel Rate,Difference,Better
+PageRank+Degree,unbalanced,importance,26,16,61.5%,12,46.2%,-15.4%,High-Rel
+PageRank+Degree,unbalanced,doctypebranch,26,17,65.4%,15,57.7%,-7.7%,High-Rel
+PageRank+Degree,balanced-importance,importance,24,12,50.0%,15,62.5%,+12.5%,Low-Rel
+PageRank+Degree,balanced-importance,doctypebranch,24,8,33.3%,7,29.2%,-4.2%,High-Rel
+PageRank+Degree,balanced-doctypebranch,importance,16,8,50.0%,3,18.8%,-31.2%,High-Rel
+PageRank+Degree,balanced-doctypebranch,doctypebranch,16,10,62.5%,7,43.8%,-18.8%,High-Rel
+Degree+Eigenvector,unbalanced,importance,26,19,73.1%,8,30.8%,-42.3%,High-Rel
+Degree+Eigenvector,unbalanced,doctypebranch,26,17,65.4%,11,42.3%,-23.1%,High-Rel
+Degree+Eigenvector,balanced-importance,importance,24,17,70.8%,3,12.5%,-58.3%,High-Rel
+Degree+Eigenvector,balanced-importance,doctypebranch,24,15,62.5%,8,33.3%,-29.2%,High-Rel
+Degree+Eigenvector,balanced-doctypebranch,importance,16,9,56.2%,1,6.2%,-50.0%,High-Rel
+Degree+Eigenvector,balanced-doctypebranch,doctypebranch,16,11,68.8%,4,25.0%,-43.8%,High-Rel
+Degree+InDegree,unbalanced,importance,26,18,69.2%,8,30.8%,-38.5%,High-Rel
+Degree+InDegree,unbalanced,doctypebranch,26,18,69.2%,11,42.3%,-26.9%,High-Rel
+Degree+InDegree,balanced-importance,importance,24,17,70.8%,3,12.5%,-58.3%,High-Rel
+Degree+InDegree,balanced-importance,doctypebranch,24,16,66.7%,8,33.3%,-33.3%,High-Rel
+Degree+InDegree,balanced-doctypebranch,importance,16,10,62.5%,1,6.2%,-56.2%,High-Rel
+Degree+InDegree,balanced-doctypebranch,doctypebranch,16,11,68.8%,4,25.0%,-43.8%,High-Rel

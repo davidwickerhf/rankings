@@ -1,0 +1,2438 @@
+{
+  "PageRank+Degree": {
+    "balanced-importance": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "pagerank",
+          "composite_corr": 0.3386616572771943,
+          "composite_weight": 0.8200000000000001
+        },
+        {
+          "network": "article_10",
+          "best": "pagerank",
+          "composite_corr": 0.3504487853196662,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.3098702934332979,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.4269532045679163,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.24836649698128513,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_18",
+          "best": "out_degree_centrality",
+          "composite_corr": 0.08252131596040466,
+          "composite_weight": 0.9
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.47623719286399313,
+          "composite_weight": 0.73
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.16770956422739222,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5100414051927924,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_34",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.24791164453195855,
+          "composite_weight": 0.67
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.3772708734435198,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.6131577079813608,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8181788619446636,
+          "composite_weight": 0.13
+        },
+        {
+          "network": "article_39",
+          "best": "core_number",
+          "composite_corr": 0.4316782191096227,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.4211786437282654,
+          "composite_weight": 0.54
+        },
+        {
+          "network": "article_46",
+          "best": "composite",
+          "composite_corr": 0.3792906517520358,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.4506000101365498,
+          "composite_weight": 0.97
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.4971346470922371,
+          "composite_weight": 0.61
+        },
+        {
+          "network": "article_7",
+          "best": "closeness_centrality",
+          "composite_corr": 0.15313525508224501,
+          "composite_weight": 0.97
+        },
+        {
+          "network": "article_8",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.37044888826481387,
+          "composite_weight": 0.78
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3263344468757567,
+          "composite_weight": 0.71
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.5159465436083509,
+          "composite_weight": 0.61
+        },
+        {
+          "network": "article_P4",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.3832676918084559,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_P7",
+          "best": "composite",
+          "composite_corr": 0.41598361570868697,
+          "composite_weight": 0.38
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.6128242765909633,
+          "composite_weight": 0.36
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.4114933169932995,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.3591194184778181,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4406316098430196,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_14",
+          "best": "composite",
+          "composite_corr": 0.29510496368718236,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.03794363132197961,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.33734840551154405,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_29",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.08411450260691558,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5111804028671358,
+          "composite_weight": 0.7000000000000001
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.41935699669056037,
+          "composite_weight": 0.03
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.4622257088982654,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.37622611688598045,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.32402256564044296,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.38789723723369135,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.3466119803630475,
+          "composite_weight": 0.26
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.42464041330250146,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_5",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.46318159926458613,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.3952822157349568,
+          "composite_weight": 0.63
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.3524297009931803,
+          "composite_weight": 0.28
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4243045967422901,
+          "composite_weight": 0.44
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.39534855853136547,
+          "composite_weight": 0.73
+        },
+        {
+          "network": "article_P1",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.3988189730149283,
+          "composite_weight": 0.56
+        },
+        {
+          "network": "article_P4",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.2946571952028527,
+          "composite_weight": 0.76
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4531469057966726,
+          "composite_weight": 0.5
+        }
+      ]
+    },
+    "balanced-doctypebranch": {
+      "importance": [
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.5626786597883731,
+          "composite_weight": 0.4
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.4501847596330944,
+          "composite_weight": 0.34
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6147989193777932,
+          "composite_weight": 0.5700000000000001
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.34169038587299183,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.564931777088057,
+          "composite_weight": 0.9500000000000001
+        },
+        {
+          "network": "article_29",
+          "best": "disruption",
+          "composite_corr": 0.35756160524220293,
+          "composite_weight": 0.87
+        },
+        {
+          "network": "article_3",
+          "best": "pagerank",
+          "composite_corr": 0.6703141013424637,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6396890716868553,
+          "composite_weight": 0.24
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.7044094216874214,
+          "composite_weight": 0.13
+        },
+        {
+          "network": "article_37",
+          "best": "core_number",
+          "composite_corr": 0.5771377447245822,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.6880627535244112,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_46",
+          "best": "core_number",
+          "composite_corr": 0.33456170772979466,
+          "composite_weight": 0.36
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.6991686884323662,
+          "composite_weight": 0.41000000000000003
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.6698690134695422,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.7003440713662774,
+          "composite_weight": 0.35000000000000003
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.7118631552939334,
+          "composite_weight": 0.4
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.5737121523358218,
+          "composite_weight": 0.52
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.4204937389288556,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6661666073311302,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.3188608323722885,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.551179402853536,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.2778901990493878,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_3",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.7411232305220968,
+          "composite_weight": 0.61
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6582972657322773,
+          "composite_weight": 0.29
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.7157721865410213,
+          "composite_weight": 0.12
+        },
+        {
+          "network": "article_37",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.5027743991372193,
+          "composite_weight": 0.91
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.670478643051132,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_46",
+          "best": "hits_authority",
+          "composite_corr": 0.45306643344174163,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.7754429627699433,
+          "composite_weight": 0.55
+        },
+        {
+          "network": "article_6",
+          "best": "pagerank",
+          "composite_corr": 0.5870750850383637,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.6892142985979173,
+          "composite_weight": 0.34
+        },
+        {
+          "network": "article_P1",
+          "best": "pagerank",
+          "composite_corr": 0.6712795687571693,
+          "composite_weight": 0.48
+        }
+      ]
+    },
+    "unbalanced": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.5063226782090808,
+          "composite_weight": 0.96
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.4392770985343997,
+          "composite_weight": 0.56
+        },
+        {
+          "network": "article_11",
+          "best": "pagerank",
+          "composite_corr": 0.4220460781150765,
+          "composite_weight": 0.55
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.42110734172957914,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.39509209052905053,
+          "composite_weight": 0.55
+        },
+        {
+          "network": "article_17",
+          "best": "hits_authority",
+          "composite_corr": 0.2233127419264396,
+          "composite_weight": 0.21
+        },
+        {
+          "network": "article_18",
+          "best": "pagerank",
+          "composite_corr": 0.23685535613561645,
+          "composite_weight": 0.91
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.4571850788275875,
+          "composite_weight": 0.63
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.17362827669347097,
+          "composite_weight": 0.63
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.49859441879163974,
+          "composite_weight": 0.43
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.349402910458021,
+          "composite_weight": 0.45
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.43175427050006493,
+          "composite_weight": 0.17
+        },
+        {
+          "network": "article_37",
+          "best": "degree_centrality",
+          "composite_corr": 0.5928087317172578,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8569430401604319,
+          "composite_weight": 0.21
+        },
+        {
+          "network": "article_39",
+          "best": "composite",
+          "composite_corr": 0.2864898803646176,
+          "composite_weight": 0.16
+        },
+        {
+          "network": "article_4",
+          "best": "hits_authority",
+          "composite_corr": 0.5068210805907895,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.5864792840248518,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_46",
+          "best": "composite",
+          "composite_corr": 0.42757932712340496,
+          "composite_weight": 0.45
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.4358006400685539,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.43349585470860896,
+          "composite_weight": 0.42
+        },
+        {
+          "network": "article_7",
+          "best": "hits_authority",
+          "composite_corr": 0.30494628266411955,
+          "composite_weight": 0.61
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.5013680643909583,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3773370996730141,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.4907044623938046,
+          "composite_weight": 0.3
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.489405737722983,
+          "composite_weight": 0.25
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4791493087462991,
+          "composite_weight": 0.49
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.6007900084519677,
+          "composite_weight": 0.39
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.4968349595285917,
+          "composite_weight": 0.6900000000000001
+        },
+        {
+          "network": "article_11",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4463646857024716,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.43290833221068137,
+          "composite_weight": 0.64
+        },
+        {
+          "network": "article_14",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.2806486942959864,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_17",
+          "best": "composite",
+          "composite_corr": 0.08310756403467216,
+          "composite_weight": 0.2
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.08268032397922528,
+          "composite_weight": 0.65
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.43192802400106645,
+          "composite_weight": 0.64
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.04872617570049152,
+          "composite_weight": 0.63
+        },
+        {
+          "network": "article_3",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.5932713406446177,
+          "composite_weight": 0.77
+        },
+        {
+          "network": "article_34",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.3510102642861437,
+          "composite_weight": 0.54
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.3336776702321526,
+          "composite_weight": 0.17
+        },
+        {
+          "network": "article_37",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.09927591980318275,
+          "composite_weight": 0.34
+        },
+        {
+          "network": "article_38",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.17037859775749117,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.17233736817385512,
+          "composite_weight": 0.05
+        },
+        {
+          "network": "article_4",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.017656621233948403,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.23872467924917887,
+          "composite_weight": 0.36
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.3682005040352947,
+          "composite_weight": 0.29
+        },
+        {
+          "network": "article_5",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.49374860886246325,
+          "composite_weight": 0.71
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.23500485558726203,
+          "composite_weight": 0.74
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.3652734941201789,
+          "composite_weight": 0.26
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4893791709813923,
+          "composite_weight": 0.63
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.38008623854298507,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_P1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.24145160457799997,
+          "composite_weight": 0.67
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.42928154058546303,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4297039489901313,
+          "composite_weight": 0.89
+        }
+      ]
+    }
+  },
+  "Degree+Eigenvector": {
+    "balanced-importance": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "pagerank",
+          "composite_corr": 0.29973816116439517,
+          "composite_weight": 0.37
+        },
+        {
+          "network": "article_10",
+          "best": "pagerank",
+          "composite_corr": 0.3311607983735653,
+          "composite_weight": 0.24
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.30106561053916975,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.4464133638428028,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.2441055737299165,
+          "composite_weight": 0.13
+        },
+        {
+          "network": "article_18",
+          "best": "out_degree_centrality",
+          "composite_corr": 0.06693867216773457,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_2",
+          "best": "pagerank",
+          "composite_corr": 0.45345689907927295,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.1571721934700706,
+          "composite_weight": 0.24
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5258741266656757,
+          "composite_weight": 0.44
+        },
+        {
+          "network": "article_34",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.26185043275897385,
+          "composite_weight": 0.31
+        },
+        {
+          "network": "article_35",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.3607125659695109,
+          "composite_weight": 0.66
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.6140313686796725,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8144995709391751,
+          "composite_weight": 0.9400000000000001
+        },
+        {
+          "network": "article_39",
+          "best": "core_number",
+          "composite_corr": 0.4316782191096227,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4039229369054444,
+          "composite_weight": 0.52
+        },
+        {
+          "network": "article_46",
+          "best": "composite",
+          "composite_corr": 0.3812839886808372,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.4511866409463218,
+          "composite_weight": 0.4
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.5113290728329827,
+          "composite_weight": 0.39
+        },
+        {
+          "network": "article_7",
+          "best": "closeness_centrality",
+          "composite_corr": 0.14414335117305999,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.385615839417966,
+          "composite_weight": 0.33
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.2895914388306322,
+          "composite_weight": 0.37
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.5137111405961979,
+          "composite_weight": 0.48
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.42391971409662194,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.40648763247077563,
+          "composite_weight": 0.65
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.5872627752745069,
+          "composite_weight": 0.76
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.41042834430458985,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.3536969888697488,
+          "composite_weight": 0.41000000000000003
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.44786098747498604,
+          "composite_weight": 0.42
+        },
+        {
+          "network": "article_14",
+          "best": "composite",
+          "composite_corr": 0.3083557696520935,
+          "composite_weight": 0.43
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.044448253834318975,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.31726396798569273,
+          "composite_weight": 0.71
+        },
+        {
+          "network": "article_29",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.07919774121325857,
+          "composite_weight": 0.48
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5098807602102883,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.4191348242871789,
+          "composite_weight": 0.98
+        },
+        {
+          "network": "article_35",
+          "best": "degree_centrality",
+          "composite_corr": 0.45934826077854557,
+          "composite_weight": 0.9500000000000001
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.3743347877372294,
+          "composite_weight": 0.9400000000000001
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.3284934535386715,
+          "composite_weight": 0.89
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.38789723723369135,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.34377402595292667,
+          "composite_weight": 0.8300000000000001
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.4270710302284224,
+          "composite_weight": 0.76
+        },
+        {
+          "network": "article_5",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4639406657314462,
+          "composite_weight": 0.45
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.39726228600548474,
+          "composite_weight": 0.43
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.3412266376503507,
+          "composite_weight": 0.67
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4315147958322994,
+          "composite_weight": 0.65
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3650421787925832,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_P1",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.3948078134621328,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.33232972200643524,
+          "composite_weight": 0.25
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4378357223773398,
+          "composite_weight": 0.65
+        }
+      ]
+    },
+    "balanced-doctypebranch": {
+      "importance": [
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.5773850147593595,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.4384672521320164,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6255412392516989,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_14",
+          "best": "composite",
+          "composite_corr": 0.39005490169227686,
+          "composite_weight": 0.36
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.5098777845220974,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_29",
+          "best": "disruption",
+          "composite_corr": 0.36275388698847855,
+          "composite_weight": 0.26
+        },
+        {
+          "network": "article_3",
+          "best": "pagerank",
+          "composite_corr": 0.6788040322687177,
+          "composite_weight": 0.62
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6366354061004167,
+          "composite_weight": 0.81
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.6981668520465033,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_37",
+          "best": "core_number",
+          "composite_corr": 0.5784121293044645,
+          "composite_weight": 0.78
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.6882053659872157,
+          "composite_weight": 0.91
+        },
+        {
+          "network": "article_46",
+          "best": "core_number",
+          "composite_corr": 0.32960523798564945,
+          "composite_weight": 0.92
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.6973402225458121,
+          "composite_weight": 0.65
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.6713977312541892,
+          "composite_weight": 0.5700000000000001
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.711640255312865,
+          "composite_weight": 0.74
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.7175928051187311,
+          "composite_weight": 0.62
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.5808558837938046,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.41342121426797274,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6736567336909135,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_14",
+          "best": "composite",
+          "composite_corr": 0.3608672790948033,
+          "composite_weight": 0.3
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.5109701833585003,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.274816695263491,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_3",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.7428557860386845,
+          "composite_weight": 0.38
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6545116874195036,
+          "composite_weight": 0.86
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.7076055680167715,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.5180603345854571,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.6667232383455888,
+          "composite_weight": 0.89
+        },
+        {
+          "network": "article_46",
+          "best": "hits_authority",
+          "composite_corr": 0.44532170808376315,
+          "composite_weight": 0.54
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.7745232239962622,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_6",
+          "best": "pagerank",
+          "composite_corr": 0.5889847289528012,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.6982896296716722,
+          "composite_weight": 0.6900000000000001
+        },
+        {
+          "network": "article_P1",
+          "best": "pagerank",
+          "composite_corr": 0.6700562204872603,
+          "composite_weight": 0.59
+        }
+      ]
+    },
+    "unbalanced": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.49794816854549123,
+          "composite_weight": 0.12
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.4302851222234114,
+          "composite_weight": 0.55
+        },
+        {
+          "network": "article_11",
+          "best": "pagerank",
+          "composite_corr": 0.418500352313364,
+          "composite_weight": 0.43
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.42675649259451304,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.39048042461489224,
+          "composite_weight": 0.44
+        },
+        {
+          "network": "article_17",
+          "best": "hits_authority",
+          "composite_corr": 0.22781620486534987,
+          "composite_weight": 0.78
+        },
+        {
+          "network": "article_18",
+          "best": "pagerank",
+          "composite_corr": 0.19013923166989646,
+          "composite_weight": 0.23
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.447409105312326,
+          "composite_weight": 0.47000000000000003
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.17298564791998136,
+          "composite_weight": 0.42
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5089016301077579,
+          "composite_weight": 0.58
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.35493587821082084,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.4289852280108434,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_37",
+          "best": "degree_centrality",
+          "composite_corr": 0.5933285676713894,
+          "composite_weight": 0.9400000000000001
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8568678846399812,
+          "composite_weight": 0.74
+        },
+        {
+          "network": "article_39",
+          "best": "composite",
+          "composite_corr": 0.2864898803646176,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_4",
+          "best": "composite",
+          "composite_corr": 0.535402983996644,
+          "composite_weight": 0.05
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.5834874931754339,
+          "composite_weight": 0.86
+        },
+        {
+          "network": "article_46",
+          "best": "composite",
+          "composite_corr": 0.426716080348443,
+          "composite_weight": 0.48
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.43997071130214804,
+          "composite_weight": 0.43
+        },
+        {
+          "network": "article_6",
+          "best": "composite",
+          "composite_corr": 0.442024404035985,
+          "composite_weight": 0.54
+        },
+        {
+          "network": "article_7",
+          "best": "hits_authority",
+          "composite_corr": 0.29707512659826935,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.5132529516802048,
+          "composite_weight": 0.56
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.35098841079181997,
+          "composite_weight": 0.55
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.49516653248155224,
+          "composite_weight": 0.66
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.5020049582148878,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4782280024622463,
+          "composite_weight": 0.6
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.5788399405982823,
+          "composite_weight": 0.67
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.5037155037810147,
+          "composite_weight": 0.33
+        },
+        {
+          "network": "article_11",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.44476134738924955,
+          "composite_weight": 0.38
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4366153228633361,
+          "composite_weight": 0.38
+        },
+        {
+          "network": "article_14",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.2851405677115227,
+          "composite_weight": 0.45
+        },
+        {
+          "network": "article_17",
+          "best": "composite",
+          "composite_corr": 0.07874663379925557,
+          "composite_weight": 0.78
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.06954419773953527,
+          "composite_weight": 0.56
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.4356230039746527,
+          "composite_weight": 0.39
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.047218628232439844,
+          "composite_weight": 0.53
+        },
+        {
+          "network": "article_3",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6025507362873913,
+          "composite_weight": 0.27
+        },
+        {
+          "network": "article_34",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.34913631174698667,
+          "composite_weight": 0.44
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.3314116069407921,
+          "composite_weight": 0.89
+        },
+        {
+          "network": "article_37",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.09913581442507009,
+          "composite_weight": 0.68
+        },
+        {
+          "network": "article_38",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.17100536378485193,
+          "composite_weight": 0.8200000000000001
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.17233736817385512,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_4",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.022070776542435503,
+          "composite_weight": 0.51
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.23671307959263754,
+          "composite_weight": 0.67
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.36972789896722236,
+          "composite_weight": 0.84
+        },
+        {
+          "network": "article_5",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.5000013066065223,
+          "composite_weight": 0.29
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.23899456985729264,
+          "composite_weight": 0.28
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.3579510582068237,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4981079924545367,
+          "composite_weight": 0.41000000000000003
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.35122748507533286,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_P1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.24508700019941276,
+          "composite_weight": 0.35000000000000003
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.4424833243771816,
+          "composite_weight": 0.29
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.427759941971957,
+          "composite_weight": 0.38
+        }
+      ]
+    }
+  },
+  "Degree+InDegree": {
+    "balanced-importance": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "pagerank",
+          "composite_corr": 0.30559637129551975,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_10",
+          "best": "pagerank",
+          "composite_corr": 0.32298131019883297,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.28763161961970773,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.42892501454893917,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.22204134323456834,
+          "composite_weight": 0.05
+        },
+        {
+          "network": "article_18",
+          "best": "out_degree_centrality",
+          "composite_corr": 0.05828599606376887,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_2",
+          "best": "pagerank",
+          "composite_corr": 0.4241498055874675,
+          "composite_weight": 0.15
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.16140086827551717,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.49736385788355075,
+          "composite_weight": 0.17
+        },
+        {
+          "network": "article_34",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.2538422593272876,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.37331964322005107,
+          "composite_weight": 0.27
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.6131352375177256,
+          "composite_weight": 0.81
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8176172308504881,
+          "composite_weight": 0.48
+        },
+        {
+          "network": "article_39",
+          "best": "core_number",
+          "composite_corr": 0.4316782191096227,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4098309007701308,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_46",
+          "best": "pagerank",
+          "composite_corr": 0.363706009787762,
+          "composite_weight": 0.2
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.43682782115124374,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.4946343051381471,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_7",
+          "best": "closeness_centrality",
+          "composite_corr": 0.12605248789739054,
+          "composite_weight": 0.02
+        },
+        {
+          "network": "article_8",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.35781479564911367,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.2819578510305358,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.5148316641084004,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_P4",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.3700538368331573,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_P7",
+          "best": "composite",
+          "composite_corr": 0.4236338957872826,
+          "composite_weight": 0.26
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.5817062583111752,
+          "composite_weight": 0.73
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.3997333523790001,
+          "composite_weight": 0.22
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.3494641805471053,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.44302335279232813,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_14",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.27413286807028575,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.06940386185060769,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.3374919847026754,
+          "composite_weight": 0.15
+        },
+        {
+          "network": "article_29",
+          "best": "composite",
+          "composite_corr": 0.08718453049378361,
+          "composite_weight": 0.12
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.5157356244355293,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.419013718415931,
+          "composite_weight": 0.96
+        },
+        {
+          "network": "article_35",
+          "best": "degree_centrality",
+          "composite_corr": 0.4589718572723936,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_37",
+          "best": "composite",
+          "composite_corr": 0.3750480812889373,
+          "composite_weight": 0.89
+        },
+        {
+          "network": "article_38",
+          "best": "degree_centrality",
+          "composite_corr": 0.32191306247342266,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.38789723723369135,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.34067824570073507,
+          "composite_weight": 0.8300000000000001
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.4218141575661166,
+          "composite_weight": 0.75
+        },
+        {
+          "network": "article_5",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4586962655503302,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.39161330053100657,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.31837709936627556,
+          "composite_weight": 0.6
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4149582191299792,
+          "composite_weight": 0.37
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3116262388541484,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_P1",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.3954125419691852,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_P4",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.2927154933783599,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4524578293347912,
+          "composite_weight": 0.26
+        }
+      ]
+    },
+    "balanced-doctypebranch": {
+      "importance": [
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.550360065424302,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.4468268366418035,
+          "composite_weight": 0.2
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6132532493711278,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.32322446051540393,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.5484923414395723,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_29",
+          "best": "disruption",
+          "composite_corr": 0.3575407707247919,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_3",
+          "best": "pagerank",
+          "composite_corr": 0.670774197569943,
+          "composite_weight": 0.17
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6409108525318609,
+          "composite_weight": 0.22
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.6963951174527202,
+          "composite_weight": 0.84
+        },
+        {
+          "network": "article_37",
+          "best": "core_number",
+          "composite_corr": 0.579091152321433,
+          "composite_weight": 0.9
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.6891091976961512,
+          "composite_weight": 0.74
+        },
+        {
+          "network": "article_46",
+          "best": "core_number",
+          "composite_corr": 0.32960523798564945,
+          "composite_weight": 0.59
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.6970599787513043,
+          "composite_weight": 0.16
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.6722347142134006,
+          "composite_weight": 0.11
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.6819876314611676,
+          "composite_weight": 0.46
+        },
+        {
+          "network": "article_P1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.7048512708902438,
+          "composite_weight": 0.08
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_10",
+          "best": "pagerank",
+          "composite_corr": 0.5545285071163925,
+          "composite_weight": 0.19
+        },
+        {
+          "network": "article_11",
+          "best": "hits_hub",
+          "composite_corr": 0.4312632651170183,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.6599320632500639,
+          "composite_weight": 0.05
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.28003323939989594,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_2",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.5434567138742833,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.2748421967431788,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_3",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.7443088880366234,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.6607551987584063,
+          "composite_weight": 0.38
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.7072222786851752,
+          "composite_weight": 0.98
+        },
+        {
+          "network": "article_37",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.49931123888856893,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.6621216887334977,
+          "composite_weight": 0.74
+        },
+        {
+          "network": "article_46",
+          "best": "hits_authority",
+          "composite_corr": 0.4414493454047739,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_5",
+          "best": "composite",
+          "composite_corr": 0.7692198406212905,
+          "composite_weight": 0.04
+        },
+        {
+          "network": "article_6",
+          "best": "pagerank",
+          "composite_corr": 0.5835192218054479,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.6710103256885944,
+          "composite_weight": 0.31
+        },
+        {
+          "network": "article_P1",
+          "best": "pagerank",
+          "composite_corr": 0.6619029152803065,
+          "composite_weight": 0.08
+        }
+      ]
+    },
+    "unbalanced": {
+      "importance": [
+        {
+          "network": "article_1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.47763225199288833,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.42513716346887415,
+          "composite_weight": 0.32
+        },
+        {
+          "network": "article_11",
+          "best": "pagerank",
+          "composite_corr": 0.41895109895758864,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_13",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.4197068767107625,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_14",
+          "best": "closeness_centrality",
+          "composite_corr": 0.39186367669827216,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_17",
+          "best": "hits_authority",
+          "composite_corr": 0.22684529814192894,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_18",
+          "best": "pagerank",
+          "composite_corr": 0.19101833319283623,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.43155137188569204,
+          "composite_weight": 0.29
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.17549035057783377,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_3",
+          "best": "composite",
+          "composite_corr": 0.487742452065304,
+          "composite_weight": 0.39
+        },
+        {
+          "network": "article_34",
+          "best": "composite",
+          "composite_corr": 0.3498559698271791,
+          "composite_weight": 0.24
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.4352253015144541,
+          "composite_weight": 0.5700000000000001
+        },
+        {
+          "network": "article_37",
+          "best": "degree_centrality",
+          "composite_corr": 0.5930481835632316,
+          "composite_weight": 0.93
+        },
+        {
+          "network": "article_38",
+          "best": "composite",
+          "composite_corr": 0.8577062603055955,
+          "composite_weight": 0.39
+        },
+        {
+          "network": "article_39",
+          "best": "composite",
+          "composite_corr": 0.2864898803646176,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_4",
+          "best": "hits_authority",
+          "composite_corr": 0.4861615116707131,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.5840597028180731,
+          "composite_weight": 0.79
+        },
+        {
+          "network": "article_46",
+          "best": "composite",
+          "composite_corr": 0.41969526408803826,
+          "composite_weight": 0.16
+        },
+        {
+          "network": "article_5",
+          "best": "pagerank",
+          "composite_corr": 0.4271012695036096,
+          "composite_weight": 0.09
+        },
+        {
+          "network": "article_6",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4302603012347128,
+          "composite_weight": 0.27
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.3276915672134384,
+          "composite_weight": 0.12
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4936518779297642,
+          "composite_weight": 0.27
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3602263829362028,
+          "composite_weight": 0.16
+        },
+        {
+          "network": "article_P1",
+          "best": "composite",
+          "composite_corr": 0.4879177835395837,
+          "composite_weight": 0.35000000000000003
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.4831993149325424,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.4846629316426542,
+          "composite_weight": 0.08
+        }
+      ],
+      "doctypebranch": [
+        {
+          "network": "article_1",
+          "best": "composite",
+          "composite_corr": 0.5777537326367449,
+          "composite_weight": 0.5
+        },
+        {
+          "network": "article_10",
+          "best": "composite",
+          "composite_corr": 0.49585722729360177,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_11",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.44750931695616863,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_13",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.4338584359279453,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_14",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.26836936543292533,
+          "composite_weight": 0.16
+        },
+        {
+          "network": "article_17",
+          "best": "composite",
+          "composite_corr": 0.08917156342614914,
+          "composite_weight": 0.49
+        },
+        {
+          "network": "article_18",
+          "best": "hits_authority",
+          "composite_corr": 0.09081037394762835,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_2",
+          "best": "composite",
+          "composite_corr": 0.4346739028512584,
+          "composite_weight": 0.12
+        },
+        {
+          "network": "article_29",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.04984220133678095,
+          "composite_weight": 0.13
+        },
+        {
+          "network": "article_3",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.5970873653249384,
+          "composite_weight": 0.06
+        },
+        {
+          "network": "article_34",
+          "best": "in_degree_centrality",
+          "composite_corr": 0.35247655600772326,
+          "composite_weight": 0.18
+        },
+        {
+          "network": "article_35",
+          "best": "composite",
+          "composite_corr": 0.331089436258221,
+          "composite_weight": 0.99
+        },
+        {
+          "network": "article_37",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.09845311362586237,
+          "composite_weight": 0.17
+        },
+        {
+          "network": "article_38",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.16780976427395125,
+          "composite_weight": 0.9500000000000001
+        },
+        {
+          "network": "article_39",
+          "best": "degree_centrality",
+          "composite_corr": 0.17233736817385512,
+          "composite_weight": 0.01
+        },
+        {
+          "network": "article_4",
+          "best": "betweenness_centrality",
+          "composite_corr": 0.02208556647666864,
+          "composite_weight": 0.7000000000000001
+        },
+        {
+          "network": "article_41",
+          "best": "composite",
+          "composite_corr": 0.23389142597242923,
+          "composite_weight": 0.5
+        },
+        {
+          "network": "article_46",
+          "best": "relative_in_degree_centrality",
+          "composite_corr": 0.36502213635659253,
+          "composite_weight": 0.48
+        },
+        {
+          "network": "article_5",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.49297359070721775,
+          "composite_weight": 0.05
+        },
+        {
+          "network": "article_6",
+          "best": "eigenvector_centrality",
+          "composite_corr": 0.23466199125476758,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_7",
+          "best": "composite",
+          "composite_corr": 0.34674136749860474,
+          "composite_weight": 0.22
+        },
+        {
+          "network": "article_8",
+          "best": "composite",
+          "composite_corr": 0.4877744774953439,
+          "composite_weight": 0.1
+        },
+        {
+          "network": "article_9",
+          "best": "pagerank",
+          "composite_corr": 0.3355722648422691,
+          "composite_weight": 0.14
+        },
+        {
+          "network": "article_P1",
+          "best": "harmonic_centrality",
+          "composite_corr": 0.24068116723741548,
+          "composite_weight": 0.07
+        },
+        {
+          "network": "article_P4",
+          "best": "composite",
+          "composite_corr": 0.4310247736250976,
+          "composite_weight": 0.08
+        },
+        {
+          "network": "article_P7",
+          "best": "hits_hub",
+          "composite_corr": 0.42790852922073436,
+          "composite_weight": 0.06
+        }
+      ]
+    }
+  }
+}

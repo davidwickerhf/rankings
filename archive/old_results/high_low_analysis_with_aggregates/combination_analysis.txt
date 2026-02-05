@@ -1,0 +1,75 @@
+================================================================================
+HIGH/LOW CENTRALITY COMBINATION ANALYSIS
+(Using Enhanced Methodology with Doctypebranch Filtering)
+================================================================================
+
+MOST COMMON COMBINATIONS ACROSS ALL INDIVIDUAL SUB-NETWORKS:
+--------------------------------------------------------------------------------
+  degree_centrality + disruption: 25 times
+  degree_centrality + hits_hub: 21 times
+  relative_in_degree_centrality + hits_hub: 11 times
+  pagerank + out_degree_centrality: 10 times
+  pagerank + hits_hub: 10 times
+  in_degree_centrality + hits_hub: 7 times
+  relative_in_degree_centrality + disruption: 6 times
+  eigenvector_centrality + disruption: 5 times
+  hits_authority + disruption: 5 times
+  harmonic_centrality + disruption: 5 times
+
+================================================================================
+METHODOLOGICAL JUSTIFICATION FOR SELECTED COMBINATIONS
+================================================================================
+
+HIGH PERFORMERS (frequency across all networks):
+  degree_centrality: 50 times
+  pagerank: 21 times
+  relative_in_degree_centrality: 17 times
+  in_degree_centrality: 11 times
+  eigenvector_centrality: 8 times
+  harmonic_centrality: 7 times
+  hits_authority: 6 times
+  closeness_centrality: 5 times
+  betweenness_centrality: 3 times
+  core_number: 3 times
+  out_degree_centrality: 1 times
+
+LOW PERFORMERS (frequency across all networks):
+  disruption: 57 times
+  hits_hub: 52 times
+  out_degree_centrality: 18 times
+  eigenvector_centrality: 2 times
+  hits_authority: 1 times
+  core_number: 1 times
+  betweenness_centrality: 1 times
+
+================================================================================
+JUSTIFICATION FOR TESTING THESE COMBINATIONS:
+================================================================================
+
+Degree + Eigenvector:
+  - Appeared in 1 sub-networks
+  - 'degree_centrality' ranks #7 among high performers (50 appearances)
+  - 'eigenvector_centrality' ranks #6 among low performers (2 appearances)
+
+Degree + PageRank:
+  - Appeared in 0 sub-networks
+  - 'degree_centrality' ranks #7 among high performers (50 appearances)
+  - 'pagerank' ranks #999 among low performers (0 appearances)
+
+Degree + In-Degree:
+  - Appeared in 0 sub-networks
+  - 'degree_centrality' ranks #7 among high performers (50 appearances)
+  - 'in_degree_centrality' ranks #999 among low performers (0 appearances)
+
+================================================================================
+CONCLUSION:
+================================================================================
+
+These three combinations were selected for testing because:
+1. Degree centrality consistently emerges as a top high performer
+2. Eigenvector, PageRank, and In-Degree represent diverse theoretical approaches:
+   - Eigenvector: Network position and influence
+   - PageRank: Iterative importance weighting
+   - In-Degree: Simple citation count
+3. These combinations provide diversity in capturing different aspects of
+   network importance, even if they don't appear most frequently.

@@ -1,0 +1,54 @@
+\subsection{Optimizing Centrality}
+
+Building on the findings from Figure \ref{fig:performers}, we sought to develop a composite measure that leverages the complementary strengths of centralities optimized for identifying high-relevance versus low-relevance judgments. Based on the frequency analysis across sub-networks, we identified three promising combinations for systematic evaluation:
+
+\begin{enumerate}
+\item \textbf{PageRank (high-relevance) + Degree (low-relevance)}: PageRank demonstrated strong performance for identifying high-relevance judgments in importance-balanced networks, while Degree consistently identified low-relevance cases across all network types.
+
+\item \textbf{Degree (high-relevance) + Eigenvector (low-relevance)}: Degree emerged as the leading high-relevance indicator in multiple configurations, with Eigenvector showing competitive performance for low-relevance identification.
+
+\item \textbf{Degree (high-relevance) + In-Degree (low-relevance)}: This combination paired Degree's consistent high-relevance performance with In-Degree's frequent selection for low-relevance cases, particularly in doctypebranch-balanced networks.
+\end{enumerate}
+
+For each centrality measure, judgments were ranked from highest to lowest based on their centrality scores, with the judgment exhibiting the highest centrality receiving rank 1.
+
+\subsubsection{Composite Ranking Methodology}
+
+We evaluated two approaches for combining high-relevance and low-relevance centrality rankings:
+
+\begin{enumerate}
+\item \textbf{High-Relevance Priority}: The top $\tau\%$ of judgments are selected from the high-relevance centrality ranking (ranks 1 to $k$), with the remaining $(1-\tau)\%$ ranked according to the low-relevance centrality measure (ranks $k+1$ to $N$).
+
+\item \textbf{Low-Relevance Priority}: The bottom $\tau\%$ of judgments (those with lowest low-relevance centrality) are deprioritized (ranks $N-k+1$ to $N$), with the remaining judgments ranked according to the high-relevance centrality measure (ranks 1 to $N-k$).
+\end{enumerate}
+
+Empirical testing across all 66 sub-networks revealed that Low-Relevance Priority significantly underperformed High-Relevance Priority, with win rates of 6-63\% versus 33-73\% (average difference: $-31.6\%$). This performance gap persisted even when the high and low centrality measures were highly correlated (e.g., Degree and In-Degree, Spearman $\rho=0.72$), demonstrating that the two approaches select fundamentally different judgment sets. Consequently, all subsequent analyses employed High-Relevance Priority exclusively.
+
+\subsubsection{Threshold Optimization}
+
+The critical parameter $\tau$ (the proportion of judgments prioritized by high-relevance centrality) was determined through systematic grid search optimization. For each combination and ground truth, we evaluated thresholds $\tau \in [0.05, 0.95]$ in 0.05 increments across all networks, selecting the threshold that maximized the number of networks where the composite measure outperformed all 13 individual centrality measures. This data-driven approach yielded optimal thresholds that varied by combination and ground truth:
+
+\begin{itemize}
+\item PageRank + Degree: $\tau = 0.65$ (importance), $\tau = 0.70$ (doctypebranch)
+\item Degree + Eigenvector: $\tau = 0.30$ (importance), $\tau = 0.35$ (doctypebranch)  
+\item Degree + In-Degree: $\tau = 0.35$ (importance), $\tau = 0.35$ (doctypebranch)
+\end{itemize}
+
+These optimal thresholds were then applied universally across all networks of the same type to evaluate the composite measures' generalizability and practical applicability.
+
+\subsubsection{Performance Evaluation}
+
+Figure \ref{fig:composite_performance} presents the win rates for each composite measure across the three network types (unbalanced, balanced-importance, balanced-doctypebranch) and two ground truths. Win rate is defined as the proportion of networks where the composite measure achieved the highest correlation with ground truth among all 14 measures (13 individual centralities plus the composite).
+
+% TODO: Add figure reference for composite performance comparison
+% This should show horizontal bar charts comparing win rates for:
+% - All three combinations
+% - Across network types  
+% - For both ground truths
+% Source: results/analysis/04_optimized_threshold_composite/comparison_*.png
+
+The Degree + Eigenvector combination demonstrated the strongest overall performance, achieving win rates of 73.1\% (unbalanced networks, importance ground truth), 70.8\% (balanced-importance, importance), and 68.8\% (balanced-doctypebranch, doctypebranch). This combination consistently outperformed both PageRank + Degree (win rates: 33-65\%) and Degree + In-Degree (win rates: 63-71\%).
+
+Notably, all three composite measures substantially outperformed their constituent individual centralities. For example, in unbalanced networks evaluated against importance, Degree alone achieved best performance in approximately 15-20\% of networks, while the Degree + Eigenvector composite won in 73.1\% of networks. This improvement demonstrates that the composite approach successfully leverages complementary signals from high-relevance and low-relevance optimized measures.
+
+The consistent performance advantage across balanced and unbalanced datasets, as well as across both ground truths, indicates that the composite measures capture generalizable patterns of precedent value rather than overfitting to specific network configurations or evaluation criteria. The optimal thresholds' stability further suggests that the identified proportions reflect meaningful structural characteristics of how high-relevance and low-relevance judgments are distributed within ECtHR citation networks.

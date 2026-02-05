@@ -1,0 +1,32 @@
+{
+  "overall": {
+    "high_rel_better": 17,
+    "low_rel_better": 1,
+    "ties": 0,
+    "avg_difference": -31.583333333333332
+  },
+  "by_combination": {
+    "Diff_numeric": {
+      "Degree+Eigenvector": -41.12,
+      "Degree+InDegree": -42.83,
+      "PageRank+Degree": -10.8
+    },
+    "Better": {
+      "Degree+Eigenvector": 0,
+      "Degree+InDegree": 0,
+      "PageRank+Degree": 1
+    }
+  },
+  "by_network_type": {
+    "Diff_numeric": {
+      "balanced-doctypebranch": -40.63,
+      "balanced-importance": -28.47,
+      "unbalanced": -25.65
+    },
+    "Better": {
+      "balanced-doctypebranch": 0,
+      "balanced-importance": 1,
+      "unbalanced": 0
+    }
+  }
+}
