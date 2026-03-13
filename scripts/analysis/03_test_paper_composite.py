@@ -284,7 +284,7 @@ def print_summary(results):
 
 
 def plot_combination_results(all_results, combo_names):
-    """Create comparison plots for all tested combinations - MATCHES 02_test_composite_measures.py style."""
+    """Create comparison plots for all tested combinations."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     network_types = ['balanced-importance', 'balanced-doctypebranch', 'unbalanced']

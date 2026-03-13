@@ -1,16 +1,10 @@
-"""
-NOTE: This script currently only shows AGGREGATED sub-network results.
-For testing on FULL networks (from master_centralities.csv), 
-use a separate script that loads full network data.
-"""
-Visualize how composite (with optimal universal threshold) performs across network types.
+"""Visualize optimized-threshold composite performance across network types.
 
-Shows a comprehensive view of composite wins vs. individual centrality wins across:
-- Unbalanced networks
-- Balanced-importance networks  
-- Balanced-doctypebranch networks
-
-For each combination and ground truth.
+This script summarizes the outputs from
+``results/analysis/04_optimized_threshold_composite/detailed_results.json`` and
+produces per-network-type plots plus an aggregated CSV table. It operates on the
+subnetwork-level results used by the paper rather than on full-network master
+tables.
 """
 
 import os

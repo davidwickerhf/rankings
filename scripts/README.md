@@ -1,231 +1,86 @@
-# Analysis Scripts Documentation
+# Scripts
 
-This directory contains all analysis scripts for the ECtHR citation network project.
+This directory contains the active, script-based implementation of the project.
+The scripts are organized by their role in the reproducibility story rather than
+by notebook history.
 
-## Core Analysis Scripts
+## Layout
 
-### 1. `analyze_high_low_performers.py`
+- `scripts/load/`
+  - Entry points that begin from `data/METADATA/echr_metadata.csv`.
+  - These scripts clean metadata, derive node/edge tables, and record explicit
+    citation extraction outputs under `results/load/`.
+- `scripts/generate/`
+  - Entry points that rebuild intermediate and supporting artifacts needed by
+    the study.
+  - This includes the active `merged-article-edges` network family, the
+    network statistics table, the centrality result bundles, and the
+    correlation matrix figure.
+- `scripts/analysis/`
+  - Entry points for the paper-facing analyses.
+  - These scripts consume the centrality-enriched `total_df.csv` tables and
+    write the performer summaries, composite-threshold evaluations, priority
+    comparisons, and overlay figures cited in the paper.
+- `scripts/shared/`
+  - Shared Python modules used by the script entry points.
+  - This code is intentionally thin and exists to avoid duplicating network
+    loading, centrality, partitioning, statistics, and output-format logic.
 
-**Purpose**: Identify which centrality measures perform best for predicting high vs. low relevance judgments.
+## How The Script Families Fit Together
 
-**Methodology**:
-- **High Performer Selection**: Centrality with most negative correlation with ground truth (lower score = higher importance)
-- **Low Performer Selection**: Among remaining centralities, select one with highest absolute correlation in low-relevance subset (scores 2-3)
-- **Ground Truth Encoding**:
-  - Importance: 1=most important, 2=important, 3=less important
-  - Doctypebranch: 1=GRANDCHAMBER, 2=CHAMBER, 3=COMMITTEE
+The scripts support two related goals:
 
-**Analysis Scope**:
-- Individual sub-networks (article_1, article_2, etc.)
-- Three network types: unbalanced, balanced-importance, balanced-doctypebranch
-- Both ground truths (importance, doctypebranch)
+1. Reconstruct how the centrality-ready data products were built.
+2. Regenerate the analyses and figures that support the paper text.
 
-**Outputs**:
-- `results/high_low_analysis_50_cutoff/`
-  - `{network_type}_high_performers.png` - High performer bar charts
-  - `{network_type}_low_performers.png` - Low performer bar charts
-  - `combined_total.png` - Overall frequency chart
-  - `summary.txt` - Detailed text summary
+In practice:
 
-**Usage**:
-```bash
-python analyze_high_low_performers.py [cutoff]
-# Default cutoff: 50
-```
+1. `scripts/load/` starts from the canonical metadata export.
+2. `scripts/generate/` turns that material into network inputs and supporting
+   outputs.
+3. `scripts/analysis/` turns the centrality tables into the paper-facing
+   claims.
 
----
+## Recommended Execution Order
 
-### 2. `analyze_high_low_with_aggregates.py`
-
-**Purpose**: Enhanced analysis including both individual sub-networks AND aggregate mega-networks to justify combination testing.
-
-**Methodology**:
-- **Step 1**: Analyze all individual sub-networks (same as script #1)
-- **Step 2**: Create aggregate networks by combining all sub-networks of each type
-  - Unbalanced aggregate: All 26 article networks combined (27,368 nodes)
-  - Balanced-importance aggregate: All 24 balanced networks combined  
-  - Balanced-doctypebranch aggregate: All 16 balanced networks combined
-- **Step 3**: Count which high+low combinations appear most frequently
-
-**Selection Logic** (matches `rankings.ipynb`):
-- For **doctypebranch**: Calculate correlation using only GRANDCHAMBER (1) vs CHAMBER (2) cases
-- For **importance**: Use full range (1, 2, 3)
-- **Disruption** special handling: Invert correlation sign (positive corr = good for disruption)
-- **High**: Centrality with highest correlation score
-- **Low**: Centrality with second-highest score (excluding high)
-
-**Outputs**:
-- `results/high_low_analysis_with_aggregates/`
-  - `combination_analysis.txt` - Frequency counts and justification
-  - `combination_frequency.png` - Bar chart (tested combos highlighted in red)
-
-**Usage**:
-```bash
-python analyze_high_low_with_aggregates.py
-```
-
-**Key Finding**: Most common combinations are:
-1. Degree + Disruption (25 times)
-2. Degree + HitsHub (21 times)
-3. Relative-InDegree + HitsHub (11 times)
-
----
-
-### 3. `test_combinations_with_verification.py`
-
-**Purpose**: Test specific centrality combinations and generate complete verification data.
-
-**Tested Combinations**:
-- Degree + Eigenvector
-- Degree + PageRank
-- Degree + In-Degree
-
-**Methodology**:
-1. **Normalization**: Percentile ranking scaled to [1, 1000]
-2. **Combination**: Weighted geometric mean `composite = high^w × low^(1-w)`
-3. **Optimization**: Grid search over 99 weights (0.01-0.99) per network
-4. **Evaluation**: Composite wins only if it beats ALL 13 individual centralities
-
-**Outputs**:
-- `results/fixed-merged-subarticles-edges/verification_test/`
-  - `{combo}_detailed_correlations.csv` - All centrality correlations per network
-  - `{combo}_summary.csv` - Key results only
-  - `verification_report.txt` - Human-readable summary
-  - `ALL_COMBINATIONS_correlations.csv` - Combined data
-
-**Usage**:
-```bash
-python test_combinations_with_verification.py
-```
-
----
-
-### 4. `test_global_vs_local_weight.py`
-
-**Purpose**: Validate claim about optimization advantage by testing global vs. local weight approaches.
-
-**Methodology**:
-- **LOCAL**: Per-network weight optimization (baseline)
-- **GLOBAL**: Single fixed weight (median of optimal weights) for all networks
-- Measures reduction in win rate when using global weight
-
-**Results**:
-- LOCAL: 43.2% win rate (57/132 networks)
-- GLOBAL: 28.0% win rate (37/132 networks)
-- Reduction: 14.4 percentage points
-
-**Usage**:
-```bash
-python test_global_vs_local_weight.py
-```
-
----
-
-## Legacy/Test Scripts
-
-### `test_centrality_combinations.py`
-Original combination testing script (superseded by `test_combinations_with_verification.py`).
-
-### `test_centrality_combinations_fixed.py`
-Fixed version handling balanced networks correctly.
-
-### `test_new_combinations.py`
-Tests three specific combinations (used to discover Degree+Eigenvector as best).
-
-### `compare_selection_methods.py`
-Compares different centrality selection approaches.
-
----
-
-## Understanding the Selection Logic
-
-### Why Correlation-Based?
-
-The scripts use **Spearman correlation** rather than counting wins because:
-1. More statistically robust
-2. Accounts for strength of relationship, not just ranking
-3. Standard practice in network analysis
-
-### Ground Truth Direction
-
-**Lower scores = higher importance**:
-- Importance: 1 (most) → 3 (least)
-- Doctypebranch: 1 (GrandChamber) → 3 (Committee)
-
-Therefore:
-- **Negative correlation** = good predictor (high centrality → low score → high importance)
-- **Positive correlation** = bad predictor
-
-### Special Cases
-
-**Disruption Index**:
-- Exhibits POSITIVE correlation (higher disruption = less important)
-- Correlation sign inverted during selection to ensure consistent ranking
-
-**Doctypebranch Low Selection**:
-- Uses only scores 1-2 (GRANDCHAMBER vs CHAMBER)
-- Committee cases (3) excluded as they have different patterns
-
----
-
-## Result File Formats
-
-### CSV Files (verification data)
-
-**Columns**:
-- `network_type`: unbalanced | balanced-importance | balanced-doctypebranch
-- `network`: article_1, article_2, etc.
-- `ground_truth`: importance | doctypebranch
-- `n_nodes`: Network size
-- `composite_abs_corr`: Composite absolute correlation
-- `composite_weight`: Optimized weight parameter
-- `winner`: Which measure had highest correlation
-- `{centrality}_corr`: Signed correlation for each centrality
-- `{centrality}_abs_corr`: Absolute correlation for each centrality
-
-### TXT Files (summaries)
-
-Human-readable summaries with:
-- Win counts by network type
-- Average correlations when composite wins/loses
-- Breakdown by ground truth
-
----
-
-## Running All Analyses
+Rebuild metadata-derived artifacts when needed:
 
 ```bash
-# 1. High/low performer analysis
-python scripts/analyze_high_low_performers.py
-
-# 2. Enhanced analysis with aggregates  
-python scripts/analyze_high_low_with_aggregates.py
-
-# 3. Test combinations with verification
-python scripts/test_combinations_with_verification.py
-
-# 4. Validate global weight claim
-python scripts/test_global_vs_local_weight.py
+venv/bin/python scripts/load/process_metadata.py
+venv/bin/python scripts/load/extract_edges.py
 ```
 
-**Total runtime**: ~5-10 minutes for all scripts
+Rebuild the active network family and supporting artifacts:
 
----
+```bash
+venv/bin/python scripts/generate/00_generate_merged_article_edge_networks.py
+venv/bin/python scripts/generate/01_generate_network_statistics.py
+venv/bin/python scripts/generate/02_build_centrality_results.py \
+  --network-dir networks/merged-article-edges/split-unbalanced \
+  --output-dir results/rebuilt/split-unbalanced \
+  --min-nodes 50
+venv/bin/python scripts/generate/03_generate_correlation_matrix.py \
+  --input results/fixed-merged-subarticles-edges/importance-merged/unbalanced/total_df.csv \
+  --output results/analysis/00_supporting_figures/correlation_matrix.png
+```
 
-## Troubleshooting
+Run the paper-facing analyses:
 
-### Warnings
+```bash
+venv/bin/python scripts/analysis/01_find_best_high_low.py
+venv/bin/python scripts/analysis/03_test_paper_composite.py
+venv/bin/python scripts/analysis/04_test_optimized_threshold_composite.py
+venv/bin/python scripts/analysis/05_compare_across_network_types.py
+venv/bin/python scripts/analysis/06_test_low_relevance_priority.py
+venv/bin/python scripts/analysis/07_compare_priority_approaches.py
+venv/bin/python scripts/analysis/08_visualize_balanced_overlay.py
+```
 
-**ConstantInputWarning**: Normal for small networks where ground truth has no variance.
+## Active Vs Archived
 
-**DtypeWarning**: Mixed types in CSV columns (harmless, can ignore).
+- Active source-of-truth code lives under `scripts/`.
+- Notebook-era implementations now live under `archive/notebooks/`.
+- Superseded standalone scripts live under `archive/old_scripts/`.
+- Historical load-stage diagnostics live under `archive/load/`.
 
-### Missing Data
-
-If script reports "Directory not found":
-- Check that `results/fixed-merged-subarticles-edges/importance-merged-50-cutoff/` exists
-- Check that `networks/merged-article-edges/` exists
-
-### Output Location
-
-All scripts output to `results/` subdirectories. Never modify `networks/` or legacy results directories.
+See the per-directory READMEs for script-level details.

@@ -1,0 +1,96 @@
+# Paper Traceability
+
+This document maps the submitted manuscript to the scripts and generated outputs
+that support its main empirical claims.
+
+## Scope
+
+The manuscript source is `docs/paper/paper.tex`. The Overleaf submission uses
+exported copies of figures, but the in-repo source outputs for those figures and
+tables are the files listed below.
+
+The paper-facing analyses run from the fixed centrality bundles under:
+
+- `results/fixed-merged-subarticles-edges/`
+
+These bundles contain the `total_df.csv` tables consumed by the scripts under
+`scripts/analysis/`.
+
+## Supporting Artifacts
+
+| Paper item | Script | In-repo output |
+| --- | --- | --- |
+| Figure `fig:correlation_matrix` | `scripts/generate/03_generate_correlation_matrix.py` | `results/analysis/00_supporting_figures/correlation_matrix.png` |
+| Supporting network statistics table | `scripts/generate/01_generate_network_statistics.py` | `results/analysis/00_supporting_tables/network_statistics_updated.csv` |
+| Active network family used for centrality generation | `scripts/generate/00_generate_merged_article_edge_networks.py` | `networks/merged-article-edges/` |
+
+## Main Result Mapping
+
+| Paper section / claim | Script | Primary output(s) |
+| --- | --- | --- |
+| High- vs low-relevance performer counts across subnetworks, discussed around Figure `fig:performers` | `scripts/analysis/01_find_best_high_low.py` | `results/analysis/01_high_low_performers/combined_total.png`, `results/analysis/01_high_low_performers/summary.txt` |
+| Paper-faithful thresholded composite analysis | `scripts/analysis/03_test_paper_composite.py` | `results/analysis/03_paper_composite/combination_summary.csv`, `results/analysis/03_paper_composite/detailed_results.json` |
+| Optimized-threshold composite analysis and threshold table | `scripts/analysis/04_test_optimized_threshold_composite.py` | `results/analysis/04_optimized_threshold_composite/combination_summary.csv`, `results/analysis/04_optimized_threshold_composite/detailed_results.json` |
+| Cross-network-type comparison of optimized composites | `scripts/analysis/05_compare_across_network_types.py` | `results/analysis/05_network_type_comparison/summary_across_network_types.csv` |
+| Low-relevance-priority alternative | `scripts/analysis/06_test_low_relevance_priority.py` | `results/analysis/06_low_relevance_priority/combination_summary.csv`, `results/analysis/06_low_relevance_priority/detailed_results.json` |
+| Comparison between high-relevance-priority and low-relevance-priority ranking | `scripts/analysis/07_compare_priority_approaches.py` | `results/analysis/07_priority_comparison/priority_comparison.csv`, `results/analysis/07_priority_comparison/summary_statistics.json` |
+| Balanced overlay figure exported to the paper as `fig:performers_withcomposite` | `scripts/analysis/08_visualize_balanced_overlay.py` | `results/analysis/08_balanced_overlay_visualizations/balanced_doctypebranch_overlay.png`, `results/analysis/08_balanced_overlay_visualizations/balanced_importance_overlay.png` |
+
+## Concrete Claim Mapping
+
+The following manuscript claims can be traced directly to the listed outputs.
+
+### Figure `fig:performers`
+
+- Claim: which individual centralities most often perform best for the
+  high-relevance and low-relevance ends of the distribution across subnetworks.
+- Source outputs:
+  - `results/analysis/01_high_low_performers/combined_total.png`
+  - `results/analysis/01_high_low_performers/summary.txt`
+
+### Composite thresholds and win counts
+
+- Claim: the optimized thresholds for `PageRank+Degree`, `Degree+Eigenvector`,
+  and `Degree+InDegree`.
+- Source output:
+  - `results/analysis/04_optimized_threshold_composite/combination_summary.csv`
+- The currently retained optimized thresholds in that file are:
+  - `PageRank+Degree`: `0.65` for `importance`, `0.70` for `doctypebranch`
+  - `Degree+Eigenvector`: `0.30` for `importance`, `0.35` for `doctypebranch`
+  - `Degree+InDegree`: `0.35` for both ground truths
+
+### Aggregated composite wins across all 66 subnetworks
+
+- Claim: `Degree+Eigenvector` and `Degree+InDegree` dominate when results are
+  aggregated across network types.
+- Source output:
+  - `results/analysis/05_network_type_comparison/summary_across_network_types.csv`
+- The currently retained aggregated rows in that file are:
+  - `Degree+Eigenvector`: `45/66` wins for `importance`, `43/66` for
+    `doctypebranch`
+  - `Degree+InDegree`: `45/66` wins for `importance`, `45/66` for
+    `doctypebranch`
+
+### Low-relevance-priority underperformance
+
+- Claim: the low-relevance-priority alternative underperforms by roughly
+  `-31.6%` on average.
+- Source output:
+  - `results/analysis/07_priority_comparison/summary_statistics.json`
+- The currently retained overall summary in that file is:
+  - `high_rel_better = 17`
+  - `low_rel_better = 1`
+  - `avg_difference = -31.583333333333332`
+
+## Upstream Provenance
+
+The network family consumed by the centrality workflow is regenerated by:
+
+- `scripts/generate/00_generate_merged_article_edge_networks.py`
+
+That script replaces the notebook-era network-separation logic preserved in:
+
+- `archive/notebooks/load/process.ipynb`
+
+The fixed `total_df.csv` bundles under `results/fixed-merged-subarticles-edges/`
+are the direct inputs to the paper-facing analysis scripts.

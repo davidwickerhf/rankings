@@ -1,19 +1,45 @@
 # Networks Directory
 
-This directory contains all network data structures and processed network files for the ECHR centrality analysis.
+This directory contains the active network inputs consumed by the reproducible
+centrality workflow.
 
-## Recent Updates (December 2024)
+## Active Network Family
 
-- **Network Processing**: Completed processing of all article-specific networks
-- **Balancing Implementation**: Applied importance and doctype branch balancing across all networks
-- **Edge Refactoring**: Standardized edge format for consistent analysis
-- **Network Validation**: Quality checks and validation of network structures
+- `merged-article-edges/`
+  - Article-level subnetworks built from the merged-importance representation
+    and explicit citation edges.
+  - This is the network family used to generate the centrality-ready result
+    bundles that feed the paper-facing analyses.
 
-## Data Files
+Generation entry point:
 
-To perform the analysis in the `rankings.ipynb` notebook, you need to upload your node and edge data files into this folder. Ensure that the files are in JSON format and follow the required structure for proper loading and processing in the notebook.
+```bash
+venv/bin/python scripts/generate/00_generate_merged_article_edge_networks.py
+```
 
-- **Node Data**: This file should contain information about the nodes in the network, including attributes such as ID, type, and any other relevant metadata.
-- **Edge Data**: This file should represent the connections between nodes, including attributes such as source, target, and weight (if applicable).
+## Per-Network Structure
 
-Make sure to verify the format of your data files before running the analysis to avoid any errors during data loading.
+Each network directory contains:
+
+- `nodes.json`
+  - Case metadata keyed by ECLI, including the ground-truth fields used by the
+    downstream analyses.
+- `edges.json`
+  - Directed citation links among the cases in that network.
+
+Representative centrality-build command:
+
+```bash
+venv/bin/python scripts/generate/02_build_centrality_results.py \
+  --network-dir networks/merged-article-edges/split-unbalanced \
+  --output-dir results/rebuilt/split-unbalanced
+```
+
+## Notes
+
+- The balanced and unbalanced variants under `merged-article-edges/` are fixed
+  inputs to the centrality calculations.
+- Older network families have been moved to `archive/networks/`.
+- The original notebook provenance for this active family is preserved in
+  `archive/notebooks/load/process.ipynb`, but the script above is now the
+  maintained entry point.

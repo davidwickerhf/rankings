@@ -1,61 +1,16 @@
-"""Analyze High/Low Centrality Performers Across Citation Networks
+"""Analyze high- and low-relevance performer frequencies across subnetworks.
 
-PURPOSE:
-    Identify which centrality measures best predict high vs. low relevance judgments
-    by analyzing individual sub-networks (article_1, article_2, etc.).
+This is the paper-facing entrypoint for the Figure 3 style summaries.
 
-METHODOLOGY - CENTRALITY SELECTION:
-    
-    Ground Truth Encoding:
-        - Importance: 1 = most important, 2 = important, 3 = less important
-        - Doctypebranch: 1 = GRANDCHAMBER, 2 = CHAMBER, 3 = COMMITTEE
-        (Lower score = higher importance)
-    
-    HIGH Performer Selection:
-        1. Calculate Spearman correlation between each centrality and ground truth
-           across the FULL dataset (all scores: 1, 2, 3)
-        2. Select centrality with MOST NEGATIVE correlation
-        3. Rationale: Negative correlation means higher centrality → lower score → higher importance
-    
-    LOW Performer Selection:
-        1. Filter dataset to only LOW relevance cases (scores 2 and 3)
-        2. For each centrality (excluding the high performer):
-           - Calculate Spearman correlation with ground truth on this subset
-           - Take absolute value of correlation
-        3. Select centrality with HIGHEST absolute correlation
-        4. Rationale: Best at distinguishing within low-relevance subset
+Method:
+- Treat ground-truth value 1 as high relevance.
+- Treat ground-truth values 2 and 3 as low relevance.
+- Select the best high-relevance measure via the most negative full-dataset
+  Spearman correlation.
+- Select the best low-relevance measure via the strongest absolute Spearman
+  correlation on the low-relevance subset, excluding the chosen high performer.
 
-    Special Note:
-        This is a SIMPLIFIED selection method. The enhanced version in
-        analyze_high_low_with_aggregates.py uses a more sophisticated approach
-        that matches the rankings.ipynb notebook methodology.
-
-ANALYSIS SCOPE:
-    - Individual sub-networks: article_1, article_2, ..., article_46, article_P1, etc.
-    - Network types: unbalanced (26), balanced-importance (24), balanced-doctypebranch (16)
-    - Ground truths: importance, doctypebranch
-    - Total: 66 networks × 2 ground truths = 132 analyses
-
-OUTPUTS:
-    Location: results/high_low_analysis_50_cutoff/
-    Files:
-        - {network_type}_high_performers.png - Bar chart of high performer frequencies
-        - {network_type}_low_performers.png - Bar chart of low performer frequencies
-        - combined_total.png - Overall frequency across all networks
-        - summary.txt - Detailed text summary with counts
-
-USAGE:
-    python analyze_high_low_performers.py [cutoff]
-    
-    Arguments:
-        cutoff (optional): Minimum network size (default: 50)
-    
-    Examples:
-        python analyze_high_low_performers.py        # Use 50-cutoff
-        python analyze_high_low_performers.py 100    # Use 100-cutoff
-
-AUTHOR: David Wicker
-DATE: 2024
+Outputs are written to ``results/analysis/01_high_low_performers``.
 """
 
 import os
