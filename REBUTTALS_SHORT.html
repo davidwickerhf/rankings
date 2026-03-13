@@ -1,0 +1,69 @@
+<html><head><meta charset="utf-8">
+<style>body{font-family: Georgia, serif; font-size: 12pt; line-height: 1.35;} h1{font-size:20pt;} h2{font-size:16pt; margin-top:18pt;} h3{font-size:13pt; margin-top:12pt;} p{margin:8pt 0;} ul,ol{margin:8pt 0 8pt 24pt;} li{margin:4pt 0;} code{font-family: Menlo, monospace; font-size: 10pt;}</style>
+</head><body>
+<h1>Rebuttal</h1>
+<p>We thank the reviewers for their careful reading and constructive feedback. We appreciate the positive assessment of the paper&#x27;s relevance, clarity, and empirical motivation. The reviews identify three main areas for improvement: clearer positioning relative to prior work, clearer definition of the high-/low-relevance categories, and a more explicit discussion of the scope and limitations of the composite ranking. We agree with these points and will revise the paper accordingly.</p>
+<h2>Summary of Revisions</h2>
+<p>In the revised version, we will:</p>
+<p>1. clarify the paper&#x27;s contribution relative to prior legal citation-network studies;</p>
+<p>2. explicitly define how &quot;high relevance&quot; and &quot;low relevance&quot; map to the ground-truth values;</p>
+<p>3. revise the description of Figure 3 and correct the Figure 2 caption issue;</p>
+<p>4. state more clearly that the composite is an empirically optimized ranking strategy rather than a pure standalone centrality measure;</p>
+<p>5. provide anonymized supplementary materials containing the scripts and generated outputs underlying the submission.</p>
+<h2>Response to Reviewer 1</h2>
+<h3>1. Methodological arbitrariness in balancing and threshold optimization</h3>
+<p>We agree that balancing and thresholding are modeling choices, and we will make this clearer in the revision. Our aim is not to claim that there is a uniquely correct balancing strategy or threshold. Rather, the contribution is to show that conclusions about centrality performance are sensitive to class imbalance and to whether performance is evaluated separately at the high-relevance and low-relevance ends of the distribution.</p>
+<p>We will revise the methods and limitations sections to clarify that:</p>
+<ul>
+<li>balancing is used as an evaluation device to test how class imbalance affects which centrality measures appear strongest;</li>
+<li>the threshold parameter is selected by grid search over <code>tau in [0.05, 0.95]</code> in steps of <code>0.05</code>;</li>
+<li>the optimized threshold should be interpreted as an empirically selected ranking parameter, not as a theoretically unique value.</li>
+</ul>
+<h3>2. Availability of supplementary materials</h3>
+<p>We agree that the supplementary materials should have been available during review. We will provide anonymized supplementary materials containing the scripts and generated result files used for the submitted paper, including the high/low performer analysis, the optimized-threshold composite analysis, the low- vs high-priority comparison, and the balanced-network overlay visualizations.</p>
+<h3>3. Practical implications</h3>
+<p>We appreciate this suggestion and will strengthen the discussion of practical implications. In particular, we will state more directly that:</p>
+<ul>
+<li>centrality evaluation on highly imbalanced legal data can be misleading if the imbalance is ignored;</li>
+<li>no single individual centrality dominates all settings;</li>
+<li>composite ranking strategies combining complementary signals can outperform single metrics across many more subnetworks.</li>
+</ul>
+<h2>Response to Reviewer 2</h2>
+<h3>1. Composite measure not computable from citation structure alone</h3>
+<p>We agree with this limitation and will make it more explicit. In the revision, we will clarify that the composite should be understood as an empirically optimized ranking strategy rather than as a pure standalone centrality measure computable from citation structure alone.</p>
+<p>At the same time, we will sharpen the statement of contribution. The paper&#x27;s contribution is not only the proposal of a composite ranking. It is also the demonstration that:</p>
+<p>1. class imbalance materially affects conclusions about which centrality measures appear strongest;</p>
+<p>2. performance differs between the high-relevance and low-relevance ends of the distribution;</p>
+<p>3. combining complementary signals substantially improves performance across subnetworks.</p>
+<p>The generated results used in the submission support this directly. In the optimized-threshold analysis, <code>Degree+Eigenvector</code> wins <code>45/66</code> subnetworks for <code>importance</code> and <code>43/66</code> for <code>doctypebranch</code>, while <code>Degree+InDegree</code> wins <code>45/66</code> subnetworks for both ground truths. We will make clearer that this is the main empirical takeaway, while also acknowledging that a threshold-free structural estimator would be an important next step.</p>
+<h3>2. Description of Figure 3</h3>
+<p>We agree that the current description of Figure 3 is too compressed and should be revised. We will rewrite the corresponding passage so that it directly describes what the figure shows: frequency counts over subnetworks, separated by dataset variant and by ground truth. We will also remove the current &quot;2 out of 3&quot; phrasing, which is not the clearest description of the visualized results.</p>
+<h3>3. If Degree performs well at both ends, why is a composite needed?</h3>
+<p>Degree is indeed one of the most consistently strong individual measures, and we will make that clearer. However, Degree is not uniformly best across all network types and both ground truths. The composite evaluation shows that combining Degree with complementary incoming-citation-based signals improves performance substantially across subnetworks. We will revise the text to make this distinction explicit: Degree is a strong backbone measure, but the composite improves performance by incorporating information captured by other measures such as Eigenvector and In-Degree.</p>
+<h3>4. Explicit definition of high relevance and low relevance</h3>
+<p>We agree and will add this definition explicitly in the methods section. In our analyses:</p>
+<ul>
+<li>high relevance corresponds to ground-truth value <code>1</code>;</li>
+<li>low relevance corresponds to ground-truth values <code>2</code> and <code>3</code>.</li>
+</ul>
+<p>Operationally, this means:</p>
+<ul>
+<li><code>Importance</code>: high relevance = <code>1</code>; low relevance = <code>2-3</code>;</li>
+<li><code>Court Branch</code>: high relevance = <code>Grand Chamber (1)</code>; low relevance = <code>Chamber / Committee (2-3)</code>.</li>
+</ul>
+<p>Because this distinction is central to the paper, we agree it should be stated explicitly rather than left implicit.</p>
+<h3>5. Figure 2 caption</h3>
+<p>Thank you. We will correct the caption/reference in the revision.</p>
+<h2>Response to Reviewer 3</h2>
+<h3>1. Relation to prior work and contribution</h3>
+<p>We agree that the paper needs to position its contribution more sharply relative to prior legal citation-network work. We will revise the introduction and related-work sections accordingly.</p>
+<p>The paper&#x27;s contribution is not simply another comparison of centrality measures. Rather, it makes three more specific contributions:</p>
+<p>1. it shows that class imbalance materially changes which centrality measures appear strongest when evaluated against legal ground truths;</p>
+<p>2. it evaluates performance separately at the high-relevance and low-relevance ends of the distribution, rather than relying only on a single overall correlation;</p>
+<p>3. it tests composite ranking strategies built from complementary high- and low-relevance signals and shows that these outperform individual measures across many more subnetworks.</p>
+<p>We will expand the related-work section to situate these contributions more clearly relative to prior case-law citation-network studies.</p>
+<h3>2. Applying the framework to other datasets</h3>
+<p>We agree. Applying the framework to additional jurisdictions and citation networks is an important next step and would help assess external validity. In the revision, we will make the domain-specific scope of the current claims clearer and identify cross-jurisdiction validation as an important direction for future work.</p>
+<h2>Closing</h2>
+<p>Overall, we believe the reviewers&#x27; comments will improve the paper substantially. The revision will sharpen the contribution, clarify the operational definitions used throughout the analysis, make the limitations of the composite ranking more explicit, and improve reproducibility through anonymized supplementary materials.</p>
+</body></html>
